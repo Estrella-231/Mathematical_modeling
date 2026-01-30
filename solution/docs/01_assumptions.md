@@ -1,5 +1,3 @@
-﻿# Assumptions and Decisions
-
 # 假设和决策 | Assumptions and Decisions
 
 ## 基础假设（检查和修订）| Base Assumptions (check and revise)
@@ -21,6 +19,28 @@
       Zero scores after elimination indicate non-participation (exclude from modeling after exit).
 - [ ] N/A评分条目视为缺失，不是零
       N/A score entries are treated as missing, not zeros.
+
+## 详细投票机制假设 (Detailed Voting Mechanism Assumptions)
+
+### Phase 1 (S1-S2): 排名相加法 (Rank Sum)
+-   $Score_{total} = Rank_{judge} + Rank_{fan}$
+-   **Assumption:** 排名数值越小越好 (1st=1). 综合数值**最大**的选手被淘汰 (Lowest score concept in Problem implies "worst performance"). *Correction:* Appendix examples show Rank 1 is best. We assume largest sum of ranks = elimination.
+-   *Tie-breaking:* 若平局，假设粉丝投票排名低者淘汰。
+
+### Phase 2 (S3-S27): 百分比相加法 (Percentage Sum)
+-   $Score_{total} = \%_{judge} + \%_{fan}$
+-   $\%_{judge} = Score_{contestant} / \sum Score_{all}$
+-   淘汰规则：$Score_{total}$ **最小**者被淘汰。
+
+### Phase 3 (S28-S34): 排名法 + 评委拯救 (Rank + Judge Save)
+-   Step 1: Calculate $Score_{total}$ via Rank Sum.
+-   Step 2: Identify Bottom Two (worst/highest sums).
+-   Step 3: Judges vote to save one. **Assumption:** Judges pick contestant with higher judge score or purely subjective vote.
+
+## 数据处理假设 (Data Handling Assumptions)
+-   **N/A Handling:** `N/A` treated as missing. Use scaled average or normalized scores for modeling.
+-   **Bonus Points:** Scores in CSV include bonuses. Used as-is.
+-   **Ties in Judge Ranks:** Use "Dense Rank" or "Standard Competition Rank" (1, 2, 2, 4).
 
 ## 待测试的替代方案 | Alternatives to Test
 - [ ] 评委拯救规则：评委选择更高总分拯救 vs 独立评委投票模型

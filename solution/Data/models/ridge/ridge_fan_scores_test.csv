@@ -1,0 +1,703 @@
+season,week,celebrity_name,judge_total,judge_rank_in_week,week_valid,ballroom_partner,celebrity_industry,celebrity_age_during_season,celebrity_homestate,celebrity_homecountry/region,results,placement,elimination_week,relative_judge_score,cumulative_average,trend,is_bottom_2_judge,residual,fan_score
+28,1,Ally Brooke,160.0,6.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,-0.1403737385402566,0.0,,0,-4.844626157927924,0.9185130388619229
+28,2,Ally Brooke,200.0,3.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.5383167712755745,160.0,40.0,0,-1.8638703902943057,0.7174677296525178
+28,3,Ally Brooke,240.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.8745473842609537,180.0,40.0,0,-0.3714606795093953,0.5462995665049655
+28,4,Ally Brooke,240.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.72428410085123,200.0,0.0,0,-0.5691656569548211,0.5706694054518633
+28,5,Ally Brooke,270.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.8239283106950425,210.0,30.0,0,-0.3602053686660156,0.5449043565214083
+28,6,Ally Brooke,250.00000000000003,3.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.5183210553488163,222.0,-19.99999999999997,0,-1.6915830780377652,0.6996835772456117
+28,7,Ally Brooke,270.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.8106454638973205,226.66666666666663,19.99999999999997,0,-0.3278184249069027,0.5408858067843746
+28,8,Ally Brooke,300.0,3.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,0.9556218486284144,232.8571428571429,30.0,0,-0.8850780417469961,0.6088638620191426
+28,9,Ally Brooke,300.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,1.2249573370830469,241.25,0.0,0,0.4506697755982203,0.44390343978632457
+28,10,Ally Brooke,295.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,1.2713457242601351,247.77777777777777,-5.0,0,0.554215717391759,0.43116296518290925
+28,11,Ally Brooke,300.0,1.0,True,Sasha Farber,Singer/Rapper,26,Texas,United States,3rd Place,3,999,1.405698542076085,252.5,5.0,0,0.8066404916952741,0.40051487717920137
+28,1,Hannah Brown,200.0,2.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,1.2072141514462098,0.0,,0,-2.8046563472765835,0.8025530746510502
+28,2,Hannah Brown,240.0,1.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,1.7687551056197448,200.0,40.0,0,-0.7296579810544657,0.5902088918143752
+28,3,Hannah Brown,210.0,3.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.5247284305565723,220.0,-30.0,0,-3.6869921595964232,0.863361658201539
+28,4,Hannah Brown,240.0,1.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.72428410085123,216.66666666666663,30.0,0,-2.513385149821842,0.7784562275702057
+28,5,Hannah Brown,250.00000000000003,3.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.6425129028355838,222.5,10.000000000000028,0,-3.47118472388994,0.8501263477383839
+28,6,Hannah Brown,240.0,4.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.43193421279068,228.0,-10.000000000000028,0,-4.2402996228463525,0.8928462630875669
+28,7,Hannah Brown,260.0,2.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.7309098444975841,230.0,20.0,0,-2.8737458099708597,0.8079699357177093
+28,8,Hannah Brown,309.998,2.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,1.0242752244871185,234.28571428571428,49.99799999999999,0,-2.34273126073135,0.7633917711227897
+28,9,Hannah Brown,266.25,4.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,0.9813194136853138,243.74975,-43.74799999999999,0,-3.2200183743549013,0.833412661939387
+28,10,Hannah Brown,270.0,3.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,1.0951777255173911,246.24977777777775,3.75,0,-2.594471311779583,0.7853693808581841
+28,11,Hannah Brown,290.0,3.0,True,Alan Bersten,TV Personality,24,Alabama,United States,1st Place,1,999,1.3362813301217105,248.6248,20.0,0,-2.1618942302637723,0.7466731742365473
+28,1,James Van Der Beek,210.0,1.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,1.5441111239428262,0.0,,0,2.2053361053862512,0.24924031556186438
+28,2,James Van Der Beek,200.0,3.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.5383167712755745,210.0,-10.0,0,0.3034711311046321,0.46213872291886404
+28,3,James Van Der Beek,230.0,2.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.7579410663594932,205.0,30.0,0,1.0901904379272604,0.36700310254818136
+28,4,James Van Der Beek,210.0,3.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.3834445239800629,213.33333333333331,-20.0,0,0.04186840401097491,0.4947666406198715
+28,5,James Van Der Beek,260.0,2.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.7332206067653131,212.5,50.0,0,1.0717543396171014,0.3691471777666089
+28,6,James Van Der Beek,270.0,1.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.6910947404650881,222.0,10.0,0,1.4460119767151536,0.3267313875721284
+28,7,James Van Der Beek,270.0,1.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.8106454638973205,230.0,0.0,0,1.6833376765196935,0.301183423825707
+28,8,James Van Der Beek,319.99800000000005,1.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,1.0929423337676791,235.7142857142857,49.99800000000005,0,2.1996397073941405,0.2497736499176864
+28,9,James Van Der Beek,270.0,3.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,1.0083902940628398,246.24975,-49.99800000000005,0,1.2526797889160504,0.34834091815764917
+28,10,James Van Der Beek,255.0,4.0,True,Emma Slater,Actor/Actress,42,Connecticut,United States,Eliminated Week 10,5,10,0.9894769262717448,248.8886666666667,-15.0,1,0.9931794833552887,0.37834242621472963
+28,1,Karamo Brown,170.0,5.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.1965232339563599,0.0,,0,1.1653662947349108,0.35831543545866384
+28,2,Karamo Brown,190.0,4.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.2307071876895319,170.0,20.0,0,2.2111859996641776,0.24869340220810943
+28,3,Karamo Brown,160.0,5.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,-0.0583031589507302,180.0,-30.0,0,1.3189991047171459,0.3408520391276856
+28,4,Karamo Brown,210.0,3.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.3834445239800629,173.33333333333334,50.0,0,2.9079951868918243,0.18938709480296623
+28,5,Karamo Brown,210.0,6.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.2796820871166658,182.5,0.0,0,1.5059668204258525,0.3201715784746828
+28,6,Karamo Brown,250.00000000000003,3.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.5183210553488163,188.0,40.00000000000003,0,3.1946246874109567,0.1683575871742701
+28,7,Karamo Brown,245.0,4.0,True,Jenna Johnson,TV Personality,38,Texas,United States,Eliminated Week 7,8,7,0.6113064153979791,198.33333333333331,-5.000000000000057,0,2.9763188804495178,0.18419814609737162
+28,1,Kate Flannery,150.0,7.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,-0.4772707110368732,0.0,,0,-1.8546186105907587,0.7165290831723834
+28,2,Kate Flannery,210.0,2.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.845926354861617,150.0,60.0,0,3.06107321974721,0.17791518692388786
+28,3,Kate Flannery,240.0,1.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.8745473842609537,180.0,30.0,0,3.6285393204906047,0.1401228900178193
+28,4,Kate Flannery,195.0,4.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.2130247355444794,200.0,-45.0,0,1.2804488259342985,0.34519581229771007
+28,5,Kate Flannery,240.0,4.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.5518051989058542,198.75,45.0,0,1.872920685658734,0.2816158910253779
+28,6,Kate Flannery,270.0,1.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.6910947404650881,207.0,30.0,0,3.395809520295472,0.15473911360967793
+28,7,Kate Flannery,240.0,5.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.5714386056981112,217.5,-30.0,0,1.5535976041160362,0.3150102272590378
+28,8,Kate Flannery,259.99800000000005,5.0,True,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,Eliminated Week 8,7,8,0.680939678084318,220.7142857142857,19.998000000000047,0,1.7572070253401506,0.29346724895032694
+28,1,Kel Mitchell,160.0,6.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,-0.1403737385402566,0.0,,0,-5.844626157927924,0.9489384939963788
+28,2,Kel Mitchell,200.0,3.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.5383167712755745,160.0,40.0,0,-2.8638703902943057,0.8072026625167973
+28,3,Kel Mitchell,200.0,4.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.4081221126551117,180.0,0.0,0,-3.4428850199783874,0.8483145474444781
+28,4,Kel Mitchell,240.0,1.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.72428410085123,186.66666666666663,40.0,0,-1.613790062661205,0.6914474599259469
+28,5,Kel Mitchell,260.0,2.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.7332206067653131,200.0,20.0,0,-1.9700810407326328,0.7281072200396486
+28,6,Kel Mitchell,260.0,2.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.6047078979069521,212.0,0.0,0,-2.1562538549410935,0.7461393581235605
+28,7,Kel Mitchell,255.0,3.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.6910420347977159,220.0,-5.0,0,-2.3940829737870555,0.7679980624037911
+28,8,Kel Mitchell,299.998,4.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,0.9556081152065584,225.0,44.99799999999999,0,-2.3280529862303645,0.7620635795855747
+28,9,Kel Mitchell,277.5,2.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,1.0625320548178916,234.37475,-22.49799999999999,0,-1.2750558805964518,0.6541944345566332
+28,10,Kel Mitchell,285.0,2.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,1.2008785247630376,239.16644444444444,7.5,0,-1.0153650304611173,0.6242630450025214
+28,11,Kel Mitchell,295.0,2.0,True,Witney Carson,Actor/Actress,41,Illinois,United States,2nd Place,2,999,1.3709899360988975,243.7498,10.0,0,-0.7004274862578974,0.5866694101095086
+28,1,Lamar Odom,110.0,9.0,True,Peta Murgatroyd,Athlete,39,New York,United States,Eliminated Week 4,10,4,-1.8248586010233396,0.0,,1,-1.8796480777221092,0.7190641127160108
+28,2,Lamar Odom,120.0,8.0,True,Peta Murgatroyd,Athlete,39,New York,United States,Eliminated Week 4,10,4,-1.922559897412766,110.0,10.0,1,-1.266912650161423,0.6532727597918633
+28,3,Lamar Odom,120.0,7.0,True,Peta Murgatroyd,Athlete,39,New York,United States,Eliminated Week 4,10,4,-0.5247284305565723,115.0,0.0,1,1.6283168973672613,0.30700506411810036
+28,4,Lamar Odom,150.0,6.0,True,Peta Murgatroyd,Athlete,39,New York,United States,Eliminated Week 4,10,4,-0.2982346297622711,116.66666666666669,30.0,1,2.4494468840962487,0.22710628088530352
+28,1,Lauren Alaina,190.0,3.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.8703171789495932,0.0,,0,-0.8146487999394187,0.6004461469665021
+28,2,Lauren Alaina,190.0,4.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.2307071876895319,190.0,0.0,0,-1.721877391776247,0.7028567375014
+28,3,Lauren Alaina,200.0,4.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.4081221126551117,190.0,10.0,0,-1.4094167156986002,0.66923084778917
+28,4,Lauren Alaina,240.0,1.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.72428410085123,193.33333333333331,40.0,0,0.40852214019198696,0.44911154272725634
+28,5,Lauren Alaina,230.0,5.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.4610974949761247,205.0,-10.0,0,-1.6825689919532287,0.6987356767163321
+28,6,Lauren Alaina,260.0,2.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.6047078979069521,210.0,30.0,0,-0.16294751579705125,0.5203571798523553
+28,7,Lauren Alaina,270.0,1.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.8106454638973205,218.33333333333331,10.0,0,0.6442913215266075,0.420152923067887
+28,8,Lauren Alaina,240.0,6.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.5436191929450535,225.7142857142857,-30.0,0,-1.884559966427461,0.7195599732539
+28,9,Lauren Alaina,262.5,5.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,0.954248533307788,227.5,22.5,0,-0.7387346193029538,0.5913060892970493
+28,10,Lauren Alaina,270.0,3.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,1.0951777255173911,231.38888888888889,7.5,0,0.3557918131002724,0.45564294218674106
+28,11,Lauren Alaina,285.0,4.0,True,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4th Place,4,999,1.3015727241445232,235.25,15.0,1,0.49719191814129093,0.4381691115550948
+28,1,Mary Wilson,170.0,5.0,True,Brandon Armstrong,Singer/Rapper,75,Nevada,United States,Eliminated Week 2,12,2,0.1965232339563599,0.0,,0,5.165366294734911,0.07026125310921857
+28,2,Mary Wilson,150.0,7.0,True,Brandon Armstrong,Singer/Rapper,75,Nevada,United States,Eliminated Week 2,12,2,-0.9997311466546384,170.0,-20.0,1,2.97582445331669,0.18423529757976984
+28,1,Ray Lewis,150.0,7.0,True,Cheryl Burke,Athlete,44,Florida,United States,Withdrew,11,-1,-0.4772707110368732,0.0,,0,2.1453813894092413,0.254891725292739
+28,2,Ray Lewis,150.0,7.0,True,Cheryl Burke,Athlete,44,Florida,United States,Withdrew,11,-1,-0.9997311466546384,150.0,0.0,1,1.908887844757114,0.2779919920692768
+28,1,Sailor Brinkley-Cook,180.0,4.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,0.5334202064529766,0.0,,0,3.1753587473977465,0.16971064333765784
+28,2,Sailor Brinkley-Cook,180.0,5.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,-0.0769023958965106,180.0,0.0,0,2.286242389622661,0.2417477668563204
+28,3,Sailor Brinkley-Cook,230.0,2.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,0.7579410663594932,180.0,50.0,0,5.006519677227791,0.0756299689535181
+28,4,Sailor Brinkley-Cook,232.5,2.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,0.6390742066334382,196.66666666666663,2.5,0,4.852953539142304,0.08117586462219933
+28,5,Sailor Brinkley-Cook,240.0,4.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,0.5518051989058542,205.625,7.5,0,3.8959301448510884,0.12477541589907956
+28,6,Sailor Brinkley-Cook,270.0,1.0,True,Valentin Chmerkovskiy,Model,21,New York,United States,Eliminated Week 6,9,6,0.6910947404650881,212.5,30.0,0,5.414217087649355,0.06255519796721246
+28,1,Sean Spicer,120.0,8.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,-1.487961628526723,0.0,,1,-4.8696556250592735,0.919444834561389
+28,2,Sean Spicer,160.0,6.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,-0.6921215630685957,120.0,40.0,0,-2.4147370321164097,0.7698330071329693
+28,3,Sean Spicer,150.0,6.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,-0.1749094768521907,140.0,-10.0,0,-1.4368937556648183,0.6722649173365449
+28,4,Sean Spicer,157.5,5.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,-0.2130247355444794,143.33333333333334,7.5,0,-1.076211480370171,0.6313716547040539
+28,5,Sean Spicer,190.0,7.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,0.0982666792572069,146.875,32.5,1,-1.1677926382068229,0.6419634556679455
+28,6,Sean Spicer,210.0,5.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,0.172773685116272,155.5,20.0,1,-0.17439706748420036,0.5217858309843861
+28,7,Sean Spicer,210.0,6.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,0.3322317474989018,164.58333333333334,0.0,1,-0.2798156219828414,0.5349200103958525
+28,8,Sean Spicer,200.0,7.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,0.2689507558228126,171.07142857142858,-10.0,1,-0.7862048944818412,0.5970293266844234
+28,9,Sean Spicer,187.5,6.0,True,Lindsay Arnold,Politician,48,New York,United States,Eliminated Week 9,6,9,0.4128309257572699,174.6875,-12.5,1,-0.10404854788220774,0.5130031358414562
+29,1,AJ McLean,180.0,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.2144225069675586,0.0,,0,0.6135444757530939,0.42390279387387564
+29,2,AJ McLean,190.0,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.3730019232961255,180.0,10.0,0,1.4952617953855807,0.32133773533817594
+29,3,AJ McLean,210.0,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.3687662842355233,185.0,20.0,0,1.504536199453245,0.3203272942224904
+29,4,AJ McLean,240.0,3.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.4698995445682096,193.33333333333331,30.0,0,2.1271951644352676,0.25662255253604993
+29,5,AJ McLean,240.0,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.4743360859118165,205.0,0.0,0,1.7574008611997627,0.29344715397975263
+29,6,AJ McLean,270.0,1.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.7989128856930379,212.0,30.0,0,3.602431476733111,0.14170313829890577
+29,7,AJ McLean,260.0,3.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.6771463149002184,221.66666666666663,-10.0,0,2.5870221300498732,0.21525911955164737
+29,8,AJ McLean,270.0,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.8473190198358412,227.14285714285717,10.0,0,2.488401558178105,0.22370562585483708
+29,9,AJ McLean,249.998,4.0,True,Cheryl Burke,Singer/Rapper,42,Florida,United States,Eliminated Week 9,7,9,0.8465767343982517,232.5,-20.00200000000001,0,2.5050237042036807,0.22226562808319977
+29,1,Anne Heche,180.0,4.0,True,Keo Motsepe,Actor/Actress,51,Ohio,United States,Eliminated Week 4,13,4,0.2144225069675586,0.0,,0,6.613544475753094,0.03533959100749407
+29,2,Anne Heche,180.0,5.0,True,Keo Motsepe,Actor/Actress,51,Ohio,United States,Eliminated Week 4,13,4,-0.0932504808240313,180.0,0.0,0,6.257450371870948,0.04193779793681863
+29,3,Anne Heche,150.0,8.0,True,Keo Motsepe,Actor/Actress,51,Ohio,United States,Eliminated Week 4,13,4,-0.6073797622702741,180.0,-30.0,0,4.102010398730474,0.11395085087496712
+29,4,Anne Heche,210.0,5.0,True,Keo Motsepe,Actor/Actress,51,Ohio,United States,Eliminated Week 4,13,4,0.1115015868466939,170.0,60.0,1,6.766220414117796,0.03282750255578508
+29,1,Carole Baskin,110.0,9.0,True,Pasha Pashkov,TV Personality,59,Texas,United States,Eliminated Week 3,14,3,-2.037013816191811,0.0,,1,1.7467071346265683,0.2945569738599599
+29,2,Carole Baskin,160.0,6.0,True,Pasha Pashkov,TV Personality,59,Texas,United States,Eliminated Week 3,14,3,-1.025755289064345,110.0,50.0,1,5.145835505820896,0.07090185693490567
+29,3,Carole Baskin,120.0,9.0,True,Pasha Pashkov,TV Personality,59,Texas,United States,Eliminated Week 3,14,3,-1.0954527855231728,135.0,-40.0,1,3.85679331611772,0.1269281520466079
+29,1,Charles Oakley,120.0,8.0,True,Emma Slater,Athlete,56,Ohio,United States,Eliminated Week 2,15,2,-1.7153800557404724,0.0,,1,3.729818232433214,0.13413187991943168
+29,2,Charles Oakley,150.0,7.0,True,Emma Slater,Athlete,56,Ohio,United States,Eliminated Week 2,15,2,-1.492007693184502,120.0,30.0,1,4.941492386586052,0.07793459619548773
+29,1,Chrishell Stause,130.0,7.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,-1.3937462952891335,0.0,,0,-2.468702548115605,0.7745792414943508
+29,2,Chrishell Stause,180.0,5.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,-0.0932504808240313,130.0,50.0,0,1.0901088504720091,0.36701257946492066
+29,3,Chrishell Stause,220.0,3.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,0.5314572919864896,155.0,40.0,0,3.107314638905116,0.17455866515941731
+29,4,Chrishell Stause,220.0,4.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,0.2309675727538658,176.66666666666666,0.0,0,2.2339567890385315,0.24657219038489359
+29,5,Chrishell Stause,190.0,6.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,-0.0129955092030635,187.5,-30.0,1,1.1888731756059272,0.3556175437817641
+29,6,Chrishell Stause,240.0,4.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,0.5364962444070036,188.0,50.0,0,2.8099803427344723,0.19702544054198273
+29,7,Chrishell Stause,260.0,3.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,0.6771463149002184,196.66666666666663,20.0,0,3.503351369350404,0.14783596984571487
+29,8,Chrishell Stause,270.0,4.0,True,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,Eliminated Week 8,8,8,0.8473190198358412,205.7142857142857,10.0,0,3.4166837632928457,0.15337890503462326
+29,1,Jeannie Mai,180.0,4.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.2144225069675586,0.0,,0,2.613544475753094,0.2130274667644587
+29,2,Jeannie Mai,180.0,5.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,-0.0932504808240313,180.0,0.0,0,2.2574503718709478,0.24439644004834013
+29,3,Jeannie Mai,220.0,3.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.5314572919864896,180.0,40.0,0,4.190985399604585,0.10953567939695265
+29,4,Jeannie Mai,210.0,5.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.1115015868466939,193.33333333333331,-10.0,1,2.8443131241039668,0.19432372530248712
+29,5,Jeannie Mai,240.0,4.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.4743360859118165,197.5,30.0,0,3.732299632989922,0.1339878497440208
+29,6,Jeannie Mai,250.00000000000003,3.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.6239684581690152,206.0,10.000000000000028,0,4.44093235834714,0.09792761533650346
+29,7,Jeannie Mai,250.00000000000003,4.0,True,Brandon Armstrong,TV Personality,41,California,United States,Withdrew,9,-1,0.5990140477963473,213.33333333333331,0.0,0,4.004872191555489,0.11894738476961687
+29,1,Jesse Metcalfe,180.0,4.0,True,Sharna Burgess,Actor/Actress,41,California,United States,Eliminated Week 5,12,5,0.2144225069675586,0.0,,0,5.613544475753094,0.05695931215302903
+29,2,Jesse Metcalfe,200.0,3.0,True,Sharna Burgess,Actor/Actress,41,California,United States,Eliminated Week 5,12,5,0.8392543274162825,180.0,20.0,0,7.733073218900213,0.02050162133773062
+29,3,Jesse Metcalfe,200.0,5.0,True,Sharna Burgess,Actor/Actress,41,California,United States,Eliminated Week 5,12,5,0.2060752764845571,190.0,0.0,0,5.818086999301905,0.05170831694050409
+29,4,Jesse Metcalfe,210.0,5.0,True,Sharna Burgess,Actor/Actress,41,California,United States,Eliminated Week 5,12,5,0.1115015868466939,193.33333333333331,10.0,1,5.844313124103967,0.05106909044277163
+29,5,Jesse Metcalfe,190.0,6.0,True,Sharna Burgess,Actor/Actress,41,California,United States,Eliminated Week 5,12,5,-0.0129955092030635,197.5,-20.0,1,5.222341479885714,0.06842294158994536
+29,1,Johnny Weir,180.0,4.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.2144225069675586,0.0,,0,-0.3864555242469061,0.5481571967127504
+29,2,Johnny Weir,180.0,5.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,-0.0932504808240313,180.0,0.0,0,-0.7425496281290522,0.5917669825017857
+29,3,Johnny Weir,240.0,1.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.8568393074884221,180.0,60.0,0,2.5973521041870526,0.21438791954270106
+29,4,Johnny Weir,240.0,3.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.4698995445682096,200.0,0.0,0,1.149507367288459,0.36014066229142505
+29,5,Johnny Weir,290.0,1.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.9616676810266966,210.0,50.0,0,2.882379277381592,0.19136119379317515
+29,6,Johnny Weir,220.0,5.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.3615518168829807,226.0,-70.0,0,0.21239599576182933,0.4734754245580207
+29,7,Johnny Weir,270.0,2.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,0.7552785820040897,225.0,50.0,0,2.152437916404364,0.25422221036224707
+29,8,Johnny Weir,300.0,1.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,1.0556757004366095,231.42857142857144,30.0,0,3.1196626767797793,0.1736708501940646
+29,9,Johnny Weir,300.0,1.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,1.1954589451176785,240.0,0.0,0,3.394534083602746,0.15482254229641698
+29,10,Johnny Weir,285.0,3.0,True,Britt Stewart,Athlete,36,Pennsylvania,United States,Eliminated Week 10,6,10,1.1485518090008635,246.66666666666663,-15.0,0,2.5009256314388963,0.22262003349082415
+29,1,Justina Machado,210.0,1.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,1.179323788321574,0.0,,0,0.5628777691730287,0.43010104969233587
+29,2,Justina Machado,210.0,2.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,1.3055067315364393,210.0,0.0,0,1.0712895552542085,0.3692012983314049
+29,3,Justina Machado,190.0,6.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.0433842687335908,210.0,-20.0,0,-2.818159744429754,0.80362077476282
+29,4,Justina Machado,240.0,3.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.4698995445682096,203.33333333333331,50.0,0,-0.8393365312849452,0.6034038660221578
+29,5,Justina Machado,240.0,4.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.4743360859118165,212.5,0.0,0,-1.2174979105903967,0.6476553690796409
+29,6,Justina Machado,270.0,1.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.7989128856930379,218.0,30.0,0,0.6225124593009834,0.4228081371137766
+29,7,Justina Machado,260.0,3.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.6771463149002184,226.66666666666663,-10.0,0,-0.3962437178102327,0.5493690828884702
+29,8,Justina Machado,289.99800000000005,2.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.9862095831243138,231.42857142857144,29.998000000000047,0,0.5806656932474477,0.42792238265752236
+29,9,Justina Machado,259.99800000000005,3.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,0.9163503855960896,238.74975,-30.0,0,0.06547916556667976,0.4918158353281662
+29,10,Justina Machado,290.0,2.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,1.1825326317523688,241.11066666666667,30.001999999999956,0,0.9588314223196726,0.3823901060209173
+29,11,Justina Machado,300.0,1.0,True,Sasha Farber,Actor/Actress,48,Illinois,United States,4th Place,4,999,1.6292019931090111,245.9996,10.0,0,2.178515896580332,0.25175803732119617
+29,1,Kaitlyn Bristowe,200.0,2.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.8576900278702357,0.0,,0,-3.420233328633616,0.8468514155202385
+29,2,Kaitlyn Bristowe,220.0,1.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,1.7717591356565965,200.0,20.0,0,-0.7243673255109462,0.5895689342663184
+29,3,Kaitlyn Bristowe,230.0,2.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.6941482997374558,210.0,10.0,0,-3.0054263352648185,0.8179787869045037
+29,4,Kaitlyn Bristowe,250.00000000000003,2.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.5893655304753819,216.66666666666663,20.00000000000003,0,-3.167656075155552,0.829745978433041
+29,5,Kaitlyn Bristowe,270.0,2.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.7667350429807446,225.0,19.99999999999997,0,-2.827385125299048,0.8043477044918078
+29,6,Kaitlyn Bristowe,270.0,1.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.7989128856930379,234.0,0.0,0,-2.3239382538513564,0.7616903313246722
+29,7,Kaitlyn Bristowe,240.0,5.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.5208817806924757,240.0,-30.0,0,-4.46013868195964,0.9029174374429374
+29,8,Kaitlyn Bristowe,280.0,3.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,0.916771246702764,240.0,40.0,0,-2.9295952450158653,0.8122653621474173
+29,9,Kaitlyn Bristowe,300.0,1.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,1.1954589451176785,245.0,20.0,0,-1.5887317642573597,0.6887680005322939
+29,10,Kaitlyn Bristowe,300.0,1.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,1.2504942772553784,251.11111111111111,0.0,0,-1.4713514570253632,0.6760495343054719
+29,11,Kaitlyn Bristowe,300.0,1.0,True,Artem Chigvintsev,TV Personality,35,,Canada,1st Place,1,999,1.6292019931090111,256.0,0.0,0,-0.7880144604077088,0.5972469850506479
+29,1,Monica Aldama,190.0,3.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.5360562674188972,0.0,,0,4.596655573559739,0.09126154771319582
+29,2,Monica Aldama,160.0,6.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,-1.025755289064345,190.0,-30.0,1,1.4135819400591991,0.3303083058505543
+29,3,Monica Aldama,210.0,4.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.3687662842355233,175.0,50.0,0,4.471067895173457,0.09660460214805854
+29,4,Monica Aldama,240.0,3.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.4698995445682096,186.66666666666663,30.0,0,5.104882961582075,0.07226263563625412
+29,5,Monica Aldama,260.0,3.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.6692687239577686,200.0,20.0,0,5.500633568160191,0.06006876189181725
+29,6,Monica Aldama,270.0,1.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.7989128856930379,212.0,10.0,0,6.602431476733111,0.035529505839003696
+29,7,Monica Aldama,220.0,6.0,True,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,Eliminated Week 7,10,7,0.3646172464847329,221.66666666666663,-50.0,1,3.968269501276021,0.1208787607647424
+29,1,Nelly,160.0,6.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,-0.4288450139351183,0.0,,0,-5.352677719860196,0.9356159324770924
+29,2,Nelly,180.0,5.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,-0.0932504808240313,160.0,20.0,0,-3.8094862366886275,0.8704274118164984
+29,3,Nelly,180.0,7.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,-0.1193067390173754,170.0,0.0,0,-4.655216313840137,0.9111378699541611
+29,4,Nelly,210.0,5.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.1115015868466939,173.33333333333334,30.0,1,-3.2226234844556085,0.8335934249394439
+29,5,Nelly,240.0,4.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.4743360859118165,182.5,30.0,0,-2.31790282342976,0.7611421286771571
+29,6,Nelly,240.0,4.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.5364962444070036,194.0,0.0,0,-2.1699386746976552,0.7474332318670783
+29,7,Nelly,270.0,2.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.7552785820040897,201.66666666666663,30.0,0,-0.9256547935818071,0.6136846985457526
+29,8,Nelly,240.0,6.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.6389623392350728,211.42857142857144,-30.0,1,-2.5828229400913134,0.7843859993084574
+29,9,Nelly,240.0,5.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,0.7768170379306539,215.0,0.0,1,-1.9114279809511574,0.7222628545109029
+29,10,Nelly,280.0,4.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,1.114570986249359,217.77777777777777,40.0,1,-0.8906294833080937,0.6095246960900278
+29,11,Nelly,285.0,2.0,True,Daniella Karagach,Singer/Rapper,45,Texas,United States,3rd Place,3,999,1.518622672309757,224.0,5.0,1,0.6751138637055059,0.4164030493191098
+29,1,Nev Schulman,200.0,2.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.8576900278702357,0.0,,0,-2.420233328633616,0.7703195908023261
+29,2,Nev Schulman,210.0,2.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,1.3055067315364393,200.0,10.0,0,-0.9621787490255791,0.6180050816791975
+29,3,Nev Schulman,240.0,1.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.8568393074884221,205.0,30.0,0,-1.3189771351134785,0.6591454928914091
+29,4,Nev Schulman,240.0,3.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.4698995445682096,216.66666666666663,0.0,0,-2.7947121255785614,0.8017640004260945
+29,5,Nev Schulman,260.0,3.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.6692687239577686,222.5,20.0,0,-2.4240627472102876,0.7706581798315336
+29,6,Nev Schulman,260.0,2.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.7114406719310264,230.0,0.0,0,-1.9080346434723205,0.7219223757641814
+29,7,Nev Schulman,300.0,1.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,0.9896753833157038,235.0,40.0,0,-0.984623189696689,0.6206508336277664
+29,8,Nev Schulman,300.0,1.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,1.0556757004366095,244.28571428571428,0.0,0,-0.8373066462890653,0.6031609570555452
+29,9,Nev Schulman,289.99800000000005,2.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,1.1256713391896018,251.25,-10.001999999999953,0,-1.1073772588532922,0.6349909570459599
+29,10,Nev Schulman,300.0,1.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,1.2504942772553784,255.55533333333332,10.001999999999953,0,-0.4564773988633304,0.5568132580882017
+29,11,Nev Schulman,300.0,1.0,True,Jenna Johnson,Producer,35,New York,United States,2nd Place,2,999,1.6292019931090111,259.9998,0.0,0,0.22537219193812064,0.4718582487368251
+29,1,Skai Jackson,210.0,1.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,1.179323788321574,0.0,,0,1.5628777691730287,0.314009856374496
+29,2,Skai Jackson,150.0,7.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,-1.492007693184502,210.0,-60.0,1,-4.75729287489586,0.9151844272115411
+29,3,Skai Jackson,180.0,7.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,-0.1193067390173754,180.0,30.0,0,-2.62174800956035,0.7876593717516359
+29,4,Skai Jackson,280.0,1.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,0.9477634881968972,180.0,100.0,0,1.757486495256395,0.2934382765502311
+29,5,Skai Jackson,240.0,4.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,0.4743360859118165,205.0,-40.0,0,-0.2425991388002373,0.5302877646524382
+29,6,Skai Jackson,180.0,7.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,0.0116629618349349,212.0,-60.0,1,-2.1023555583460807,0.7410010009669664
+29,7,Skai Jackson,270.0,2.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,0.7552785820040897,206.66666666666663,90.0,0,1.091079358558087,0.3668998552658852
+29,8,Skai Jackson,269.998,5.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,0.8473051293904678,215.7142857142857,-0.0020000000000095,0,0.03347337133291184,0.49581592625198917
+29,9,Skai Jackson,289.99800000000005,2.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,1.1256713391896018,222.49975,20.000000000000057,0,1.7964005296347114,0.2894204838748712
+29,10,Skai Jackson,285.0,3.0,True,Alan Bersten,Actor/Actress,18,New York,United States,Eliminated Week 10,5,10,1.1485518090008635,229.9995555555556,-4.998000000000047,0,1.445143636825727,0.326826902586899
+29,1,Veron Davis,170.0,5.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,-0.1072112534837798,0.0,,0,3.6304333779464493,0.14000882286361177
+29,2,Veron Davis,180.0,5.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,-0.0932504808240313,170.0,10.0,0,4.22398206759116,0.10793680747578817
+29,3,Veron Davis,220.0,3.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,0.5314572919864896,175.0,40.0,0,6.174251247464691,0.04364144517918645
+29,4,Veron Davis,220.0,4.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,0.2309675727538658,190.0,0.0,0,5.278581194744915,0.066652153695517
+29,5,Veron Davis,210.0,5.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,0.1819371288428884,197.5,-10.0,0,4.800676460630571,0.08314690837749908
+29,6,Veron Davis,210.0,6.0,True,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,Eliminated Week 6,11,6,0.2740796031209692,200.0,0.0,0,4.554669336725331,0.09301757084110988
+30,1,Amanda Kloots,210.0,2.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.934873488396349,0.0,,0,-0.2842989011175501,0.5354776429325196
+30,2,Amanda Kloots,240.0,1.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,1.525413931082906,210.0,30.0,0,1.8752412615859995,0.28138121453666315
+30,3,Amanda Kloots,240.0,1.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.7105546341905189,225.0,0.0,0,0.4903249597357737,0.43901453361141407
+30,4,Amanda Kloots,255.0,3.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.5329206629054712,230.0,15.0,0,-0.6390958106703417,0.57921406926501
+30,5,Amanda Kloots,292.5,2.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.8193546758009855,236.25,37.5,0,0.30293967589535553,0.4622047745699425
+30,6,Amanda Kloots,285.0,2.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.7678080834406117,247.5,-7.5,0,0.2498083831297615,0.4688144854865365
+30,7,Amanda Kloots,255.0,5.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,0.6566627947365573,253.75,-30.0,0,-1.174984147138189,0.6427895042458613
+30,8,Amanda Kloots,315.0,1.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,1.0697353944878412,253.92857142857144,60.0,0,1.219728097264078,0.3520902108880275
+30,9,Amanda Kloots,296.25,2.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,1.2771591009329222,261.5625,-18.75,0,1.1939350499975205,0.3550377823104563
+30,10,Amanda Kloots,292.5,2.0,True,Alan Bersten,TV Personality,39,Ohio,United States,4th Place,4,999,1.587683950204026,265.4166666666667,-3.75,0,1.7537262990238935,0.2938282328583015
+30,1,Brian Austin Green,180.0,6.0,True,Sharna Burgess,Actor/Actress,48,California,United States,Eliminated Week 4,13,4,-0.1038748320440387,0.0,,0,5.219655203981823,0.06850860451519615
+30,2,Brian Austin Green,172.5,9.0,True,Sharna Burgess,Actor/Actress,48,California,United States,Eliminated Week 4,13,4,-0.6422795499296446,180.0,-7.5,0,3.6238911498925113,0.14040314976861365
+30,3,Brian Austin Green,190.0,6.0,True,Sharna Burgess,Actor/Actress,48,California,United States,Eliminated Week 4,13,4,-0.1489872620076892,176.25,17.5,0,5.730082688351314,0.053908998719610225
+30,4,Brian Austin Green,195.0,10.0,True,Sharna Burgess,Actor/Actress,48,California,United States,Eliminated Week 4,13,4,-0.1547189021338465,180.83333333333331,5.0,1,4.250342791684705,0.1066742597013804
+30,1,Christine Chiu,187.5,5.0,True,Pasha Pashkov,TV Personality,38,,Taiwan China,Eliminated Week 3,14,3,0.1558122480660581,0.0,,0,7.093666677706979,0.028008654773822337
+30,2,Christine Chiu,180.0,8.0,True,Pasha Pashkov,TV Personality,38,,Taiwan China,Eliminated Week 3,14,3,-0.4014247187060279,187.5,-7.5,0,5.489836759373063,0.06037428338322652
+30,3,Christine Chiu,210.0,4.0,True,Pasha Pashkov,TV Personality,38,,Taiwan China,Eliminated Week 3,14,3,0.194829496471594,183.75,30.0,0,8.194017631769352,0.016350537644469077
+30,1,Cody Rigsby,180.0,6.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,-0.1038748320440387,0.0,,0,-4.780344796018177,0.9160748233123651
+30,2,Cody Rigsby,180.0,8.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,-0.4014247187060279,180.0,0.0,0,-5.535264468836779,0.9409014621639735
+30,3,Cody Rigsby,180.0,7.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,-0.3208956412473309,180.0,0.0,1,-4.7951516767924005,0.9166422621796392
+30,4,Cody Rigsby,217.5,8.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,0.1031459347558976,180.0,37.5,0,-4.646621714907026,0.9107893210277074
+30,5,Cody Rigsby,240.0,5.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,0.3891934710054681,189.375,22.5,0,-2.861499575334541,0.8070181144875491
+30,6,Cody Rigsby,270.0,3.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,0.6559913722599401,199.5,30.0,0,-1.5244237325348493,0.6818337611460666
+30,7,Cody Rigsby,270.0,4.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,0.7643124332179602,211.25,0.0,0,-1.7109791751645398,0.7017174393480746
+30,8,Cody Rigsby,285.0,3.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,0.8704058178751999,219.64285714285717,15.0,0,-1.0793852927336562,0.6317409165514817
+30,9,Cody Rigsby,266.25,5.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,1.0680743913668231,227.8125,-18.75,1,-1.355588352612787,0.6632462027316478
+30,10,Cody Rigsby,285.0,3.0,True,Cheryl Burke,Fitness Instructor,34,California,United States,3rd Place,3,999,1.5320408211080907,232.08333333333331,18.75,1,0.3091450324413061,0.46143362816086747
+30,1,Iman Shumpert,157.5,8.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,-0.8829360723743296,0.0,,1,-8.80409310625592,0.9878960609898146
+30,2,Iman Shumpert,187.5,7.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,-0.1605698874824111,157.5,30.0,0,-6.769723772195591,0.9672280675151027
+30,3,Iman Shumpert,190.0,6.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,-0.1489872620076892,172.5,2.5,0,-6.282467925753606,0.9585619226362893
+30,4,Iman Shumpert,236.25,6.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,0.3180332988306845,178.33333333333334,46.25,0,-5.440434690492582,0.938209135039033
+30,5,Iman Shumpert,210.0,6.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,0.1433870682651724,192.8125,-26.25,1,-5.517927986920364,0.9404176106448443
+30,6,Iman Shumpert,300.0,1.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,0.8796247946212833,196.25,90.0,0,-2.3081324211825205,0.7602528429980044
+30,7,Iman Shumpert,255.0,5.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,0.6566627947365573,213.54166666666663,-45.0,0,-4.3095546205965025,0.8961143553709726
+30,8,Iman Shumpert,262.5,5.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,0.720908635415719,219.4642857142857,7.5,0,-4.176583745951489,0.88975999183933
+30,9,Iman Shumpert,281.25,3.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,1.1726167461498729,224.84375,18.75,0,-2.5297291404994375,0.7798623797021516
+30,10,Iman Shumpert,300.0,1.0,True,Daniella Karagach,Athlete,31,Illinois,United States,1st Place,1,999,1.6433270792999617,231.11111111111111,18.75,0,-0.8464364474860626,0.6042530854962427
+30,1,Jimmie Allen,165.0,7.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,-0.6232489922642327,0.0,,0,-2.1117135108862275,0.7418979700634531
+30,2,Jimmie Allen,202.5,5.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.3211397749648223,165.0,37.5,0,0.9370662185556693,0.3849634956819405
+30,3,Jimmie Allen,200.0,5.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.0229211172319523,183.75,-2.5,0,0.47460077416525337,0.44095173475691246
+30,4,Jimmie Allen,243.75,5.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.4039882444605992,189.16666666666663,43.75,0,1.1638595157114038,0.35848867739120743
+30,5,Jimmie Allen,255.0,4.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.512096672375616,202.8125,11.25,0,1.8165830846012874,0.28734956771921366
+30,6,Jimmie Allen,285.0,2.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.7678080834406117,213.25,30.0,0,3.1351794409714886,0.17256026764739923
+30,7,Jimmie Allen,285.0,3.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.871962071699363,225.20833333333331,0.0,0,2.9419822647220784,0.18679201347327384
+30,8,Jimmie Allen,240.0,6.0,True,Emma Slater,Singer/Rapper,36,Delaware,United States,Eliminated Week 8,7,8,0.5714114529562381,233.75,-45.0,1,1.372913423315957,0.33482175835854544
+30,1,JoJo Siwa,217.5,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,1.194560568506446,0.0,,0,-1.4102874273923938,0.6693272114588575
+30,2,JoJo Siwa,232.5,2.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,1.2845590998592893,217.5,15.0,0,-0.9405018914748697,0.6154431501616777
+30,3,JoJo Siwa,240.0,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,0.7105546341905189,225.0,7.5,0,-1.5096750402642263,0.6802318556850135
+30,4,JoJo Siwa,262.5,2.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,0.618875608535386,230.0,22.5,0,-2.071058934102793,0.7379864931264225
+30,5,JoJo Siwa,300.0,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,0.8808062764860595,238.125,37.5,0,-1.1659030877311207,0.6417462733891003
+30,6,JoJo Siwa,300.0,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,0.8796247946212833,250.5,0.0,0,-1.1265668704646723,0.637211922927203
+30,7,JoJo Siwa,292.5,2.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,0.9257868909400644,258.75,-7.5,0,-1.4343097158002953,0.6719801899735506
+30,8,JoJo Siwa,307.5,2.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,1.0199030003346807,263.57142857142856,15.0,0,-1.252417240874017,0.6516292821089745
+30,9,JoJo Siwa,300.0,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,1.3032946896286846,269.0625,-7.5,0,-0.31827985717603857,0.5397012296451036
+30,10,JoJo Siwa,300.0,1.0,True,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2nd Place,2,999,1.6433270792999617,272.5,0.0,0,0.29208514522750306,0.46355411163881455
+30,1,Kenya Moore,195.0,4.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,0.4154993281761551,0.0,,0,3.9676781514321364,0.12091018479938873
+30,2,Kenya Moore,180.0,8.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,-0.4014247187060279,195.0,-15.0,0,1.5149379875829023,0.3191960271033919
+30,3,Kenya Moore,210.0,4.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,0.194829496471594,187.5,30.0,0,4.206568245874273,0.10877803137684493
+30,4,Kenya Moore,221.25,7.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,0.146123407570855,195.0,11.25,0,2.8959262960875627,0.1903152374592746
+30,5,Kenya Moore,270.0,3.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,0.6349998737457638,201.5625,48.75,0,5.445509172626178,0.06164393754776503
+30,6,Kenya Moore,240.0,5.0,True,Brandon Armstrong,TV Personality,50,Michigan,United States,Eliminated Week 6,10,6,0.4323579498985969,215.25,-30.0,1,4.4827522148180226,0.09609594448270307
+30,1,Martin Kove,97.5,9.0,True,Britt Stewart,Actor/Actress,75,New York,United States,Eliminated Week 2,15,2,-2.960432713255105,0.0,,1,1.1203947320186707,0.3635017942621674
+30,2,Martin Kove,112.5,11.0,True,Britt Stewart,Actor/Actress,75,New York,United States,Eliminated Week 2,15,2,-2.5691181997185786,97.5,15.0,1,1.3025798632676278,0.3426989130820459
+30,1,Matt James,180.0,6.0,True,Lindsay Arnold,Athlete,29,North Carolina,United States,Eliminated Week 4,12,4,-0.1038748320440387,0.0,,0,4.219655203981823,0.10814529340757667
+30,2,Matt James,165.0,10.0,True,Lindsay Arnold,Athlete,29,North Carolina,United States,Eliminated Week 4,12,4,-0.8831343811532614,180.0,-15.0,1,1.9646786469772657,0.27242785743172887
+30,3,Matt James,200.0,5.0,True,Lindsay Arnold,Athlete,29,North Carolina,United States,Eliminated Week 4,12,4,0.0229211172319523,172.5,35.0,0,5.436948931850492,0.06189198167689714
+30,4,Matt James,213.75,9.0,True,Lindsay Arnold,Athlete,29,North Carolina,United States,Eliminated Week 4,12,4,0.0601684619409403,181.66666666666663,13.75,0,3.8666107812313655,0.1263851745360888
+30,1,Melanie C,202.5,3.0,True,Gleb Savchenko,Singer/Rapper,47,,England,Eliminated Week 5,11,5,0.675186408286252,0.0,,0,5.841689625157293,0.05113269663203093
+30,2,Melanie C,225.0,3.0,True,Gleb Savchenko,Singer/Rapper,47,,England,Eliminated Week 5,11,5,1.0437042686356726,202.5,22.5,0,7.168451270834739,0.02700844953342539
+30,3,Melanie C,220.0,3.0,True,Gleb Savchenko,Singer/Rapper,47,,England,Eliminated Week 5,11,5,0.3667378757112356,213.75,-5.0,0,6.013839402212815,0.04711424136909258
+30,4,Melanie C,247.5,4.0,True,Gleb Savchenko,Singer/Rapper,47,,England,Eliminated Week 5,11,5,0.4469657172755565,215.83333333333331,27.5,0,5.745453881699077,0.05351835286943161
+30,5,Melanie C,270.0,3.0,True,Gleb Savchenko,Singer/Rapper,47,,England,Eliminated Week 5,11,5,0.6349998737457638,223.75,22.5,0,6.5197669727469565,0.03697335769533328
+30,1,Melora Hardin,195.0,4.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.4154993281761551,0.0,,0,-0.032321848567863576,0.5040401431391741
+30,2,Melora Hardin,202.5,5.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.3211397749648223,195.0,7.5,0,0.037471131395031776,0.49531624558299747
+30,3,Melora Hardin,230.0,2.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.5386462549508773,198.75,27.5,0,1.6830538033972324,0.3012132983362166
+30,4,Melora Hardin,273.75,1.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.7478080269802581,209.16666666666663,43.75,0,2.502943630541174,0.222445464543652
+30,5,Melora Hardin,270.0,3.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.6349998737457638,225.3125,-3.75,0,1.5249963952906738,0.31810412636604163
+30,6,Melora Hardin,255.0,4.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.5441746610792685,234.25,-15.0,0,0.9782943697157833,0.38009448967860343
+30,7,Melora Hardin,285.0,3.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,0.871962071699363,237.70833333333331,30.0,0,1.983817645071813,0.2705352143716654
+30,8,Melora Hardin,315.0,1.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,1.0697353944878412,244.4642857142857,30.0,0,3.188052737856422,0.16881816889252496
+30,9,Melora Hardin,270.0,4.0,True,Artem Chigvintsev,Actor/Actress,54,Texas,United States,Eliminated Week 9,6,9,1.0942099800625855,253.28125,-45.0,0,2.0107032211109326,0.267890532841827
+30,1,"Mike ""The Miz"" Mizanin",180.0,6.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,-0.1038748320440387,0.0,,0,1.219655203981823,0.35209852523881935
+30,2,"Mike ""The Miz"" Mizanin",195.0,6.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.0802849437412055,180.0,15.0,0,2.1464242937046407,0.2547927027510678
+30,3,"Mike ""The Miz"" Mizanin",220.0,3.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.3667378757112356,187.5,25.0,0,3.9259851034783724,0.12314354958779379
+30,4,"Mike ""The Miz"" Mizanin",243.75,5.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.4039882444605992,198.33333333333331,23.75,0,3.194538794634542,0.1683636003258797
+30,5,"Mike ""The Miz"" Mizanin",240.0,5.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.3891934710054681,209.6875,-3.75,0,3.2064829177337772,0.16752906372606266
+30,6,"Mike ""The Miz"" Mizanin",255.0,4.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.5441746610792685,215.75,15.0,0,3.916378006798176,0.12366317261802362
+30,7,"Mike ""The Miz"" Mizanin",240.0,6.0,True,Witney Carson,Athlete,40,Ohio,United States,Eliminated Week 7,9,7,0.5490131562551545,222.29166666666663,-15.0,1,3.2951167588410293,0.16143921468262842
+30,1,Olivia Jade,187.5,5.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.1558122480660581,0.0,,0,1.0936666777069792,0.366599410165034
+30,2,Olivia Jade,202.5,5.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.3211397749648223,187.5,15.0,0,2.012369903185191,0.26772712528498854
+30,3,Olivia Jade,240.0,1.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.7105546341905189,195.0,37.5,0,4.38992004689641,0.10020399454540052
+30,4,Olivia Jade,262.5,2.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.618875608535386,210.0,22.5,0,3.8620044573376315,0.12663969006283674
+30,5,Olivia Jade,270.0,3.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.6349998737457638,223.125,7.5,0,3.5176752037294703,0.14693598173642372
+30,6,Olivia Jade,270.0,3.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.6559913722599401,232.5,0.0,0,3.5860216715884503,0.14270398276779744
+30,7,Olivia Jade,315.0,1.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,1.0872613486621687,238.75,45.0,0,5.19979445709312,0.06914503483217958
+30,8,Olivia Jade,270.0,4.0,True,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,Eliminated Week 8,8,8,0.7707410295688794,249.64285714285717,-45.0,0,3.4288371610150463,0.15259148347417187
+30,1,Suni Lee,210.0,2.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.934873488396349,0.0,,0,0.7157010988824499,0.4114799867114067
+30,2,Suni Lee,210.0,4.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.5619946061884391,210.0,0.0,0,-0.07148203091457717,0.5089343028130068
+30,3,Suni Lee,210.0,4.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.194829496471594,210.0,0.0,0,-0.7181280694962044,0.5888138443972106
+30,4,Suni Lee,255.0,3.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.5329206629054712,210.0,45.0,0,0.293967580770083,0.4633200654640582
+30,5,Suni Lee,270.0,3.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.6349998737457638,221.25,15.0,0,0.5113998966770099,0.43642104838784124
+30,6,Suni Lee,270.0,3.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.6559913722599401,231.0,0.0,0,0.5810014259464822,0.4278812886638445
+30,7,Suni Lee,255.0,5.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,0.6566627947365573,237.5,-15.0,0,-0.2293701415928444,0.5286398836774412
+30,8,Suni Lee,315.0,1.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,1.0697353944878412,240.0,60.0,0,2.1731115305886597,0.2522674049219747
+30,9,Suni Lee,281.25,3.0,True,Sasha Farber,Athlete,18,Minnesota,United States,Eliminated Week 9,5,9,1.1726167461498729,249.375,-33.75,0,1.5523727934369167,0.31514238630651115
+31,1,Charli D'Amelio,240.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.811529287527304,0.0,,0,-1.3236907777507803,0.6596748075499625
+31,2,Charli D'Amelio,240.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,0.8249432458569604,240.0,0.0,0,-2.2580129662626867,0.7556555024752961
+31,3,Charli D'Amelio,247.5,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,0.7558665212202709,240.0,7.5,0,-2.3796699242970627,0.7667115460406762
+31,4,Charli D'Amelio,270.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,0.7914315098222956,242.5,22.5,0,-2.3086662894063825,0.7603014932868547
+31,5,Charli D'Amelio,315.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,0.823332414227001,249.375,45.0,0,-2.2294734050612885,0.7530111242060833
+31,6,Charli D'Amelio,300.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.0581667963189534,262.5,-15.0,0,-1.771959237527677,0.7080598107767966
+31,7,Charli D'Amelio,292.5,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.0023523038904143,268.75,-7.5,0,-1.8493412481391758,0.7159928209402675
+31,8,Charli D'Amelio,337.5,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.2323431586847493,272.1428571428572,45.0,0,-1.43292926475368,0.6718280304651599
+31,9,Charli D'Amelio,300.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.4255641307347746,280.3125,-37.5,0,-1.065288791066791,0.6300996637729447
+31,10,Charli D'Amelio,300.0,1.0,True,Mark Ballas,Social Media Personality,18,Connecticut,United States,1st Place,1,999,1.7336263633944775,282.5,0.0,0,-0.5154127185703166,0.5640723807577143
+31,1,Cheryl Ladd,157.5,8.0,True,Louis van Amstel,Actor/Actress,71,South Dakota,United States,Eliminated Week 3,14,3,-0.6410026709711998,0.0,,0,4.440364726740988,0.0979526898606387
+31,2,Cheryl Ladd,157.5,10.0,True,Louis van Amstel,Actor/Actress,71,South Dakota,United States,Eliminated Week 3,14,3,-0.6269568668512899,157.5,0.0,1,4.340551205441242,0.10245168752554959
+31,3,Cheryl Ladd,180.0,10.0,True,Louis van Amstel,Actor/Actress,71,South Dakota,United States,Eliminated Week 3,14,3,-0.1148917112254811,157.5,22.5,0,5.060761293051648,0.07375563823232595
+31,1,Daniel Durant,202.5,4.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.6967420336643476,0.0,,0,-0.5370011425122918,0.5667247604281053
+31,2,Daniel Durant,217.5,3.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.4289704878456194,202.5,15.0,0,0.08579076304096933,0.48927779865262644
+31,3,Daniel Durant,232.5,3.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.5623646917878815,210.0,15.0,0,0.34582399123178753,0.4568793846163989
+31,4,Daniel Durant,217.5,5.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.2574536236771323,217.5,-15.0,0,-0.9993883398767638,0.622387457310829
+31,5,Daniel Durant,251.25,9.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.3223337192163874,217.5,33.75,0,-2.5517393564439885,0.781745884112036
+31,6,Daniel Durant,255.0,4.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.7138142117541415,224.25,3.75,0,0.24359286142941539,0.4695884776789421
+31,7,Daniel Durant,273.75,3.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.8680337372049319,229.375,18.75,0,0.9490088639224421,0.3835506605996051
+31,8,Daniel Durant,292.5,4.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,0.94095167288737,235.7142857142857,18.75,0,0.681993190682495,0.41556741247125556
+31,9,Daniel Durant,258.75,3.0,True,Britt Stewart,Actor/Actress,32,Michigan,United States,Eliminated Week 9,5,9,1.1268745033427263,242.8125,-33.75,0,1.449848622650121,0.32630953909104804
+31,1,Gabby Windey,210.0,3.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.9196994844369388,0.0,,0,-2.727677376527085,0.7963828768582331
+31,2,Gabby Windey,240.0,1.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.8249432458569604,210.0,30.0,0,-1.3584178791020496,0.6635621180457176
+31,3,Gabby Windey,247.5,1.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.7558665212202709,225.0,7.5,0,-1.429872380716744,0.6714909585562803
+31,4,Gabby Windey,270.0,1.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.7914315098222956,232.5,22.5,0,-1.3421345936861702,0.6617421036115708
+31,5,Gabby Windey,307.5,2.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.7643913912845758,241.875,37.5,0,-1.7750349683043067,0.708377602900213
+31,6,Gabby Windey,277.5,2.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.8859905040365474,255.0,-30.0,0,-1.5169491680327463,0.6810224578891461
+31,7,Gabby Windey,266.25,4.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.8143063105307389,258.75,-11.25,0,-2.463956214706821,0.774164601784985
+31,8,Gabby Windey,300.0,3.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,0.9895169205202666,259.82142857142856,33.75,0,-1.7351376249039756,0.7042395667498331
+31,9,Gabby Windey,300.0,1.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,1.4255641307347746,264.84375,0.0,0,-0.11706007424958775,0.5146283334165995
+31,10,Gabby Windey,300.0,1.0,True,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2nd Place,2,999,1.7336263633944775,268.75,0.0,0,0.4385683630449755,0.4453975784350775
+31,1,Heidi D'Amelio,180.0,6.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.0278696813465739,0.0,,0,0.4516817921143481,0.4437785335889414
+31,2,Heidi D'Amelio,210.0,4.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.2969795685085057,180.0,30.0,0,2.3613722910016453,0.23492884787783735
+31,3,Heidi D'Amelio,240.0,2.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.6591156065040762,195.0,30.0,0,3.8826721206279995,0.1255011496960083
+31,4,Heidi D'Amelio,255.0,2.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.6388663994951062,210.0,15.0,0,3.8972119578329423,0.12470544156710997
+31,5,Heidi D'Amelio,292.5,4.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.6465093453997256,221.25,37.5,0,3.1150159840522766,0.1740045248056941
+31,6,Heidi D'Amelio,270.0,3.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.8285984066090788,235.5,-22.5,0,3.9000552494684158,0.12455034602263548
+31,7,Heidi D'Amelio,262.5,5.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.7874425971936423,241.25,-7.5,0,3.013508025286849,0.18142034661102382
+31,8,Heidi D'Amelio,262.5,5.0,True,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,Eliminated Week 8,8,8,0.746690682355784,244.28571428571428,0.0,0,2.9518963457129397,0.1860402040559148
+31,1,Jason Lewis,135.0,10.0,True,Peta Murgatroyd,Actor/Actress,51,California,United States,Eliminated Week 1,16,1,-1.309875023288973,0.0,,1,4.610679539723094,0.09068168807091648
+31,1,Jessie James Decker,150.0,9.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,-0.863960121743791,0.0,,0,-0.3689590392442188,0.5459895248773777
+31,2,Jessie James Decker,187.5,7.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,-0.0989931895028352,150.0,37.5,0,2.313623015932879,0.23924713345005508
+31,3,Jessie James Decker,195.0,8.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,0.0786101182069081,168.75,7.5,0,2.272514306998195,0.2430082147200993
+31,4,Jessie James Decker,232.5,4.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,0.4100187340043218,177.5,37.5,0,4.552088206855451,0.09312650694423555
+31,5,Jessie James Decker,270.0,6.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,0.4696862765724502,191.25,37.5,0,3.869884298695644,0.12620456727762422
+31,6,Jessie James Decker,240.0,5.0,True,Alan Bersten,Singer/Rapper,34,,Italy,Eliminated Week 6,10,6,0.5990300168992041,207.0,-30.0,0,4.567049490822541,0.09249665709592386
+31,1,Jordin Sparks,195.0,5.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.4737845828917563,0.0,,0,2.6536750915025005,0.209682953370491
+31,2,Jordin Sparks,202.5,5.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.164988649171392,195.0,7.5,0,2.762459960011525,0.20081153221627823
+31,3,Jordin Sparks,217.5,5.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.3688628623554922,198.75,15.0,0,3.1340709772852398,0.17263941701732227
+31,4,Jordin Sparks,255.0,2.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.6388663994951062,205.0,37.5,0,4.880477805693048,0.08015529599766329
+31,5,Jordin Sparks,266.25,7.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.4402157651012376,217.5,11.25,0,2.4891813136223657,0.22363792642995603
+31,6,Jordin Sparks,255.0,4.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.7138142117541415,227.25,-11.25,0,4.253633352713352,0.10651757435310484
+31,7,Jordin Sparks,258.75,6.0,True,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,Eliminated Week 7,9,7,0.7605788838565457,231.875,3.75,0,3.5181652625078463,0.14690527098882863
+31,1,Joseph Baena,172.5,7.0,True,Daniella Karagach,Actor/Actress,24,California,United States,Eliminated Week 5,11,5,-0.1950877694260173,0.0,,0,2.6423580261291413,0.2106222033076248
+31,2,Joseph Baena,180.0,8.0,True,Daniella Karagach,Actor/Actress,24,California,United States,Eliminated Week 5,11,5,-0.2309841088399489,172.5,7.5,0,2.7398119131526,0.20263504098597274
+31,3,Joseph Baena,217.5,5.0,True,Daniella Karagach,Actor/Actress,24,California,United States,Eliminated Week 5,11,5,0.3688628623554922,176.25,37.5,0,5.058767292655717,0.07382377799409735
+31,4,Joseph Baena,210.0,6.0,True,Daniella Karagach,Actor/Actress,24,California,United States,Eliminated Week 5,11,5,0.1811710685135375,190.0,-7.5,0,4.357571825137006,0.101671762492204
+31,5,Joseph Baena,262.5,8.0,True,Daniella Karagach,Actor/Actress,24,California,United States,Eliminated Week 5,11,5,0.410745253630025,195.0,52.5,0,3.9453203451851238,0.12210344498905616
+31,1,Sam Champion,150.0,9.0,True,Cheryl Burke,News Anchor,61,Kentucky,United States,Eliminated Week 4,13,4,-0.863960121743791,0.0,,0,2.631040960755781,0.21156453423813154
+31,2,Sam Champion,195.0,6.0,True,Cheryl Burke,News Anchor,61,Kentucky,United States,Eliminated Week 4,13,4,0.0329977298342784,150.0,45.0,0,5.96273780334268,0.04827469665353977
+31,3,Sam Champion,187.5,9.0,True,Cheryl Burke,News Anchor,61,Kentucky,United States,Eliminated Week 4,13,4,-0.0181407965092865,172.5,-7.5,0,4.698014335287223,0.08714472040167122
+31,4,Sam Champion,187.5,7.0,True,Cheryl Burke,News Anchor,61,Kentucky,United States,Eliminated Week 4,13,4,-0.0476765969772467,177.5,0.0,1,5.677670793656819,0.05526130731537019
+31,1,Selma Blair,210.0,3.0,True,Sasha Farber,Actor/Actress,50,Michigan,United States,Withdrew,12,-1,0.9196994844369388,0.0,,0,7.272322623472915,0.025676647491587355
+31,2,Selma Blair,210.0,4.0,True,Sasha Farber,Actor/Actress,50,Michigan,United States,Withdrew,12,-1,0.2969795685085057,210.0,0.0,0,6.461777203841009,0.03801973379164399
+31,3,Selma Blair,210.0,6.0,True,Sasha Farber,Actor/Actress,50,Michigan,United States,Withdrew,12,-1,0.2721119476392975,210.0,0.0,0,5.584672233784107,0.05773972545978574
+31,4,Selma Blair,240.0,3.0,True,Sasha Farber,Actor/Actress,50,Michigan,United States,Withdrew,12,-1,0.4863012891679166,210.0,30.0,0,7.211862193981576,0.02644387027506444
+31,5,Selma Blair,300.0,3.0,True,Sasha Farber,Actor/Actress,50,Michigan,United States,Withdrew,12,-1,0.7054503683421507,217.5,60.0,0,7.622925704980533,0.021637277358391615
+31,1,Shangela,210.0,3.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.9196994844369388,0.0,,0,-0.727677376527085,0.58996935359654
+31,2,Shangela,210.0,4.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.2969795685085057,210.0,0.0,0,-1.5382227961589914,0.6833286399568731
+31,3,Shangela,225.0,4.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.4656137770716869,210.0,15.0,0,-1.2412265945841057,0.6503580206141617
+31,4,Shangela,240.0,3.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.4863012891679166,215.0,15.0,0,-0.7714036538785303,0.5952475748534186
+31,5,Shangela,288.75,5.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.617038833928513,221.25,48.75,0,-1.3535412997554443,0.6630175592272246
+31,6,Shangela,270.0,3.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.8285984066090788,234.75,-18.75,0,-0.10245487335256787,0.5128040592035487
+31,7,Shangela,273.75,3.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,0.8680337372049319,240.625,3.75,0,-0.013339293762796522,0.5016674055392555
+31,8,Shangela,315.0,2.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,1.0866474157860595,245.3571428571429,41.25,0,0.8041719613014351,0.40081126395426614
+31,9,Shangela,273.75,2.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,1.2354889133034714,254.0625,-41.25,0,1.0954448721178216,0.36639298248343816
+31,10,Shangela,285.0,2.0,True,Gleb Savchenko,TV Personality,40,Texas,United States,4th Place,4,999,1.61900643854195,256.25,11.25,1,1.9598436253494094,0.2729072980087133
+31,1,Teresa Giudice,150.0,9.0,True,Pasha Pashkov,TV Personality,50,New Jersey,United States,Eliminated Week 2,15,2,-0.863960121743791,0.0,,0,4.631040960755781,0.08984569269393539
+31,2,Teresa Giudice,172.5,9.0,True,Pasha Pashkov,TV Personality,50,New Jersey,United States,Eliminated Week 2,15,2,-0.3629750281770625,150.0,22.5,0,6.015393441113275,0.0470793697505559
+31,1,Trevor Donovan,157.5,8.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,-0.6410026709711998,0.0,,0,-3.559635273259012,0.8556743462672849
+31,2,Trevor Donovan,225.0,2.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.560961407182733,157.5,67.5,0,1.584298181191726,0.31170740436747396
+31,3,Trevor Donovan,202.5,7.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.1753610329231028,191.25,-22.5,0,-1.0651314225563882,0.6300813243250232
+31,4,Trevor Donovan,210.0,6.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.1811710685135375,195.0,7.5,0,-0.6256940227231009,0.5775800317608094
+31,5,Trevor Donovan,270.0,6.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.4696862765724502,198.75,60.0,0,-0.10501447309451528,0.5131237940728501
+31,6,Trevor Donovan,255.0,4.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.7138142117541415,213.0,-15.0,0,1.205941019114654,0.353664382420865
+31,7,Trevor Donovan,292.5,1.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,1.0023523038904143,220.0,37.5,0,2.9875007684968597,0.18335948242755762
+31,8,Trevor Donovan,292.5,4.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,0.94095167288737,230.3571428571429,0.0,0,1.664063741961181,0.3032156132291251
+31,9,Trevor Donovan,243.75,4.0,True,Emma Slater,Actor/Actress,39,California,United States,Eliminated Week 9,6,9,1.018260093381982,238.125,-48.75,1,2.0078478262214983,0.268170633054555
+31,1,Vinny Guadagnino,127.5,11.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,-1.5328324740615646,0.0,,1,-5.198644226262113,0.9308179392661207
+31,2,Vinny Guadagnino,202.5,5.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.164988649171392,127.5,75.0,0,0.5365489061229587,0.4333307632360569
+31,3,Vinny Guadagnino,172.5,11.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,-0.2116426259416758,165.0,-30.0,1,-2.319556186198941,0.7612923908641877
+31,4,Vinny Guadagnino,217.5,5.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.2574536236771323,167.5,45.0,0,0.8332701387242976,0.3973222282014032
+31,5,Vinny Guadagnino,232.5,10.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.1749811618603245,180.0,15.0,1,-1.1717831078472773,0.642421923149941
+31,6,Vinny Guadagnino,210.0,6.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.3694616271893295,190.5,-22.5,1,0.872491808250139,0.39263585779691507
+31,7,Vinny Guadagnino,236.25,7.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.5993966038339665,193.75,26.25,1,0.8716730286077272,0.39273349048154343
+31,8,Vinny Guadagnino,217.5,6.0,True,Koko Iwasaki,TV Personality,34,New York,United States,Eliminated Week 8,7,8,0.4552991965584049,199.82142857142856,-18.75,1,1.0548649715871345,0.37111591877720385
+31,1,Wayne Brady,217.5,2.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,1.14265693520953,0.0,,0,-0.9183536105418773,0.6128188733095727
+31,2,Wayne Brady,240.0,1.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.8249432458569604,217.5,22.5,0,-0.3333166508922085,0.5415684123254467
+31,3,Wayne Brady,247.5,1.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.7558665212202709,228.75,7.5,0,-0.4173217666118232,0.5519767712357331
+31,4,Wayne Brady,270.0,1.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.7914315098222956,235.0,22.5,0,-0.3337675176162236,0.5416243806075144
+31,5,Wayne Brady,307.5,2.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.7643913912845758,243.75,37.5,0,-0.7687596612518464,0.594929028994591
+31,6,Wayne Brady,255.0,4.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.7138142117541415,256.5,-52.5,0,-1.6484718572682695,0.6951347696399961
+31,7,Wayne Brady,285.0,2.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,0.9486248772162216,256.25,30.0,0,-0.4024548509400496,0.5501377868378865
+31,8,Wayne Brady,337.5,1.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,1.2323431586847493,260.35714285714283,52.5,0,0.527625948059427,0.43442662680905886
+31,9,Wayne Brady,273.75,2.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,1.2354889133034714,270.0,-63.75,0,0.14878498206373303,0.48141044970831326
+31,10,Wayne Brady,285.0,2.0,True,Witney Carson,Comedian,50,Georgia,United States,3rd Place,3,999,1.61900643854195,270.4166666666667,11.25,1,1.007257056412442,0.3766883308689462
+32,1,Adrian Peterson,180.0,4.0,True,Britt Stewart,Athlete,38,Texas,United States,Eliminated Week 4,11,4,0.4282354258317544,0.0,,0,4.99010878788976,0.07620561346784172
+32,2,Adrian Peterson,150.0,7.0,True,Britt Stewart,Athlete,38,Texas,United States,Eliminated Week 4,11,4,-0.3319178987723074,180.0,-30.0,0,3.003804199581202,0.1821420037192599
+32,3,Adrian Peterson,165.0,8.0,True,Britt Stewart,Athlete,38,Texas,United States,Eliminated Week 4,11,4,-0.0996473443857082,165.0,15.0,0,2.9460191513707343,0.18648560421767527
+32,4,Adrian Peterson,210.0,5.0,True,Britt Stewart,Athlete,38,Texas,United States,Eliminated Week 4,11,4,0.4001799250614453,165.0,45.0,0,5.07627062168726,0.0732276205157537
+32,1,Alyson Hannigan,130.0,8.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,-0.999215993607427,0.0,,1,-5.008883671704671,0.9244526231259887
+32,2,Alyson Hannigan,190.0,4.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.3319178987723074,130.0,60.0,0,-0.7444363334475597,0.5919948567812597
+32,3,Alyson Hannigan,180.0,6.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.0863610318009473,160.0,-10.0,0,-1.909811193833563,0.722100662257522
+32,4,Alyson Hannigan,180.0,7.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.0889288722358768,166.66666666666666,0.0,1,-2.1179989006692406,0.7424992925369013
+32,5,Alyson Hannigan,210.0,5.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.3338091841585122,170.0,30.0,0,-1.0238864436300492,0.6252619004280564
+32,6,Alyson Hannigan,232.5,8.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.4404881959216032,178.0,22.5,0,-2.059192919527418,0.7368376536621627
+32,7,Alyson Hannigan,262.5,4.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.8181244649122001,187.08333333333331,30.0,0,0.3029120845355102,0.46220820378487115
+32,8,Alyson Hannigan,270.0,4.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.9422118414595052,197.8571428571429,7.5,0,0.5575111442564022,0.43075889049955945
+32,9,Alyson Hannigan,240.0,5.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,0.8457269973464526,206.875,-30.0,0,0.0011103969337113995,0.4998612003868514
+32,10,Alyson Hannigan,255.0,5.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,1.0785658410189187,210.55555555555557,15.0,1,0.6051329745209735,0.424930204235247
+32,11,Alyson Hannigan,265.0,3.0,True,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5th Place,5,999,1.1113785123615434,215.0,10.0,1,1.5111054578760497,0.3196125946718596
+32,1,Ariana Madix,210.0,2.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.2847062774952631,0.0,,0,-0.6681783023732075,0.5827539964024805
+32,2,Ariana Madix,200.0,3.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,0.4978768481584611,210.0,-10.0,0,-1.7677510939711487,0.7076246854276753
+32,3,Ariana Madix,255.0,1.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.0164029127342256,205.0,55.0,0,-0.03795595280785591,0.5047443517066088
+32,4,Ariana Madix,250.00000000000003,2.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,0.8151813288288703,221.66666666666663,-4.999999999999972,0,-0.7532183079661703,0.5930550124838092
+32,5,Ariana Madix,240.0,3.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,0.5934385496151326,228.75,-10.000000000000028,0,-1.5366960959166347,0.6831634350472784
+32,6,Ariana Madix,307.5,2.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,0.9910984408236072,231.0,67.5,0,-0.4121584750785807,0.55133824900305
+32,7,Ariana Madix,277.5,1.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,0.9282566044196116,243.75,-30.0,0,-0.06350831491652942,0.5079378723785085
+32,8,Ariana Madix,315.0,1.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.2575337326252365,248.57142857142856,37.5,0,0.5325464461818488,0.43382224109665896
+32,9,Ariana Madix,277.5,4.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.1065238687748742,256.875,-37.5,0,-0.9555820590467383,0.6172261230619652
+32,10,Ariana Madix,290.0,3.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.3249515109952683,259.1666666666667,12.5,0,-0.1465663085833122,0.518312593778648
+32,11,Ariana Madix,295.0,2.0,True,Pasha Pashkov,TV Personality,38,Florida,United States,3rd Place,3,999,1.3183758406062651,262.25,5.0,0,0.2688263394098285,0.4664472086135359
+32,1,Barry Williams,160.0,6.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,-0.1427451419439181,0.0,,0,-0.8488026403231039,0.6045359659500429
+32,2,Barry Williams,150.0,7.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,-0.3319178987723074,160.0,-10.0,0,-1.0631324089783725,0.6298483301591675
+32,3,Barry Williams,187.5,5.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.1793652198942752,155.0,37.5,0,0.6539065574943415,0.41898212150377806
+32,4,Barry Williams,180.0,7.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.0889288722358768,165.83333333333334,-7.5,1,-0.12078792602588972,0.5150939032015293
+32,5,Barry Williams,240.0,3.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.5934385496151326,169.375,60.0,0,2.2645858474221265,0.24373819822459178
+32,6,Barry Williams,240.0,7.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.4955492204118036,183.5,0.0,0,0.472841584035967,0.4411685778895875
+32,7,Barry Williams,243.75,5.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.6804592905279356,192.91666666666663,3.75,0,1.6633270562634879,0.3032934408382968
+32,8,Barry Williams,262.5,5.0,True,Peta Murgatroyd,Actor/Actress,68,California,United States,Eliminated Week 8,7,8,0.8896581929318835,200.17857142857144,18.75,0,2.0560695911838955,0.2634652773789672
+32,1,Charity Lawson,220.0,1.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,1.5701965613830997,0.0,,0,1.2512774117332248,0.34850010455497593
+32,2,Charity Lawson,210.0,2.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.6638357975446149,220.0,-10.0,0,-0.025343984453250812,0.5031679556644049
+32,3,Charity Lawson,240.0,2.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.83039453654757,215.0,30.0,0,0.25126277711859935,0.46863339757811134
+32,4,Charity Lawson,240.0,3.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.7114309778870138,223.33333333333331,0.0,0,-0.34701815192204855,0.5432687714472734
+32,5,Charity Lawson,280.0,1.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.9396110368906266,227.5,40.0,0,0.9021029577530992,0.38911079662989867
+32,6,Charity Lawson,285.0,4.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.8259153673530061,238.0,5.0,0,-0.5129572381289709,0.563770462195343
+32,7,Charity Lawson,270.0,3.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,0.8731905346659059,245.83333333333331,-15.0,0,0.013174194036046138,0.49835323169990864
+32,8,Charity Lawson,292.5,3.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,1.0998727870423708,249.28571428571428,22.5,0,0.4239583293717262,0.44720276529873615
+32,9,Charity Lawson,285.0,3.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,1.1586832430605585,254.6875,-7.5,0,0.5456133399819914,0.4322181918215617
+32,10,Charity Lawson,295.0,2.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,1.3601494638490326,258.05555555555554,10.0,0,1.3283593641351517,0.3398013298903375
+32,11,Charity Lawson,295.0,2.0,True,Artem Chigvintsev,TV Personality,27,Georgia,United States,4th Place,4,999,1.3183758406062651,261.75,0.0,0,1.2671529241958388,0.3467000287784809
+32,1,Harry Jowsey,120.0,9.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,-1.2847062774952631,0.0,,1,-4.928339385811103,0.9215914975390637
+32,2,Harry Jowsey,150.0,7.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,-0.3319178987723074,120.0,30.0,0,-2.197005626097525,0.7499794727595848
+32,3,Harry Jowsey,180.0,6.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.0863610318009473,135.0,30.0,0,-0.9934819545330322,0.6216931436557694
+32,4,Harry Jowsey,210.0,5.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.4001799250614453,150.0,30.0,0,0.026068165267578713,0.4967415254725447
+32,5,Harry Jowsey,180.0,6.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.0741798187018916,165.0,-30.0,1,-0.732898544901877,0.5906007196607798
+32,6,Harry Jowsey,217.5,9.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.3303661469412024,168.0,37.5,1,-1.5216289852884808,0.6815305428310753
+32,7,Harry Jowsey,240.0,6.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.6529262556510828,176.25,22.5,1,0.32403340026644933,0.4595841939058963
+32,8,Harry Jowsey,210.0,7.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.5217826532385309,185.3571428571429,-30.0,1,-0.29310904164049223,0.5365731930125015
+32,9,Harry Jowsey,225.0,6.0,True,Rylee Arnold,TV Personality,26,,Australia,Eliminated Week 9,6,9,0.741408248775084,188.4375,15.0,1,0.5206561406757153,0.43528306295206487
+32,1,Jamie Lynn Spears,150.0,7.0,True,Alan Bersten,Actor/Actress,32,Mississippi,United States,Eliminated Week 2,13,2,-0.4282354258317544,0.0,,0,4.231741645570464,0.10756380420686651
+32,2,Jamie Lynn Spears,160.0,6.0,True,Alan Bersten,Actor/Actress,32,Mississippi,United States,Eliminated Week 2,13,2,-0.1659589493861537,150.0,10.0,0,5.612338091979948,0.056991721234373675
+32,1,Jason Mraz,210.0,2.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.2847062774952631,0.0,,0,-1.6681783023732075,0.697218864461033
+32,2,Jason Mraz,240.0,1.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.161712645703076,210.0,30.0,0,-0.7653043381832352,0.5945126142778118
+32,3,Jason Mraz,255.0,1.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.0164029127342256,225.0,15.0,0,-0.9710193442482802,0.6190480568244241
+32,4,Jason Mraz,240.0,3.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,0.7114309778870138,235.0,-15.0,0,-2.307971796928962,0.760238204324559
+32,5,Jason Mraz,270.0,2.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,0.8530679150717532,236.25,30.0,0,-1.6376850402193948,0.6939905840295327
+32,6,Jason Mraz,292.5,3.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,0.8809763918432064,243.0,22.5,0,-1.9825961497795754,0.7293442401869107
+32,7,Jason Mraz,270.0,3.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,0.8731905346659059,251.25,-22.5,0,-1.9686971411457352,0.7279702151291304
+32,8,Jason Mraz,247.5,6.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,0.78455089587664,253.92857142857144,-22.5,0,-3.3658060024334677,0.8432885537785535
+32,9,Jason Mraz,322.5,1.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.41948011448898,253.125,75.0,0,-0.16699582735885077,0.5208623589685767
+32,10,Jason Mraz,285.0,4.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.289753558141504,260.8333333333333,-37.5,0,-1.6196326310640106,0.6920703608739233
+32,11,Jason Mraz,300.0,1.0,True,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2nd Place,2,999,1.3528753953137191,263.25,15.0,0,-0.25041246598243205,0.5312607304147372
+32,1,Lele Pons,190.0,3.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.7137257097195907,0.0,,0,2.9095645019961918,0.18926666382946206
+32,2,Lele Pons,210.0,2.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.6638357975446149,190.0,20.0,0,3.874251102707386,0.12596398475631818
+32,3,Lele Pons,202.5,3.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.3653735960809308,200.0,-7.5,0,2.965417733688981,0.18501860957270264
+32,4,Lele Pons,220.0,4.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.5039302760033015,200.83333333333331,17.5,0,2.7955766066923413,0.19816730887403705
+32,5,Lele Pons,240.0,3.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.5934385496151326,205.625,20.0,0,3.3859084504363564,0.1553877257314576
+32,6,Lele Pons,277.5,5.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.7708543428628056,212.5,37.5,0,2.8880716497480687,0.19092115584785666
+32,7,Lele Pons,273.75,2.0,True,Brandon Armstrong,Social Media Personality,27,,Venezuela,Eliminated Week 7,8,7,0.9007235695427588,223.33333333333331,-3.75,0,4.4030155366260475,0.0996151727159157
+32,1,Matt Walsh,120.0,9.0,True,Koko Iwasaki,Comedian,58,Illinois,United States,Eliminated Week 1,14,1,-1.2847062774952631,0.0,,1,3.0716606141888967,0.1771422431882947
+32,1,Mauricio Umansky,150.0,7.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,-0.4282354258317544,0.0,,0,0.23174164557046417,0.4710646609982714
+32,2,Mauricio Umansky,120.0,8.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,-0.8297947469307686,150.0,-30.0,1,-0.20847678545250048,0.5260360276023461
+32,3,Mauricio Umansky,172.5,7.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,-0.0066431562923804,135.0,52.5,0,1.4260661419991703,0.3289289890935087
+32,4,Mauricio Umansky,190.0,6.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,0.192679223177733,147.5,17.5,0,2.235599532441544,0.24641963235960326
+32,5,Mauricio Umansky,240.0,3.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,0.5934385496151326,158.125,50.0,0,4.226934005107365,0.10779477389601755
+32,6,Mauricio Umansky,247.5,6.0,True,Emma Slater,TV Personality,53,,Mexico,Eliminated Week 6,9,6,0.550610244902004,174.5,7.5,0,2.9563470463936596,0.18570345634528124
+32,1,Mira Sorvino,170.0,5.0,True,Gleb Savchenko,Actor/Actress,55,New York,United States,Eliminated Week 5,10,5,0.1427451419439181,0.0,,0,3.070653073783328,0.17721568612195682
+32,2,Mira Sorvino,180.0,5.0,True,Gleb Savchenko,Actor/Actress,55,New York,United States,Eliminated Week 5,10,5,0.1659589493861537,170.0,10.0,0,3.68049807843348,0.13702184180881777
+32,3,Mira Sorvino,195.0,4.0,True,Gleb Savchenko,Actor/Actress,55,New York,United States,Eliminated Week 5,10,5,0.272369407987603,175.0,15.0,0,4.301295069521714,0.10427072894521007
+32,4,Mira Sorvino,210.0,5.0,True,Gleb Savchenko,Actor/Actress,55,New York,United States,Eliminated Week 5,10,5,0.4001799250614453,181.66666666666663,15.0,0,4.1320511288202395,0.11244307521400151
+32,5,Mira Sorvino,220.0,4.0,True,Gleb Savchenko,Actor/Actress,55,New York,United States,Eliminated Week 5,10,5,0.4203523059773856,188.75,10.0,0,4.607939391111861,0.09079472574323864
+32,1,Tyson Beckford,120.0,9.0,True,Jenna Johnson,Model,52,New York,United States,Eliminated Week 3,12,3,-1.2847062774952631,0.0,,1,1.0716606141888967,0.36915809110705583
+32,2,Tyson Beckford,180.0,5.0,True,Jenna Johnson,Model,52,New York,United States,Eliminated Week 3,12,3,0.1659589493861537,120.0,60.0,0,5.513156557034542,0.05971620705815506
+32,3,Tyson Beckford,150.0,9.0,True,Jenna Johnson,Model,52,New York,United States,Eliminated Week 3,12,3,-0.2856557205723639,150.0,-30.0,1,3.3331989989531863,0.15887808061886302
+32,1,Xochitl Gomez,180.0,4.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,0.4282354258317544,0.0,,0,-5.00989121211024,0.924487798899942
+32,2,Xochitl Gomez,240.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.161712645703076,180.0,60.0,0,-1.865709251022598,0.7176540680756998
+32,3,Xochitl Gomez,240.0,2.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,0.83039453654757,210.0,0.0,0,-2.7654713750212943,0.7994300042954625
+32,4,Xochitl Gomez,270.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.0226820307125823,220.0,30.0,0,-1.9766948019233803,0.7287613795445714
+32,5,Xochitl Gomez,280.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,0.9396110368906266,232.5,10.0,0,-2.081162890107007,0.7389621807177952
+32,6,Xochitl Gomez,315.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.0461594653138078,242.0,35.0,0,-1.8617164041613128,0.7172493636492034
+32,7,Xochitl Gomez,277.5,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,0.9282566044196116,254.16666666666663,-37.5,0,-2.028645497958417,0.7338652655827032
+32,8,Xochitl Gomez,300.0,2.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.1524264355699925,257.5,22.5,0,-2.0393388684038487,0.7349082042550964
+32,9,Xochitl Gomez,307.5,2.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.3151613659176111,262.8125,7.5,0,-1.7349523561854094,0.70422027192617
+32,10,Xochitl Gomez,300.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.3953474167027968,267.77777777777777,-7.5,0,-1.1604576335099477,0.6411200553674662
+32,11,Xochitl Gomez,300.0,1.0,True,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1st Place,1,999,1.3528753953137191,271.0,0.0,0,-1.2244745301655966,0.6484509834177555
+33,1,Anna Delvey,180.0,6.0,True,Ezra Sosa,Con artist,33,,Russia,Eliminated Week 2,12,2,-0.4264014327112208,0.0,,0,3.6516258810990685,0.13873782704079782
+33,2,Anna Delvey,170.0,6.0,True,Ezra Sosa,Con artist,33,,Russia,Eliminated Week 2,12,2,-1.0296332130584869,180.0,-10.0,1,3.373283890462197,0.1562179676423532
+33,1,Brooks Nader,180.0,6.0,True,Gleb Savchenko,Model,27,New York,United States,Eliminated Week 4,9,4,-0.4264014327112208,0.0,,0,0.6516258810990685,0.41925974661021076
+33,2,Brooks Nader,200.0,4.0,True,Gleb Savchenko,Model,27,New York,United States,Eliminated Week 4,9,4,0.0556558493545131,180.0,20.0,0,2.9363563434704103,0.18721968083303414
+33,3,Brooks Nader,228.75,4.0,True,Gleb Savchenko,Model,27,New York,United States,Eliminated Week 4,9,4,0.5225004155289422,190.0,28.75,0,3.7920247461823813,0.1305604610870779
+33,4,Brooks Nader,240.0,3.0,True,Gleb Savchenko,Model,27,New York,United States,Eliminated Week 4,9,4,0.5942212274972601,202.91666666666663,11.25,0,4.378222559329455,0.10073257019597542
+33,1,Chandler Kinney,230.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.705605730844883,0.0,,0,0.4897581407099447,0.4390843331312369
+33,2,Chandler Kinney,240.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.5027079325718462,230.0,10.0,0,0.9021883842150067,0.38910064358988294
+33,3,Chandler Kinney,258.75,2.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,0.8686153404653116,235.0,18.75,0,-0.6144866708377261,0.5762122483609249
+33,4,Chandler Kinney,240.0,3.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,0.5942212274972601,242.91666666666663,-18.75,0,-1.4879042235513946,0.6778594690422473
+33,5,Chandler Kinney,270.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,0.8943754929362865,242.1875,30.0,0,-0.12840867553039859,0.5160455729022589
+33,6,Chandler Kinney,320.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.0482565394972376,247.75,50.0,0,0.16122120842190224,0.47985825463800474
+33,7,Chandler Kinney,300.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.2728967311301218,259.7916666666667,-20.0,0,0.5971557778166448,0.42590516681396384
+33,8,Chandler Kinney,290.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.284353990003137,265.5357142857143,-10.0,0,0.6365584947082925,0.4210951656031576
+33,9,Chandler Kinney,300.0,1.0,True,Brandon Armstrong,Actor/Actress,24,California,United States,3rd Place,3,999,1.2757040230508228,268.59375,10.0,0,0.63155902128055,0.4217046563879952
+33,1,Danny Amendola,200.0,4.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.4264014327112208,0.0,,0,-1.0131212150565814,0.6239998551311087
+33,2,Danny Amendola,210.0,3.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.4174188701588464,200.0,10.0,0,0.057079140011966345,0.492865591744086
+33,3,Danny Amendola,225.0,5.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.4792360499118961,205.0,15.0,0,-0.6506236235497402,0.5806182331143099
+33,4,Danny Amendola,270.0,1.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.8474958490534694,211.66666666666663,45.0,0,1.686879499866519,0.30081082784223795
+33,5,Danny Amendola,255.0,3.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.7773263512432825,226.25,-15.0,0,0.7787974436313627,0.4038620545609837
+33,6,Danny Amendola,280.0,3.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.7886882535264931,232.0,25.0,0,0.8180521414449338,0.3991456740975972
+33,7,Danny Amendola,255.0,5.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,0.949138214733982,240.0,-25.0,0,0.29410053969080785,0.4633035350819182
+33,8,Danny Amendola,270.0,3.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,1.1434543961631307,242.14285714285717,15.0,0,1.4768077161195157,0.3233532746160445
+33,9,Danny Amendola,280.0,4.0,True,Witney Carson,Athlete,39,Texas,United States,5th Place,5,999,1.140046335528036,245.625,10.0,1,1.2474372749984344,0.348936178534124
+33,1,Dwight Howard ,220.0,2.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,1.2792042981336624,0.0,,0,2.3221316887877697,0.23847366962337868
+33,2,Dwight Howard ,220.0,2.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.7791818909631797,220.0,0.0,0,2.177801936553522,0.2518252897215064
+33,3,Dwight Howard ,195.0,7.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.1331211249755267,220.0,-25.0,0,-1.043302380850907,0.6275337887283431
+33,4,Dwight Howard ,217.5,4.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.4042652613301032,211.66666666666663,22.5,1,0.8379371895016776,0.3967635826759002
+33,5,Dwight Howard ,240.0,4.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.6602772095502786,213.125,22.5,1,1.2937026343095424,0.34369943618026433
+33,6,Dwight Howard ,310.0,2.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.9833644680045516,218.5,70.0,0,2.5323851801783164,0.21990971450915747
+33,7,Dwight Howard ,240.0,6.0,True,Daniella Karagach,Athlete,38,Georgia,United States,Eliminated Week 7,6,7,0.8412187092686023,233.75,-70.0,1,0.848094176763686,0.39554872416730097
+33,1,Eric Roberts,150.0,9.0,True,Britt Stewart,Actor/Actress,68,California,United States,Eliminated Week 3,10,3,-1.705605730844883,0.0,,1,-1.6696215963119947,0.6973711858567289
+33,2,Eric Roberts,150.0,7.0,True,Britt Stewart,Actor/Actress,68,California,United States,Eliminated Week 3,10,3,-1.7531592546671533,150.0,0.0,1,-0.4180391657588629,0.5520654754170602
+33,3,Eric Roberts,172.5,8.0,True,Britt Stewart,Actor/Actress,68,California,United States,Eliminated Week 3,10,3,-0.1264650687267502,150.0,22.5,0,1.8485856951910744,0.2840840050785303
+33,1,Ilona Maher,180.0,6.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,-0.4264014327112208,0.0,,0,-6.3483741189009315,0.959851251601927
+33,2,Ilona Maher,210.0,3.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.4174188701588464,180.0,30.0,0,-3.009857468547609,0.8183084291253511
+33,3,Ilona Maher,210.0,6.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.3061785874437114,195.0,0.0,0,-4.405532534689952,0.9004976477034892
+33,4,Ilona Maher,240.0,3.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.5942212274972601,200.0,30.0,0,-2.631539029418817,0.7884770029452328
+33,5,Ilona Maher,260.0,2.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.8163427318076172,210.0,20.0,0,-1.7902192163317623,0.7099434897763112
+33,6,Ilona Maher,240.0,4.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.5291199675557485,220.0,-20.0,1,-2.9142802004893857,0.8110948708116567
+33,7,Ilona Maher,260.0,4.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,0.985111383222442,223.33333333333331,20.0,0,-2.2816702953514234,0.7578329401227895
+33,8,Ilona Maher,285.0,2.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,1.2491290915431357,228.57142857142856,25.0,0,-0.9658465308863367,0.61843792332319
+33,9,Ilona Maher,285.0,3.0,True,Alan Bersten,Athlete,28,California,United States,2nd Place,2,999,1.1739607574087327,235.625,0.0,0,-1.4912790711800161,0.6782278344037244
+33,1,Jenn Tran,190.0,5.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,0.0,0.0,,0,-0.18074766697875688,0.5225780933810769
+33,2,Jenn Tran,190.0,5.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,-0.3061071714498201,190.0,0.0,0,-0.08396154023178148,0.510493651419699
+33,3,Jenn Tran,232.5,3.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,0.5657647811459884,190.0,42.5,0,2.284875572334185,0.24187306172233794
+33,4,Jenn Tran,240.0,3.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,0.5942212274972601,204.16666666666663,7.5,0,2.382406097364428,0.23304384052202587
+33,5,Jenn Tran,255.0,3.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,0.7773263512432825,213.125,15.0,0,2.734870294264141,0.20303455308275542
+33,6,Jenn Tran,310.0,2.0,True,Sasha Farber,TV Personality,26,Florida,United States,Eliminated Week 6,7,6,0.9833644680045516,221.5,55.0,0,3.5424256714622526,0.1453915658086089
+33,1,Joey Graziadei,210.0,3.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,0.8528028654224417,0.0,,0,-3.845494763134406,0.872444489297952
+33,2,Joey Graziadei,220.0,2.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,0.7791818909631797,210.0,10.0,0,-2.8556663677262657,0.8065634761850622
+33,3,Joey Graziadei,262.5,1.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,0.9118797060823578,215.0,42.5,0,-2.1885724532454978,0.7491879864276106
+33,4,Joey Graziadei,270.0,1.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,0.8474958490534694,230.83333333333331,7.5,0,-2.2489729169305543,0.7548199598226413
+33,5,Joey Graziadei,260.0,2.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,0.8163427318076172,240.625,-10.0,0,-2.6877225344749123,0.7931242083074257
+33,6,Joey Graziadei,320.0,1.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,1.0482565394972376,244.5,60.0,0,-1.8496559904690288,0.7160248208227086
+33,7,Joey Graziadei,275.0,2.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,1.093030888687822,257.0833333333333,-45.0,0,-2.145339984717156,0.7451043428577176
+33,8,Joey Graziadei,290.0,1.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,1.284353990003137,259.6428571428572,15.0,0,-1.3831638988851536,0.6663187468380154
+33,9,Joey Graziadei,295.0,2.0,True,Jenna Johnson,TV Personality,29,Louisiana,United States,1st Place,1,999,1.2417896011701262,263.4375,5.0,0,-1.862081909570517,0.717286424922143
+33,1,Phaedra Parks,190.0,5.0,True,Val Chmerkovskiy,TV Personality,51,Georgia,United States,Eliminated Week 5,8,5,0.0,0.0,,0,0.8192523330212431,0.3990017627960641
+33,2,Phaedra Parks,210.0,3.0,True,Val Chmerkovskiy,TV Personality,51,Georgia,United States,Eliminated Week 5,8,5,0.4174188701588464,190.0,20.0,0,3.0236108357321783,0.18067138443180086
+33,3,Phaedra Parks,210.0,6.0,True,Val Chmerkovskiy,TV Personality,51,Georgia,United States,Eliminated Week 5,8,5,0.3061785874437114,200.0,0.0,0,1.6112016174499413,0.3088287281044962
+33,4,Phaedra Parks,240.0,3.0,True,Val Chmerkovskiy,TV Personality,51,Georgia,United States,Eliminated Week 5,8,5,0.5942212274972601,203.33333333333331,30.0,0,3.379617072007779,0.1558010211612692
+33,5,Phaedra Parks,240.0,4.0,True,Val Chmerkovskiy,TV Personality,51,Georgia,United States,Eliminated Week 5,8,5,0.6602772095502786,212.5,0.0,1,3.2916108652920553,0.16167666350764967
+33,1,Reginald VelJohnson,160.0,8.0,True,Emma Slater,Actor/Actress,74,New York,United States,Eliminated Week 3,10,3,-1.2792042981336624,0.0,,1,-0.5019951443898165,0.5624220221540043
+33,2,Reginald VelJohnson,150.0,7.0,True,Emma Slater,Actor/Actress,74,New York,United States,Eliminated Week 3,10,3,-1.7531592546671533,160.0,-10.0,1,-0.3845708614790748,0.5479237886673859
+33,3,Reginald VelJohnson,157.5,9.0,True,Emma Slater,Actor/Actress,74,New York,United States,Eliminated Week 3,10,3,-0.2995225311949349,155.0,7.5,1,1.3255111188260091,0.3401208852701929
+33,1,Stephen Nedoroscik,210.0,3.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.8528028654224417,0.0,,0,-0.8454947631344059,0.6041404868723692
+33,2,Stephen Nedoroscik,220.0,2.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.7791818909631797,210.0,10.0,0,0.1443336322737343,0.4819661220636874
+33,3,Stephen Nedoroscik,232.5,3.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.5657647811459884,215.0,12.5,0,-0.6314536669663458,0.5782824971891939
+33,4,Stephen Nedoroscik,247.5,2.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.6575398828863125,220.83333333333331,15.0,0,-0.03364323563839822,0.5042053052917765
+33,5,Stephen Nedoroscik,240.0,4.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.6602772095502786,227.5,-7.5,1,-0.6581866782882635,0.5815387559500509
+33,6,Stephen Nedoroscik,280.0,3.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,0.7886882535264931,230.0,40.0,0,-0.18864151941102403,0.5235627238866829
+33,7,Stephen Nedoroscik,270.0,3.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,1.057057720199362,238.33333333333331,-10.0,0,0.3118972726674931,0.46109166312825656
+33,8,Stephen Nedoroscik,265.0,4.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,1.108229497703129,242.8571428571429,-5.0,1,0.18213835822026558,0.4772484274108211
+33,9,Stephen Nedoroscik,295.0,2.0,True,Rylee Arnold,Athlete,26,Florida,United States,4th Place,4,999,1.2417896011701262,245.625,30.0,0,1.0783026734311116,0.36838502504830306
+33,1,Tori Spelling,170.0,7.0,True,Pasha Pashkov,Actor/Actress,51,California,United States,Eliminated Week 2,12,2,-0.8528028654224417,0.0,,0,2.483999429176894,0.2240880982819508
+33,2,Tori Spelling,190.0,5.0,True,Pasha Pashkov,Actor/Actress,51,California,United States,Eliminated Week 2,12,2,-0.3061071714498201,170.0,20.0,0,4.849101851208643,0.08131962219105403
+34,1,Alix Earle,195.0,3.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.6147855193034023,0.0,,0,-3.264687572876828,0.8364904610938922
+34,2,Alix Earle,210.0,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.4935176987399279,195.0,15.0,0,-2.408976590589888,0.7693222638031796
+34,3,Alix Earle,230.0,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.5792393267904898,202.5,20.0,0,-2.2329036340412305,0.7533299719709252
+34,4,Alix Earle,240.0,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.6444163369068286,211.66666666666663,10.0,0,-2.0874355195698877,0.7395667130907527
+34,5,Alix Earle,262.5,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.8436919765274548,218.75,22.5,0,-1.712767344094984,0.7019045464765559
+34,6,Alix Earle,262.5,3.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.6568536036862068,227.5,0.0,0,-2.429193930663722,0.7711113182525798
+34,7,Alix Earle,322.5,1.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,1.0303150042638334,233.33333333333331,60.0,0,-0.918627310316702,0.6128513434412586
+34,8,Alix Earle,288.75,3.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,0.8747112652622343,246.07142857142856,-33.75,0,-1.983350652191425,0.7294187035915294
+34,9,Alix Earle,300.0,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,1.0217740231167909,251.40625,11.25,0,-1.2898368116120196,0.6558644251199576
+34,10,Alix Earle,290.0,2.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,1.1348695522948449,256.80555555555554,-10.0,0,-1.072583992638807,0.6309494207654432
+34,11,Alix Earle,300.0,1.0,True,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2nd Place,2,999,1.3244851331988192,260.125,10.0,0,-0.3108718422887824,0.5387809317139423
+34,1,Andy Richter,135.0,6.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,-1.2978805407516278,0.0,,1,-2.701579015628962,0.7942586730913747
+34,2,Andy Richter,160.0,6.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,-1.665622233247259,135.0,25.0,1,-2.8974184159319165,0.8097997003429995
+34,3,Andy Richter,180.0,6.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,-0.0445568712915763,147.5,20.0,1,-0.0005854695036902058,0.5000731836874386
+34,4,Andy Richter,180.0,6.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.0292916516775831,158.33333333333334,0.0,1,0.1657328424247151,0.4792952413697143
+34,5,Andy Richter,180.0,7.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.109632290735206,163.75,0.0,1,-0.09129791930017905,0.5114102585637701
+34,6,Andy Richter,202.5,6.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.166402912933839,167.0,22.5,1,0.4362171352925186,0.44568799550901134
+34,7,Andy Richter,217.5,8.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.2823826307982358,172.91666666666666,15.0,1,-0.1730273983510653,0.521614944837702
+34,8,Andy Richter,255.0,7.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.6426825927926731,179.28571428571428,37.5,1,0.8994981933555959,0.38942042221943046
+34,9,Andy Richter,217.5,5.0,True,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,Eliminated Week 9,7,9,0.4791767832547709,188.75,-37.5,1,1.4765178807462656,0.3233849828283528
+34,1,Baron Davis,150.0,5.0,True,Britt Stewart,Athlete,46,California,United States,Eliminated Week 2,13,2,-0.8197140257378703,0.0,,1,4.557215372793504,0.09291022791819202
+34,2,Baron Davis,180.0,5.0,True,Britt Stewart,Athlete,46,California,United States,Eliminated Week 2,13,2,-0.8019662604523842,150.0,30.0,0,4.908865173790449,0.07911500634683355
+34,1,Corey Feldman,135.0,6.0,True,Jenna Johnson,Actor/Actress,54,California,United States,Eliminated Week 2,13,2,-1.2978805407516278,0.0,,1,3.298420984371038,0.16121568236407607
+34,2,Corey Feldman,150.0,7.0,True,Jenna Johnson,Actor/Actress,54,California,United States,Eliminated Week 2,13,2,-2.0974502196446965,135.0,15.0,1,1.9253979619478763,0.27633813946940955
+34,1,Danielle Fishel,180.0,4.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.1366190042896447,0.0,,0,1.476518038700707,0.3233849655475736
+34,2,Danielle Fishel,190.0,4.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,-0.3701382740549468,180.0,10.0,0,1.1864537087500189,0.3558948070746398
+34,3,Danielle Fishel,210.0,4.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.3297208475576634,185.0,20.0,0,2.4357699243245996,0.22830887210769685
+34,4,Danielle Fishel,210.0,5.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.3368539942922059,193.33333333333331,0.0,0,2.059568743233908,0.26312591036181565
+34,5,Danielle Fishel,217.5,6.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.4432957842771373,197.5,7.5,0,1.8443234241938633,0.28451763538887803
+34,6,Danielle Fishel,270.0,2.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.7181599400302527,201.5,52.5,0,4.008414570011059,0.1187618913200568
+34,7,Danielle Fishel,262.5,5.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.6029250765692062,212.91666666666663,-7.5,0,2.593711495283811,0.21469466505865697
+34,8,Danielle Fishel,277.5,6.0,True,Pasha Pashkov,Actor/Actress,44,California,United States,Eliminated Week 8,8,8,0.7973683744390472,220.0,15.0,0,2.5432147857001643,0.21898221711122776
+34,1,Dylan Efron,150.0,5.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,-0.8197140257378703,0.0,,1,-4.442784627206496,0.9021541668798537
+34,2,Dylan Efron,200.0,3.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.0616897123424905,150.0,50.0,0,-1.736767581969139,0.7044092872714347
+34,3,Dylan Efron,230.0,2.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.5792393267904898,175.0,30.0,0,-0.3249414708106464,0.5405285712027423
+34,4,Dylan Efron,230.0,3.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.5418955560352877,193.33333333333331,0.0,0,-0.7460064705328069,0.5921844661359453
+34,5,Dylan Efron,270.0,1.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.910424675235841,202.5,40.0,0,0.7670295864972161,0.4052794521545183
+34,6,Dylan Efron,240.0,4.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.4729345946540689,216.0,-30.0,0,-1.2082522908276356,0.6465997349320111
+34,7,Dylan Efron,285.0,4.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.7631962994546915,220.0,45.0,0,-0.6836601280402093,0.584634998759618
+34,8,Dylan Efron,285.0,4.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,0.8489303016545052,229.28571428571428,0.0,0,-0.5015888954064378,0.5623720318737844
+34,9,Dylan Efron,315.0,1.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,1.1204280667280673,236.25,30.0,0,1.2498401394320715,0.34866328705799465
+34,10,Dylan Efron,275.0,4.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,1.033022284781205,245.0,-40.0,1,0.05685624973933745,0.4928934473777506
+34,11,Dylan Efron,293.332,3.0,True,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4th Place,4,999,1.279083741173894,248.0,18.331999999999997,0,0.7352790791185457,0.4091115149245973
+34,1,Elaine Hendrix,180.0,4.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.1366190042896447,0.0,,0,-1.523481961299293,0.6817316001306708
+34,2,Elaine Hendrix,210.0,2.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.4935176987399279,180.0,30.0,0,0.5408209529904298,0.43280632642999106
+34,3,Elaine Hendrix,210.0,4.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.3297208475576634,195.0,0.0,0,-0.5307617713956132,0.565958569613687
+34,4,Elaine Hendrix,240.0,2.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.6444163369068286,200.0,30.0,0,0.8735181254370268,0.3925134901024658
+34,5,Elaine Hendrix,225.0,5.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.5100284829855236,210.0,-15.0,0,-0.5796582704095474,0.5719543018861785
+34,6,Elaine Hendrix,270.0,2.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.7181599400302527,213.0,45.0,0,1.0469031199328143,0.37204549837069967
+34,7,Elaine Hendrix,240.0,7.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.442653853683721,222.5,-30.0,0,-1.4897906068414528,0.6780653954771793
+34,8,Elaine Hendrix,281.25,5.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.8231493380467763,225.0,41.25,0,0.022008241728284972,0.49724899754397067
+34,9,Elaine Hendrix,270.0,4.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,0.8244659358942381,232.03125,-11.25,0,0.4645136494096036,0.44219540772079335
+34,10,Elaine Hendrix,285.0,3.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,1.1009204631236316,236.25,15.0,0,1.3821751565615,0.3337911797304433
+34,11,Elaine Hendrix,289.99800000000005,4.0,True,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5th Place,5,999,1.2563830451614315,241.125,4.998000000000047,1,1.4372671184549421,0.32769395344552993
+34,1,Hilaria Baldwin,210.0,2.0,True,Gleb Savchenko,Entrepreneur,41,New York,United States,Eliminated Week 4,11,4,1.09295203431716,0.0,,0,6.994106815545638,0.029396186590060342
+34,2,Hilaria Baldwin,210.0,2.0,True,Gleb Savchenko,Entrepreneur,41,New York,United States,Eliminated Week 4,11,4,0.4935176987399279,210.0,0.0,0,6.641225865829793,0.0348707745128988
+34,3,Hilaria Baldwin,220.0,3.0,True,Gleb Savchenko,Entrepreneur,41,New York,United States,Eliminated Week 4,11,4,0.4544800871740766,210.0,10.0,0,6.155819139596339,0.04402771627364153
+34,4,Hilaria Baldwin,230.0,3.0,True,Gleb Savchenko,Entrepreneur,41,New York,United States,Eliminated Week 4,11,4,0.5418955560352877,213.33333333333331,10.0,0,6.320930138026768,0.04068089992718427
+34,1,Jen Affleck,180.0,4.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.1366190042896447,0.0,,0,2.476518038700707,0.22473917399049795
+34,2,Jen Affleck,220.0,1.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.9253456851373651,180.0,40.0,0,5.718004575110636,0.05421783869543424
+34,3,Jen Affleck,190.0,5.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.0802023683248369,200.0,-30.0,0,2.629869704182002,0.21166223645471016
+34,4,Jen Affleck,230.0,3.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.5418955560352877,196.66666666666663,40.0,0,4.265149630893789,0.10597080349792828
+34,5,Jen Affleck,217.5,6.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.4432957842771373,205.0,-12.5,0,2.869424652403703,0.1923655109170122
+34,6,Jen Affleck,240.0,4.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.4729345946540689,207.5,22.5,0,3.7632996505345453,0.1321994861190318
+34,7,Jen Affleck,255.0,6.0,True,Jan Ravnik,TV Personality,26,Utah,United States,Eliminated Week 7,9,7,0.5495013356073778,212.91666666666663,15.0,0,3.0829681198474805,0.1763196396930731
+34,1,Jordan Chiles,150.0,5.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,-0.8197140257378703,0.0,,1,-5.442784627206496,0.9382772161289602
+34,2,Jordan Chiles,220.0,1.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.9253456851373651,150.0,70.0,0,-0.3824003377287273,0.5476549517523835
+34,3,Jordan Chiles,240.0,1.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.7039985664069031,185.0,20.0,0,-0.6550947119585873,0.5811624913781093
+34,4,Jordan Chiles,240.0,2.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.6444163369068286,203.33333333333331,0.0,0,-1.1153257731363775,0.6359116050690412
+34,5,Jordan Chiles,240.0,4.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.643493880402296,212.5,0.0,0,-1.919579576828153,0.7230797152887709
+34,6,Jordan Chiles,292.5,1.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.9020789490623908,218.0,52.5,0,-0.19579291768513318,0.5244545873431753
+34,7,Jordan Chiles,285.0,4.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.7631962994546915,230.41666666666663,-7.5,0,-1.648797311082097,0.6951692540250993
+34,8,Jordan Chiles,292.5,2.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.9004922288699633,238.2142857142857,7.5,0,-0.5475878730944608,0.5680240727144653
+34,9,Jordan Chiles,292.5,3.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,0.9724470013111528,245.0,0.0,0,-0.8148057351914617,0.6004649720311254
+34,10,Jordan Chiles,285.0,3.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,1.1009204631236316,250.27777777777777,-7.5,0,-0.5708762499349094,0.5708789454046341
+34,11,Jordan Chiles,296.666,2.0,True,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3rd Place,3,999,1.3017844371863565,253.75,11.665999999999997,0,0.21115773390613812,0.4736297742283254
+34,1,Lauren Jauregui,195.0,3.0,True,Brandon Armstrong,Singer/Rapper,29,Florida,United States,Eliminated Week 3,12,3,0.6147855193034023,0.0,,0,6.735312427123172,0.033321722926443136
+34,2,Lauren Jauregui,210.0,2.0,True,Brandon Armstrong,Singer/Rapper,29,Florida,United States,Eliminated Week 3,12,3,0.4935176987399279,195.0,15.0,0,7.591023409410112,0.021977538012110328
+34,3,Lauren Jauregui,180.0,6.0,True,Brandon Armstrong,Singer/Rapper,29,Florida,United States,Eliminated Week 3,12,3,-0.0445568712915763,202.5,-30.0,1,5.1834902040351425,0.06967158482565104
+34,1,Robert Irwin,225.0,1.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,1.5711185493309174,0.0,,0,-1.747098796031897,0.7054837167839632
+34,2,Robert Irwin,220.0,1.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.9253456851373651,225.0,-5.0,0,-2.1313880556303197,0.7437771768783311
+34,3,Robert Irwin,220.0,3.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.4544800871740766,222.5,0.0,0,-3.8023454800539263,0.8700241990901292
+34,4,Robert Irwin,220.0,4.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.4393747751637468,221.66666666666663,0.0,0,-4.248392001523385,0.8932327544925489
+34,5,Robert Irwin,262.5,2.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.8436919765274548,221.25,42.5,0,-2.704400268025037,0.7944890904226054
+34,6,Robert Irwin,270.0,2.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.7181599400302527,229.5,7.5,0,-2.8978741780055355,0.8098347970471172
+34,7,Robert Irwin,307.5,3.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.9234675223401766,236.25,37.5,0,-2.9303524724410903,0.8123230902567808
+34,8,Robert Irwin,285.0,4.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,0.8489303016545052,246.42857142857144,-22.5,0,-3.44421465949823,0.8484000746324228
+34,9,Robert Irwin,315.0,1.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,1.1204280667280673,251.25,30.0,0,-1.6999574041482468,0.7005626747288882
+34,10,Robert Irwin,295.0,1.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,1.1688186414660582,258.3333333333333,-20.0,0,-1.5910258874825987,0.6890138390203288
+34,11,Robert Irwin,296.666,2.0,True,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1st Place,1,999,1.3017844371863565,262.0,1.6659999999999968,0,-1.7612309150630372,0.7069497427788912
+34,1,Scott Hoying,150.0,5.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,-0.8197140257378703,0.0,,1,1.5572153727935039,0.31462003906921954
+34,2,Scott Hoying,180.0,5.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,-0.8019662604523842,150.0,30.0,0,1.9088651737904492,0.27799426724757076
+34,3,Scott Hoying,220.0,3.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,0.4544800871740766,165.0,40.0,0,5.005211770337295,0.07567569957851905
+34,4,Scott Hoying,210.0,5.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,0.3368539942922059,183.33333333333331,-10.0,0,4.026100438954121,0.1178395274083276
+34,5,Scott Hoying,225.0,5.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,0.5100284829855236,190.0,15.0,0,4.353405121030877,0.10186220261967752
+34,6,Scott Hoying,210.0,5.0,True,Rylee Arnold,Singer/Rapper,34,California,United States,Eliminated Week 6,10,6,0.227709249277885,197.0,-15.0,0,3.8796162615786445,0.12566893687158795
+34,1,Whitney Leavitt,225.0,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,1.5711185493309174,0.0,,0,3.252901203968103,0.16431717351843042
+34,2,Whitney Leavitt,220.0,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.9253456851373651,225.0,-5.0,0,2.8686119443696803,0.1924286503841359
+34,3,Whitney Leavitt,240.0,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.7039985664069031,222.5,20.0,0,2.4704114290906163,0.2252716028674228
+34,4,Whitney Leavitt,250.00000000000003,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.7469371177783699,228.33333333333331,10.000000000000028,0,2.565557380679735,0.2170776002438718
+34,5,Whitney Leavitt,247.5,3.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.7102265791106823,233.75,-2.5000000000000284,0,1.6857234948132511,0.30093240945157473
+34,6,Whitney Leavitt,292.5,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.9020789490623908,236.5,45.0,0,2.866123445232474,0.19262208059891453
+34,7,Whitney Leavitt,315.0,2.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.976891263302005,245.83333333333331,22.5,0,2.612464694596703,0.21311799169660792
+34,8,Whitney Leavitt,296.25,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,0.9262731924776922,255.7142857142857,-18.75,0,2.9730409632833936,0.18444455855909087
+34,9,Whitney Leavitt,315.0,1.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,1.1204280667280673,260.78125,18.75,0,3.3319420733684257,0.158962083775628
+34,10,Whitney Leavitt,290.0,2.0,True,Mark Ballas,TV Personality,32,Utah,United States,Eliminated Week 10,6,10,1.1348695522948449,266.80555555555554,-25.0,0,2.960884311640981,0.1853606435577207

@@ -1,0 +1,28 @@
+celebrity_name,season,rule,actual_elimination_week,simulated_elimination_week,weeks_survived,saved_by_rule
+Bobby Bones,27,rank_sum,999,,9,True
+Bobby Bones,27,percent_sum,999,,9,True
+Bobby Bones,27,judge_save,999,8.0,8,False
+Billy Ray Cyrus,4,rank_sum,8,8.0,8,False
+Billy Ray Cyrus,4,percent_sum,8,7.0,7,False
+Billy Ray Cyrus,4,judge_save,8,7.0,7,False
+Bristol Palin,11,rank_sum,999,,9,True
+Bristol Palin,11,percent_sum,999,,9,True
+Bristol Palin,11,judge_save,999,7.0,7,False
+Bristol Palin,15,rank_sum,4,2.0,2,False
+Bristol Palin,15,percent_sum,4,4.0,4,False
+Bristol Palin,15,judge_save,4,2.0,2,False
+Sabrina Bryan,5,rank_sum,6,,6,True
+Sabrina Bryan,5,percent_sum,6,6.0,6,False
+Sabrina Bryan,5,judge_save,6,,6,True
+Jerry Rice,2,rank_sum,999,,7,True
+Jerry Rice,2,percent_sum,999,,7,True
+Jerry Rice,2,judge_save,999,7.0,7,False
+Kim Kardashian,7,rank_sum,2,2.0,2,False
+Kim Kardashian,7,percent_sum,2,2.0,2,False
+Kim Kardashian,7,judge_save,2,,2,True
+Master P,2,rank_sum,4,3.0,3,False
+Master P,2,percent_sum,4,3.0,3,False
+Master P,2,judge_save,4,2.0,2,False
+Kate Gosselin,10,rank_sum,5,5.0,5,False
+Kate Gosselin,10,percent_sum,5,5.0,5,False
+Kate Gosselin,10,judge_save,5,4.0,4,False

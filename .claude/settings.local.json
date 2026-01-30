@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python data_processing.py:*)",
+      "Bash(python validate_data.py:*)",
+      "Bash(wc:*)",
+      "Bash(python view_data.py:*)",
+      "Bash(python interactive_view.py:*)",
+      "Bash(python -c:*)",
+      "Bash(pip install:*)",
+      "Bash(python visualize_ridge.py:*)",
+      "Bash(python compare_ridge_models.py:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

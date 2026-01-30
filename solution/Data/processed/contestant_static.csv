@@ -1,0 +1,422 @@
+season,celebrity_name,ballroom_partner,celebrity_industry,celebrity_age_during_season,celebrity_homestate,celebrity_homecountry/region,placement,results,elimination_week,avg_judge_score,age_group
+1,Evander Holyfield,Edyta Sliwinska,Athlete,42,Alabama,United States,5,Eliminated Week 3,3,150.0,40-50
+1,Joey McIntyre,Ashly DelGrosso,Singer/Rapper,32,Massachusetts,United States,3,3rd Place,999,175.83333333333334,30-40
+1,John O'Hurley,Charlotte Jorgensen,Actor/Actress,50,Maine,United States,2,2nd Place,999,241.66666666666666,50-60
+1,Kelly Monaco,Alec Mazo,Actor/Actress,29,Pennsylvania,United States,1,1st Place,999,213.33333333333334,20-30
+1,Rachel Hunter,Jonathan Roberts,Model,35,,New Zealand,4,Eliminated Week 4,4,237.5,30-40
+1,Trista Sutter,Louis van Amstel,TV Personality,32,Indiana,United States,6,Eliminated Week 2,2,185.0,30-40
+2,Drew Lachey,Cheryl Burke,Singer/Rapper,29,Ohio,United States,1,1st Place,999,274.37475,20-30
+2,George Hamilton,Edyta Sliwinska,Actor/Actress,66,Tennessee,United States,5,Eliminated Week 6,6,216.66666666666666,60+
+2,Giselle Fernandez,Jonathan Roberts,News Anchor,44,,Mexico,8,Eliminated Week 3,3,230.0,40-50
+2,Jerry Rice,Anna Trebunskaya,Athlete,43,Mississippi,United States,2,2nd Place,999,225.20825,40-50
+2,Kenny Mayne,Andrea Hale,Sports Broadcaster,46,Washington,United States,10,Eliminated Week 1,1,130.0,40-50
+2,Lisa Rinna,Louis van Amstel,Actor/Actress,42,California,United States,4,Eliminated Week 7,7,240.71428571428572,40-50
+2,Master P,Ashly DelGrosso,Singer/Rapper,35,Louisiana,United States,7,Eliminated Week 4,4,125.0,30-40
+2,Stacy Keibler,Tony Dovolani,Athlete,26,Maryland,United States,3,3rd Place,999,275.208125,20-30
+2,Tatum O'Neal,Nick Kosovich,Actor/Actress,42,California,United States,9,Eliminated Week 2,2,200.0,40-50
+2,Tia Carrere,Maksim Chmerkoskiy,Actor/Actress,39,Hawaii,United States,6,Eliminated Week 5,5,230.0,30-40
+3,Emmitt Smith,Cheryl Burke,Athlete,37,Florida,United States,1,1st Place,999,257.6666,30-40
+3,Harry Hamlin,Ashly DelGrosso,Actor/Actress,54,California,United States,9,Eliminated Week 3,3,200.0,50-60
+3,Jerry Springer,Kym Johnson,TV Personality,62,,England,5,Eliminated Week 7,7,204.28571428571428,60+
+3,Joey Lawrence,Edyta Sliwinska,Actor/Actress,30,Pennsylvania,United States,3,3rd Place,999,233.0,30-40
+3,Mario Lopez,Karina Smirnoff,Actor/Actress,32,California,United States,2,2nd Place,999,268.6666,30-40
+3,Monique Coleman,Louis van Amstel,Actor/Actress,25,South Carolina,United States,4,Eliminated Week 8,8,249.375,20-30
+3,Sara Evans,Tony Dovolani,Singer/Rapper,35,Missouri,United States,6,Withdrew,-1,105.0,30-40
+3,Shanna Moakler,Jesse DeSoto,Model,31,Rhode Island,United States,10,Eliminated Week 2,2,200.0,30-40
+3,Tucker Carlson,Elena Grinenko,TV Personality,37,California,United States,11,Eliminated Week 1,1,120.0,30-40
+3,Vivica A. Fox,Nick Kosovich,Actor/Actress,42,Indiana,United States,8,Eliminated Week 4,4,242.5,40-50
+3,Willa Ford,Maksim Chmerkoskiy,Singer/Rapper,25,Florida,United States,7,Eliminated Week 5,5,244.0,20-30
+4,Apolo Anton Ohno,Julianne Hough,Athlete,24,Washington,United States,1,1st Place,999,268.8332,20-30
+4,Billy Ray Cyrus,Karina Smirnoff,Singer/Rapper,45,Kentucky,United States,5,Eliminated Week 8,8,190.0,40-50
+4,Clyde Drexler,Elena Grinenko,Athlete,44,Louisiana,United States,8,Eliminated Week 5,5,156.0,40-50
+4,Heather Mills,Jonathan Roberts,Model,39,,England,7,Eliminated Week 6,6,221.66666666666666,30-40
+4,Ian Ziering,Cheryl Burke,Actor/Actress,42,New Jersey,United States,4,Eliminated Week 9,9,242.77777777777777,40-50
+4,Joey Fatone,Kym Johnson,Singer/Rapper,30,New York,United States,2,2nd Place,999,267.6665,30-40
+4,John Ratzenberger,Edyta Sliwinska,Actor/Actress,59,Connecticut,United States,6,Eliminated Week 7,7,190.71428571428572,50-60
+4,Laila Ali,Maksim Chmerkoskiy,Athlete,29,Florida,United States,3,3rd Place,999,262.3332,20-30
+4,Leeza Gibbons,Tony Dovolani,TV Personality,50,South Carolina,United States,9,Eliminated Week 4,4,190.0,50-60
+4,Paulina Porizkova,Alec Mazo,Model,41,,Czechoslovakia,11,Eliminated Week 2,2,200.0,40-50
+4,Shandi Finnessey,Brian Fortuna,Beauty Pagent,28,Missouri,United States,10,Eliminated Week 3,3,200.0,20-30
+5,Albert Reed,Anna Trebunskaya,Model,22,Florida,United States,11,Eliminated Week 2,2,210.0,20-30
+5,Cameron Mathison,Edyta Sliwinska,Actor/Actress,38,,Canada,5,Eliminated Week 8,8,242.5,30-40
+5,Floyd Mayweather Jr. ,Karina Smirnoff,Athlete,30,Michigan,United States,9,Eliminated Week 4,4,207.5,30-40
+5,Helio Castroneves,Julianne Hough,Racing Driver,32,,Brazil,1,1st Place,999,266.49989999999997,30-40
+5,Jane Seymour,Tony Dovolani,Actor/Actress,56,,England,6,Eliminated Week 7,7,244.28571428571428,50-60
+5,Jennie Garth,Derek Hough,Actor/Actress,35,Illinois,United States,4,Eliminated Week 9,9,252.77777777777777,30-40
+5,Josie Maran,Alec Mazo,Model,29,California,United States,12,Eliminated Week 1,1,160.0,20-30
+5,Marie Osmond,Jonathan Roberts,Singer/Rapper,47,Utah,United States,3,3rd Place,999,242.5,40-50
+5,Mark Cuban,Kym Johnson,TV Personality,49,Pennsylvania,United States,8,Eliminated Week 5,5,204.0,40-50
+5,Mel B,Maksim Chmerkoskiy,Singer/Rapper,32,,England,2,2nd Place,999,272.3332,30-40
+5,Sabrina Bryan,Mark Ballas,Actor/Actress,23,California,United States,7,Eliminated Week 6,6,270.0,20-30
+5,Wayne Newton,Cheryl Burke,Singer/Rapper,65,Virginia,United States,10,Eliminated Week 3,3,173.33333333333334,60+
+6,Adam Carolla,Julianne Hough,Radio Personality,43,California,United States,9,Eliminated Week 4,4,185.0,40-50
+6,Cristian de la Fuente,Cheryl Burke,Actor/Actress,34,,Chile,3,3rd Place,999,247.5,30-40
+6,Jason Taylor,Edyta Sliwinska,Athlete,33,Pennsylvania,United States,2,2nd Place,999,261.5,30-40
+6,Kristi Yamaguchi,Mark Ballas,Athlete,36,California,United States,1,1st Place,999,282.0,30-40
+6,Mario,Karina Smirnoff,Singer/Rapper,21,Maryland,United States,5,Eliminated Week 8,8,252.5,20-30
+6,Marissa Jaret Winokur,Tony Dovolani,Actor/Actress,35,New York,United States,4,Eliminated Week 9,9,232.22222222222223,30-40
+6,Marlee Matlin,Fabian Sanchez,Actor/Actress,42,Illinois,United States,7,Eliminated Week 6,6,223.33333333333334,40-50
+6,Monica Seles,Jonathan Roberts,Athlete,34,,Yugoslavia,11,Eliminated Week 2,2,150.0,30-40
+6,Penn Jillette,Kym Johnson,Magician,53,Massachusetts,United States,12,Eliminated Week 2,2,165.0,50-60
+6,Priscilla Presley,Louis van Amstel,Actor/Actress,62,New York,United States,8,Eliminated Week 5,5,228.0,60+
+6,Shannon Elizabeth,Derek Hough,Actor/Actress,34,Texas,United States,6,Eliminated Week 7,7,242.14285714285714,30-40
+6,Steve Guttenberg,Anna Trebunskaya,Actor/Actress,49,New York,United States,10,Eliminated Week 3,3,183.33333333333334,40-50
+7,Brooke Burke,Derek Hough,TV Personality,37,Connecticut,United States,1,1st Place,999,269.5,30-40
+7,Cloris Leachman,Corky Ballas,Actor/Actress,82,Iowa,United States,7,Eliminated Week 6,6,175.0,60+
+7,Cody Linley,Julianne Hough,Actor/Actress,18,Texas,United States,4,Eliminated Week 9,9,228.33333333333334,<20
+7,Jeffrey Ross,Edyta Sliwinska,Comedian,43,New Jersey,United States,13,Eliminated Week 1,1,120.0,40-50
+7,Kim Kardashian,Mark Ballas,TV Personality,27,California,United States,11,Eliminated Week 2,2,177.5,20-30
+7,Lance Bass,Lacey Schwimmer,Singer/Rapper,29,Mississippi,United States,3,3rd Place,999,243.5,20-30
+7,Maurice Greene,Cheryl Burke,Athlete,34,Kansas,United States,5,Eliminated Week 8,8,224.375,30-40
+7,Misty May-Treanor,Maksim Chmerkoskiy,Athlete,31,California,United States,10,Withdrew,-1,42.0,30-40
+7,Rocco DiSpirito,Karina Smirnoff,TV Personality,41,New York,United States,9,Eliminated Week 4,4,178.75,40-50
+7,Susan Lucci,Tony Dovolani,Actor/Actress,61,New York,United States,6,Eliminated Week 7,7,219.28571428571428,60+
+7,Ted McGinley,Inna Brayer,Actor/Actress,50,California,United States,12,Eliminated Week 1,1,185.0,50-60
+7,Toni Braxton,Alec Mazo,Singer/Rapper,40,Maryland,United States,8,Eliminated Week 5,5,223.0,40-50
+7,Warren Sapp,Kym Johnson,Athlete,35,Florida,United States,2,2nd Place,999,242.5,30-40
+8,Belinda Carlisle,Jonathan Roberts,Singer/Rapper,50,California,United States,13,Eliminated Week 2,2,175.0,50-60
+8,Chuck Wicks,Julianne Hough,Singer/Rapper,29,Delaware,United States,6,Eliminated Week 8,8,229.375,20-30
+8,David Alan Grier,Kym Johnson,Actor/Actress,52,Michigan,United States,9,Eliminated Week 5,5,208.0,50-60
+8,Denise Richards,Maksim Chmerkoskiy,Actor/Actress,38,Illinois,United States,12,Eliminated Week 3,3,183.33333333333334,30-40
+8,Gilles Marini,Cheryl Burke,Actor/Actress,33,,France,2,2nd Place,999,276.8181818181818,30-40
+8,Holly Madison,Dmitry Chaplin,TV Personality,30,Oregon,United States,11,Eliminated Week 4,4,172.5,30-40
+8,Lawrence Taylor,Edyta Sliwinska,Athlete,50,Virginia,United States,7,Eliminated Week 7,7,197.14285714285714,50-60
+8,Lil' Kim,Derek Hough,Singer/Rapper,34,New York,United States,5,Eliminated Week 9,9,255.55555555555554,30-40
+8,Melissa Rycroft,Tony Dovolani,TV Personality,26,Texas,United States,3,3rd Place,999,266.8181818181818,20-30
+8,Shawn Johnson,Mark Ballas,Athlete,17,Iowa,United States,1,1st Place,999,264.54545454545456,<20
+8,Steve Wozniak,Karina Smirnoff,Entrepreneur,58,California,United States,10,Eliminated Week 4,4,130.0,50-60
+8,Steve-O,Lacey Schwimmer,TV Personality,34,,England,8,Eliminated Week 6,6,158.33333333333334,30-40
+8,Ty Murray,Chelsie Hightower,Athlete,39,Arizona,United States,4,Eliminated Week 10,10,218.0,30-40
+9,Aaron Carter,Karina Smirnoff,Singer/Rapper,21,Florida,United States,5,Eliminated Week 8,8,258.124625,20-30
+9,Ashley Hamiliton,Edyta Sliwinska,Actor/Actress,34,California,United States,16,Eliminated Week 1,1,189.99900000000002,30-40
+9,Chuck Liddell,Anna Trebunskaya,Athlete,39,California,United States,11,Eliminated Week 4,4,187.5,30-40
+9,Debi Mazar,Maksim Chmerkoskiy,Actor/Actress,45,New York,United States,12,Eliminated Week 3,3,200.0,40-50
+9,Donny Osmond,Kym Johnson,Singer/Rapper,51,Utah,United States,1,1st Place,999,264.6662,50-60
+9,Joanna Krupa,Derek Hough,Model,30,,Poland,4,Eliminated Week 9,9,270.55533333333335,30-40
+9,Kathy Ireland,Tony Dovolani,Model,46,California,United States,14,Eliminated Week 2,2,189.9995,40-50
+9,Kelly Osbourne,Louis van Amstel,TV Personality,24,,England,3,3rd Place,999,244.7216,20-30
+9,Louie Vito,Chelsie Hightower,Athlete,21,Ohio,United States,8,Eliminated Week 6,6,213.333,20-30
+9,Macy Gray,Jonathan Roberts,Singer/Rapper,42,Ohio,United States,15,Eliminated Week 1,1,189.99900000000002,40-50
+9,Mark Dacascos,Lacey Schwimmer,Actor/Actress,45,Hawaii,United States,6,Eliminated Week 7,7,242.14257142857144,40-50
+9,Melissa Joan Hart,Mark Ballas,Actor/Actress,33,New York,United States,9,Eliminated Week 6,6,228.33316666666667,30-40
+9,Michael Irvin,Anna Demidova,Athlete,43,Florida,United States,7,Eliminated Week 7,7,193.57114285714286,40-50
+9,Mya,Dmitry Chaplin,Singer/Rapper,29,Washington D.C.,United States,2,2nd Place,999,284.33299999999997,20-30
+9,Natalie Coughlin,Alec Mazo,Athlete,27,California,United States,10,Eliminated Week 5,5,239.99960000000002,20-30
+9,Tom DeLay,Cheryl Burke,Politician,62,Texas,United States,13,Withdrew,-1,52.999900000000004,60+
+10,Aiden Turner,Edyta Sliwinska,Actor/Actress,32,,England,9,Eliminated Week 4,4,176.25,30-40
+10,Buzz Aldrin,Ashly DelGrosso,Astronaut,80,New Jersey,United States,10,Eliminated Week 3,3,130.0,60+
+10,Chad Ochocinco,Cheryl Burke,Athlete,32,Florida,United States,4,Eliminated Week 9,9,221.66655555555556,30-40
+10,Erin Andrews,Maksim Chmerkoskiy,Sports Broadcaster,32,Maine,United States,3,3rd Place,999,249.4998,30-40
+10,Evan Lysacek,Anna Trebunskaya,Athlete,24,Illinois,United States,2,2nd Place,999,262.88870000000003,20-30
+10,Jake Pavelka,Chelsie Hightower,TV Personality,32,Texas,United States,7,Eliminated Week 6,6,213.33316666666667,30-40
+10,Kate Gosselin,Tony Dovolani,TV Personality,35,Pennsylvania,United States,8,Eliminated Week 5,5,154.0,30-40
+10,Nicole Scherzinger,Derek Hough,Singer/Rapper,31,Hawaii,United States,1,1st Place,999,280.7776,30-40
+10,Niecy Nash,Louis van Amstel,Actor/Actress,40,California,United States,5,Eliminated Week 8,8,209.99975,40-50
+10,Pamela Anderson,Damian Whitewood,Model,42,,Canada,6,Eliminated Week 7,7,234.28542857142858,40-50
+10,Shannen Doherty,Mark Ballas,Actor/Actress,38,Tennessee,United States,11,Eliminated Week 2,2,190.0,30-40
+11,Audrina Patridge,Tony Dovolani,TV Personality,25,California,United States,7,Eliminated Week 6,6,243.333,20-30
+11,Brandy,Maksim Chmerkoskiy,Singer/Rapper,31,Mississippi,United States,4,Eliminated Week 9,9,265.9721111111111,30-40
+11,Bristol Palin,Mark Ballas,TV Personality,19,Alaska,United States,3,3rd Place,999,221.0414,<20
+11,David Hasselhoff,Kym Johnson,Actor/Actress,58,Maryland,United States,12,Eliminated Week 1,1,150.0,50-60
+11,Florence Henderson,Corky Ballas,Actor/Actress,76,Indiana,United States,8,Eliminated Week 5,5,191.0,60+
+11,Jennifer Grey,Derek Hough,Actor/Actress,50,New York,United States,1,1st Place,999,269.875,50-60
+11,Kurt Warner,Anna Trebunskaya,Athlete,39,Iowa,United States,5,Eliminated Week 8,8,220.312375,30-40
+11,Kyle Massey,Lacey Schwimmer,Actor/Actress,19,Georgia,United States,2,2nd Place,999,247.4581,<20
+11,Margaret Cho,Louis van Amstel,Comedian,41,California,United States,10,Eliminated Week 3,3,170.0,40-50
+11,Michael Bolton,Chelsie Hightower,Singer/Rapper,57,Connecticut,United States,11,Eliminated Week 2,2,140.0,50-60
+11,Rick Fox,Cheryl Burke,Athlete,41,,Canada,6,Eliminated Week 7,7,237.67857142857142,40-50
+11,The Situation,Karina Smirnoff,TV Personality,28,New York,United States,9,Eliminated Week 4,4,167.5,20-30
+12,Chelsea Kane,Mark Ballas,Actor/Actress,22,Arizona,United States,3,3rd Place,999,259.6666,20-30
+12,Chris Jericho,Cheryl Burke,Athlete,40,New York,United States,7,Eliminated Week 6,6,223.33333333333334,40-50
+12,Hines Ward,Kym Johnson,Athlete,35,,South Korea,1,1st Place,999,259.4166,30-40
+12,Kendra Wilkinson,Louis van Amstel,TV Personality,25,California,United States,6,Eliminated Week 7,7,211.25,20-30
+12,Kirstie Alley,Maksim Chmerkoskiy,Actor/Actress,60,Kansas,United States,2,2nd Place,999,238.99989999999997,60+
+12,Mike Catherwood,Lacey Schwimmer,Radio Personality,32,California,United States,11,Eliminated Week 2,2,150.0,30-40
+12,Petra Nemcova,Dmitry Chaplin,Model,31,,Czechoslovakia,8,Eliminated Week 5,5,212.0,30-40
+12,Ralph Macchio,Karina Smirnoff,Actor/Actress,49,New York,United States,4,Eliminated Week 9,9,231.94444444444446,40-50
+12,Romeo,Chelsie Hightower,Singer/Rapper,21,Louisiana,United States,5,Eliminated Week 8,8,234.375,20-30
+12,Sugar Ray Leonard,Anna Trebunskaya,Athlete,54,North Carolina,United States,9,Eliminated Week 4,4,187.5,50-60
+12,Wendy Williams,Tony Dovolani,TV Personality,46,New Jersey,United States,10,Eliminated Week 3,3,153.33333333333334,40-50
+13,Carson Kressley,Anna Trebunskaya,TV Personality,41,Pennsylvania,United States,8,Eliminated Week 5,5,194.0,40-50
+13,Chaz Bono,Lacey Schwimmer,TV Personality,42,California,United States,7,Eliminated Week 6,6,188.33333333333334,40-50
+13,Chynna Phillips,Tony Dovolani,Singer/Rapper,43,California,United States,9,Eliminated Week 4,4,225.0,40-50
+13,David Arquette,Kym Johnson,Actor/Actress,40,Virginia,United States,6,Eliminated Week 7,7,220.71428571428572,40-50
+13,Elisabetta Canalis,Valentin Chmerkovskiy,Actor/Actress,33,,Italy,11,Eliminated Week 2,2,180.0,30-40
+13,Hope Solo,Maksim Chmerkoskiy,Athlete,30,Washington,United States,4,Eliminated Week 9,9,230.55533333333335,30-40
+13,J.R. Martinez,Karina Smirnoff,Actor/Actress,28,Louisiana,United States,1,1st Place,999,263.1665,20-30
+13,Kristin Cavallari,Mark Ballas,TV Personality,24,Colorado,United States,10,Eliminated Week 3,3,216.66666666666666,20-30
+13,Metta World Peace (Ron),Peta Murgatroyd,Athlete,31,New York,United States,12,Eliminated Week 1,1,140.0,30-40
+13,Nancy Grace,Tristan MacManus,TV Personality,51,Georgia,United States,5,Eliminated Week 8,8,211.25,50-60
+13,Ricki Lake,Derek Hough,Actor/Actress,42,New York,United States,3,3rd Place,999,265.9998,40-50
+13,Rob Kardashian,Cheryl Burke,TV Personality,24,California,United States,2,2nd Place,999,243.833,20-30
+14,Donald Driver,Peta Murgatroyd,Athlete,37,Texas,United States,1,1st Place,999,271.1665,30-40
+14,Gavin DeGraw,Karina Smirnoff,Singer/Rapper,35,New York,United States,9,Eliminated Week 5,5,214.0,30-40
+14,Gladys Knight,Tristan MacManus,Singer/Rapper,67,Georgia,United States,8,Eliminated Week 6,6,220.0,60+
+14,Jack Wagner,Anna Trebunskaya,Actor/Actress,52,Missouri,United States,11,Eliminated Week 3,3,226.66666666666666,50-60
+14,Jaleel White,Kym Johnson,Actor/Actress,35,California,United States,7,Eliminated Week 7,7,259.28542857142855,30-40
+14,Katherine Jenkins,Mark Ballas,Singer/Rapper,31,,Wales,2,2nd Place,999,285.49989999999997,30-40
+14,Maria Menounos,Derek Hough,TV Personality,33,Massachusetts,United States,4,Eliminated Week 9,9,267.2221111111111,30-40
+14,Martina Navratilova,Tony Dovolani,Athlete,55,,Czechoslovakia,12,Eliminated Week 2,2,185.0,50-60
+14,Melissa Gilbert,Maksim Chmerkoskiy,Actor/Actress,47,California,United States,5,Eliminated Week 8,8,232.5,40-50
+14,Roshon Fegan,Chelsie Hightower,Actor/Actress,20,California,United States,6,Eliminated Week 8,8,259.99975,20-30
+14,Sherri Sheperd,Valentin Chmerkovskiy,Actor/Actress,44,Illinois,United States,10,Eliminated Week 4,4,227.5,40-50
+14,William Levy,Cheryl Burke,Actor/Actress,31,,Cuba,3,3rd Place,999,277.6666,30-40
+15,Apolo Anton Ohno,Karina Smirnoff,Athlete,30,Washington,United States,5,Eliminated Week 9,9,274.4596666666667,30-40
+15,Bristol Palin,Mark Ballas,TV Personality,21,Alaska,United States,9,Eliminated Week 4,4,210.0,20-30
+15,Drew Lachey,Anna Trebunskaya,Singer/Rapper,36,Ohio,United States,11,Eliminated Week 3,3,226.66666666666666,30-40
+15,Emmitt Smith,Cheryl Burke,Athlete,43,Florida,United States,4,Eliminated Week 9,9,271.17255555555556,40-50
+15,Gilles Marini,Peta Murgatroyd,Actor/Actress,36,,France,6,Eliminated Week 8,8,278.940625,30-40
+15,Helio Castroneves,Chelsie Hightower,Racing Driver,37,,Brazil,10,Eliminated Week 3,3,233.33333333333334,30-40
+15,Joey Fatone,Kym Johnson,Singer/Rapper,35,New York,United States,12,Eliminated Week 2,2,215.0,30-40
+15,Kelly Monaco,Valentin Chmerkovskiy,Actor/Actress,36,Pennsylvania,United States,3,3rd Place,999,271.9302,30-40
+15,Kirstie Alley,Maksim Chmerkoskiy,Actor/Actress,61,Kansas,United States,7,Eliminated Week 8,8,242.187375,60+
+15,Melissa Rycroft,Tony Dovolani,TV Personality,29,Texas,United States,1,1st Place,999,284.1107,20-30
+15,Pamela Anderson,Tristan MacManus,Model,45,,Canada,13,Eliminated Week 1,1,170.0,40-50
+15,Sabrina Bryan,Louis van Amstel,Actor/Actress,28,California,United States,8,Eliminated Week 6,6,266.4583333333333,20-30
+15,Shawn Johnson,Derek Hough,Athlete,20,Iowa,United States,2,2nd Place,999,283.6524,20-30
+16,Alexandra Raisman,Mark Ballas,Athlete,18,Massachusetts,United States,4,Eliminated Week 10,10,264.5,<20
+16,Andy Dick,Sharna Burgess,Comedian,47,South Carolina,United States,7,Eliminated Week 7,7,189.28571428571428,40-50
+16,D. L. Hughley,Cheryl Burke,Comedian,50,Virginia,United States,9,Eliminated Week 5,5,166.0,50-60
+16,Dorothy Hamill,Tristan MacManus,Athlete,56,Illinois,United States,12,Withdrew,-1,36.0,50-60
+16,Ingo Rademacher,Kym Johnson,Actor/Actress,41,,Germany,5,Eliminated Week 9,9,225.0,40-50
+16,Jacoby Jones,Karina Smirnoff,Athlete,28,Louisiana,United States,3,3rd Place,999,251.9997,20-30
+16,Kellie Pickler,Derek Hough,Singer/Rapper,26,North Carolina,United States,1,1st Place,999,267.5,20-30
+16,Lisa Vanderpump,Gleb Savchenko,TV Personality,52,,England,10,Eliminated Week 4,4,187.5,50-60
+16,Sean Lowe,Peta Murgatroyd,TV Personality,29,Texas,United States,6,Eliminated Week 8,8,215.0,20-30
+16,Victor Ortiz,Lindsay Arnold,Athlete,26,Kansas,United States,8,Eliminated Week 6,6,196.66666666666666,20-30
+16,Wynonna Judd,Tony Dovolani,Singer/Rapper,48,Kentucky,United States,11,Eliminated Week 3,3,170.0,40-50
+16,Zendaya,Valentin Chmerkovskiy,Actor/Actress,16,California,United States,2,2nd Place,999,272.9998,<20
+17,Amber Riley,Derek Hough,Actor/Actress,27,California,United States,1,1st Place,999,276.3255454545455,20-30
+17,Bill Engvall,Emma Slater,Comedian,56,Texas,United States,4,Eliminated Week 11,11,227.27254545454545,50-60
+17,Bill Nye,Tyne Stecklein,TV Personality,57,Washington D.C.,United States,11,Eliminated Week 3,3,156.66666666666666,50-60
+17,Brant Daugherty,Peta Murgatroyd,Actor/Actress,28,Ohio,United States,7,Eliminated Week 8,8,258.125,20-30
+17,Christina Milian,Mark Ballas,Singer/Rapper,31,New Jersey,United States,9,Eliminated Week 5,5,250.0,30-40
+17,Corbin Bleu,Karina Smirnoff,Actor/Actress,24,New York,United States,2,2nd Place,999,276.62845454545453,20-30
+17,Elizabeth Berkley Lauren,Valentin Chmerkovskiy,Actor/Actress,39,Michigan,United States,6,Eliminated Week 9,9,265.55533333333335,30-40
+17,Jack Osbourne,Cheryl Burke,TV Personality,27,,England,3,3rd Place,999,261.02245454545454,20-30
+17,Keyshawn Johnson,Sharna Burgess,Athlete,41,California,United States,12,Eliminated Week 2,2,175.0,40-50
+17,Leah Remini,Tony Dovolani,Actor/Actress,43,New York,United States,5,Eliminated Week 10,10,248.87489999999997,40-50
+17,"Nicole ""Snooki"" Polizzi",Sasha Farber,TV Personality,25,,Chile,8,Eliminated Week 7,7,251.42857142857142,20-30
+17,Valerie Harper,Tristan MacManus,Actor/Actress,74,New York,United States,10,Eliminated Week 4,4,185.0,60+
+18,Amy Purdy,Derek Hough,Athlete,34,Nevada,United States,2,2nd Place,999,273.7916,30-40
+18,Billy Dee Williams,Emma Slater,Actor/Actress,76,New York,United States,10,Withdrew,-1,30.0,60+
+18,Candace Cameron Bure,Mark Ballas,Actor/Actress,37,California,United States,3,3rd Place,999,248.9998,30-40
+18,Charlie White,Sharna Burgess,Athlete,26,Michigan,United States,5,Eliminated Week 9,9,270.69444444444446,20-30
+18,Cody Simpson,Witney Carson,Singer/Rapper,17,,Australia,9,Eliminated Week 5,5,238.0,<20
+18,Danica McKellar,Valentin Chmerkovskiy,Actor/Actress,39,California,United States,6,Eliminated Week 8,8,263.4375,30-40
+18,Diana Nyad,Henry Byalikov,Athlete,64,New York,United States,12,Eliminated Week 2,2,90.0,60+
+18,Drew Carey,Cheryl Burke,Comedian,55,Ohio,United States,8,Eliminated Week 6,6,223.75,50-60
+18,James Maslow,Peta Murgatroyd,Actor/Actress,23,New York,United States,4,Eliminated Week 10,10,266.25,20-30
+18,Meryl Davis,Maksim Chmerkoskiy,Athlete,27,Michigan,United States,1,1st Place,999,280.75,20-30
+18,NeNe Leakes,Tony Dovolani,TV Personality,46,New York,United States,7,Eliminated Week 7,7,236.78571428571428,40-50
+18,Sean Avery,Karina Smirnoff,Athlete,33,,Canada,11,Eliminated Week 2,2,205.0,30-40
+19,Alfonso Ribeiro,Witney Carson,Actor/Actress,42,New York,United States,1,1st Place,999,275.45454545454544,40-50
+19,Antonio Sabato Jr.,Cheryl Burke,Actor/Actress,42,,Italy,8,Eliminated Week 7,7,213.75,40-50
+19,Bethany Mota,Derek Hough,Social Media Personality,18,California,United States,4,Eliminated Week 11,11,270.34090909090907,<20
+19,Betsey Johnson,Tony Dovolani,Fashion Designer,72,Connecticut,United States,10,Eliminated Week 4,4,198.75,60+
+19,Janel Parrish,Valentin Chmerkovskiy,Actor/Actress,25,Hawaii,United States,3,3rd Place,999,271.3635,20-30
+19,Jonathan Bennett,Allison Holker,Actor/Actress,33,Ohio,United States,9,Eliminated Week 6,6,215.0,30-40
+19,Lea Thompson,Artem Chigvintsev,Actor/Actress,53,Minnesota,United States,6,Eliminated Week 9,9,254.16666666666666,50-60
+19,Lolo Jones,Keo Motsepe,Athlete,32,Iowa,United States,13,Eliminated Week 1,1,165.0,30-40
+19,Michael Waltrip,Emma Slater,Racing Driver,51,Kentucky,United States,7,Eliminated Week 8,8,192.1875,50-60
+19,Randy Couture,Karina Smirnoff,Athlete,51,Washington,United States,11,Eliminated Week 3,3,212.5,50-60
+19,Sadie Robertson,Mark Ballas,TV Personality,17,Louisiana,United States,2,2nd Place,999,263.74990909090906,<20
+19,Tavis Smiley,Sharna Burgess,Radio Personality,50,Mississippi,United States,12,Eliminated Week 2,2,213.75,50-60
+19,Tommy Chong,Peta Murgatroyd,Comedian,76,,Canada,5,Eliminated Week 10,10,214.875,60+
+20,Charlotte McKinney,Keo Motsepe,Model,21,Florida,United States,11,Eliminated Week 3,3,175.0,20-30
+20,Chris Soules,Witney Carson,TV Personality,33,Iowa,United States,5,Eliminated Week 8,8,212.8125,30-40
+20,Michael Sam,Peta Murgatroyd,Athlete,25,Texas,United States,10,Eliminated Week 4,4,202.5,20-30
+20,Nastia Liukin,Derek Hough,Athlete,25,,Russia,4,Eliminated Week 9,9,272.9166666666667,20-30
+20,Noah Galloway,Sharna Burgess,Motivational Speaker,33,Alabama,United States,3,3rd Place,999,240.375,30-40
+20,Patti LaBelle,Artem Chigvintsev,Singer/Rapper,70,Pennsylvania,United States,8,Eliminated Week 6,6,207.5,60+
+20,Redfoo,Emma Slater,Singer/Rapper,39,California,United States,12,Eliminated Week 2,2,198.75,30-40
+20,Riker Lynch,Allison Holker,Actor/Actress,23,Colorado,United States,2,2nd Place,999,272.25,20-30
+20,Robert Herjavec,Kym Johnson,Entrepreneur,52,,Croatia,6,Eliminated Week 8,8,223.59375,50-60
+20,Rumer Willis,Valentin Chmerkovskiy,Actor/Actress,26,Kentucky,United States,1,1st Place,999,271.875,20-30
+20,Suzanne Somers,Tony Dovolani,Actor/Actress,68,California,United States,9,Eliminated Week 5,5,201.0,60+
+20,Willow Shields,Mark Ballas,Actor/Actress,14,New Mexico,United States,7,Eliminated Week 7,7,254.46428571428572,<20
+21,Alek Skarlatos,Lindsay Arnold,Military,22,California,United States,3,3rd Place,999,246.36354545454543,20-30
+21,Alexa PenaVega,Mark Ballas,Actor/Actress,27,Florida,United States,6,Eliminated Week 9,9,255.55533333333335,20-30
+21,Andy Grammer,Allison Holker,Singer/Rapper,31,California,United States,7,Eliminated Week 8,8,245.93725,30-40
+21,Bindi Irwin,Derek Hough,TV Personality,17,,Australia,1,1st Place,999,278.40909090909093,<20
+21,Carlos PenaVega,Witney Carson,Actor/Actress,26,Missouri,United States,4,Eliminated Week 11,11,269.99981818181817,20-30
+21,Chaka Khan,Keo Motsepe,Singer/Rapper,62,Illinois,United States,13,Eliminated Week 2,2,140.0,60+
+21,Gary Busey,Anna Trebunskaya,Actor/Actress,71,Texas,United States,10,Eliminated Week 4,4,165.625,60+
+21,Hayes Grier,Emma Slater,Social Media Personality,15,North Carolina,United States,8,Eliminated Week 7,7,239.28571428571428,<20
+21,Kim Zolciak-Biermann,Tony Dovolani,TV Personality,37,Florida,United States,11,Withdrew,-1,27.727272727272727,30-40
+21,Nick Carter,Sharna Burgess,Singer/Rapper,35,New York,United States,2,2nd Place,999,273.1818181818182,30-40
+21,Paula Deen,Louis van Amstel,TV Personality,68,Georgia,United States,9,Eliminated Week 6,6,173.33333333333334,60+
+21,Tamar Braxton,Valentin Chmerkovskiy,Singer/Rapper,38,Maryland,United States,5,Withdrew,-1,209.54545454545453,30-40
+21,Victor Espinoza,Karina Smirnoff,Athlete,43,,Mexico,12,Eliminated Week 2,2,167.5,40-50
+22,Antonio Brown,Sharna Burgess,Athlete,27,Florida,United States,5,Eliminated Week 9,9,236.94444444444446,20-30
+22,Doug Flutie,Karina Smirnoff,Athlete,53,Maryland,United States,9,Eliminated Week 6,6,191.66666666666666,50-60
+22,Geraldo Rivera,Edyta Sliwinska,Journalist,72,New York,United States,12,Eliminated Week 2,2,130.0,60+
+22,Ginger Zee,Valentin Chmerkovskiy,News Anchor,35,California,United States,3,3rd Place,999,253.83319999999998,30-40
+22,Jodie Sweetin,Keo Motsepe,Actor/Actress,34,California,United States,6,Eliminated Week 8,8,238.75,30-40
+22,Kim Fields,Sasha Farber,Actor/Actress,46,New York,United States,8,Eliminated Week 7,7,222.85714285714286,40-50
+22,Marla Maples,Tony Dovolani,TV Personality,52,Georgia,United States,10,Eliminated Week 4,4,207.5,50-60
+22,Mischa Barton,Artem Chigvintsev,Actor/Actress,30,,England,11,Eliminated Week 3,3,163.33333333333334,30-40
+22,Nyle DiMarco,Peta Murgatroyd,Model,26,New York,United States,1,1st Place,999,260.7498,20-30
+22,Paige VanZant,Mark Ballas,Athlete,22,Oregon,United States,2,2nd Place,999,260.9166,20-30
+22,Von Miller,Witney Carson,Athlete,27,Texas,United States,7,Eliminated Week 7,7,223.92857142857142,20-30
+22,Wanya Morris,Lindsay Arnold,Singer/Rapper,42,Pennsylvania,United States,4,Eliminated Week 9,9,256.94444444444446,40-50
+23,Amber Rose,Maksim Chmerkoskiy,Model,32,Pennsylvania,United States,9,Eliminated Week 6,6,206.25,30-40
+23,Babyface,Allison Holker,Singer/Rapper,57,Indiana,United States,11,Eliminated Week 4,4,196.875,50-60
+23,Calvin Johnson Jr.,Lindsay Arnold,Athlete,30,Georgia,United States,3,3rd Place,999,255.90893181818183,30-40
+23,Jake T. Austin,Jenna Johnson,Actor/Actress,21,New York,United States,13,Eliminated Week 2,2,172.5,20-30
+23,James Hinchcliffe,Sharna Burgess,Racing Driver,29,,Canada,2,2nd Place,999,273.4087727272727,20-30
+23,Jana Kramer,Gleb Savchenko,Singer/Rapper,32,Michigan,United States,4,Eliminated Week 11,11,256.3636363636364,30-40
+23,Laurie Hernandez,Valentin Chmerkovskiy,Athlete,16,New Jersey,United States,1,1st Place,999,274.20445454545455,<20
+23,Marilu Henner,Derek Hough,Actor/Actress,64,Illinois,United States,6,Eliminated Week 9,9,232.22222222222223,60+
+23,Maureen McCormick,Artem Chigvintsev,Actor/Actress,60,California,United States,8,Eliminated Week 7,7,218.57142857142858,60+
+23,Rick Perry,Emma Slater,Politician,66,Texas,United States,12,Eliminated Week 3,3,162.5,60+
+23,Ryan Lochte,Cheryl Burke,Athlete,32,New York,United States,7,Eliminated Week 8,8,217.5,30-40
+23,Terra Jole,Sasha Farber,TV Personality,36,Texas,United States,5,Eliminated Week 10,10,247.375,30-40
+23,Vanilla Ice,Witney Carson,Singer/Rapper,48,Texas,United States,10,Eliminated Week 4,4,196.25,40-50
+24,Bonner Bolton,Sharna Burgess,Athlete,29,Texas,United States,5,Eliminated Week 8,8,213.28125,20-30
+24,Charo,Keo Motsepe,Actor/Actress,66,,Spain,11,Eliminated Week 3,3,175.0,60+
+24,Chris Kattan,Witney Carson,Comedian,46,California,United States,12,Eliminated Week 2,2,146.25,40-50
+24,David Ross,Lindsay Arnold,Athlete,40,Georgia,United States,2,2nd Place,999,234.624975,40-50
+24,Erika Jayne,Gleb Savchenko,Singer/Rapper,45,Georgia,United States,9,Eliminated Week 5,5,210.0,40-50
+24,Heather Morris,Maksim Chmerkoskiy,Actor/Actress,30,California,United States,8,Eliminated Week 6,6,246.25,30-40
+24,Mr. T,Kym Herjavec,Actor/Actress,64,Illinois,United States,10,Eliminated Week 4,4,176.25,60+
+24,Nancy Kerrigan,Artem Chigvintsev,Athlete,47,Massachusetts,United States,7,Eliminated Week 7,7,243.75,40-50
+24,Nick Viall,Peta Murgatroyd,TV Personality,36,Wisconsin,United States,6,Eliminated Week 7,7,218.03571428571428,30-40
+24,Normani,Valentin Chmerkovskiy,Singer/Rapper,20,Georgia,United States,3,3rd Place,999,269.12489999999997,20-30
+24,Rashad Jennings,Emma Slater,Athlete,32,Virginia,United States,1,1st Place,999,263.74995,30-40
+24,Simone Biles,Sasha Farber,Athlete,20,Ohio,United States,4,Eliminated Week 9,9,263.75,20-30
+25,Barbara Corcoran,Keo Motsepe,Entrepreneur,68,New Jersey,United States,13,Eliminated Week 2,2,155.0,60+
+25,Debbie Gibson,Alan Bersten,Singer/Rapper,47,New York,United States,12,Eliminated Week 2,2,187.5,40-50
+25,Derek Fisher,Sharna Burgess,Athlete,43,Arkansas,United States,11,Eliminated Week 4,4,202.5,40-50
+25,Drew Scott,Emma Slater,TV Personality,39,,Canada,4,Eliminated Week 10,10,235.125,30-40
+25,Frankie Muniz,Witney Carson,Actor/Actress,31,New Jersey,United States,3,3rd Place,999,251.416525,30-40
+25,Jordan Fisher,Lindsay Arnold,Actor/Actress,23,Alabama,United States,1,1st Place,999,275.25,20-30
+25,Lindsey Stirling,Mark Ballas,Musician,31,California,United States,2,2nd Place,999,266.5,30-40
+25,Nick Lachey,Peta Murgatroyd,Singer/Rapper,43,Kentucky,United States,9,Eliminated Week 6,6,202.5,40-50
+25,Nikki Bella,Artem Chigvintsev,Athlete,33,California,United States,8,Eliminated Week 7,7,232.14285714285714,30-40
+25,Sasha Pieterse,Gleb Savchenko,Actor/Actress,21,,South Africa,10,Eliminated Week 5,5,215.0,20-30
+25,Terrell Owens,Cheryl Burke,Athlete,43,Alabama,United States,6,Eliminated Week 8,8,227.8125,40-50
+25,Vanessa Lachey,Maksim Chmerkoskiy,TV Personality,36,,Philippines,7,Eliminated Week 7,7,242.14285714285714,30-40
+25,Victoria Arlen,Valentin Chmerkovskiy,Athlete,22,New Hamshire,United States,5,Eliminated Week 9,9,245.27777777777777,20-30
+26,Adam Rippon,Jenna Johnson,Athlete,28,Pennsylvania,United States,1,1st Place,999,278.75,20-30
+26,Arike Ogunbowale,Gleb Savchenko,Athlete,21,Wisconsin,United States,7,Eliminated Week 2,2,231.25,20-30
+26,Chris Mazdzer,Witney Carson,Athlete,29,Massachusetts,United States,5,Eliminated Week 3,3,235.0,20-30
+26,Jamie Anderson,Artem Chigvintsev,Athlete,27,California,United States,10,Eliminated Week 1,1,190.0,20-30
+26,Jennie Finch Daigle,Keo Motsepe,Athlete,37,California,United States,6,Eliminated Week 3,3,221.25,30-40
+26,Johnny Damon,Emma Slater,Athlete,44,Kansas,United States,9,Eliminated Week 1,1,180.0,40-50
+26,Josh Norman,Sharna Burgess,Athlete,30,South Carolina,United States,2,2nd Place,999,261.5625,30-40
+26,Kareem Abdul-Jabbar,Lindsay Arnold,Athlete,71,New York,United States,8,Eliminated Week 2,2,195.625,60+
+26,Mirai Nagasu,Alan Bersten,Athlete,25,California,United States,4,Eliminated Week 3,3,256.6666666666667,20-30
+26,Tonya Harding,Sasha Farber,Athlete,47,Oregon,United States,3,3rd Place,999,255.0,40-50
+27,Alexis Ren,Alan Bersten,Social Media Personality,21,California,United States,4,4th Place,999,265.0,20-30
+27,Bobby Bones,Sharna Burgess,Radio Personality,38,Arkansas,United States,1,1st Place,999,223.88888888888889,30-40
+27,Danelle Umstead,Artem Chigvintsev,Athlete,46,New Mexico,United States,12,Eliminated Week 2,2,182.5,40-50
+27,DeMarcus Ware,Lindsay Arnold,Athlete,36,Alabama,United States,7,Eliminated Week 7,7,247.14285714285714,30-40
+27,Evanna Lynch,Keo Motsepe,Actor/Actress,27,,Ireland,3,3rd Place,999,260.55555555555554,20-30
+27,Joe Amabile,Jenna Johnson,TV Personality,32,Illinois,United States,6,Eliminated Week 8,8,187.5,30-40
+27,John Schneider,Emma Slater,Actor/Actress,58,New York,United States,8,Eliminated Week 7,7,216.42857142857142,50-60
+27,Juan Pablo Di Pace,Cheryl Burke,Actor/Actress,39,,Argentina,5,Eliminated Week 8,8,273.75,30-40
+27,Mary Lou Retton,Sasha Farber,Athlete,50,West Virginia,United States,9,Eliminated Week 6,6,236.66666666666666,50-60
+27,Milo Manheim,Witney Carson,Actor/Actress,17,California,United States,2,2nd Place,999,272.77777777777777,<20
+27,Nancy McKeon,Valentin Chmerkovskiy,Actor/Actress,52,New York,United States,11,Eliminated Week 3,3,206.66666666666666,50-60
+27,Nikki Glaser,Gleb Savchenko,Comedian,34,Ohio,United States,13,Eliminated Week 1,1,175.0,30-40
+27,Tinashe,Brandon Armstrong,Singer/Rapper,25,Kentucky,United States,10,Eliminated Week 4,4,255.0,20-30
+28,Ally Brooke,Sasha Farber,Singer/Rapper,26,Texas,United States,3,3rd Place,999,256.8181818181818,20-30
+28,Hannah Brown,Alan Bersten,TV Personality,24,Alabama,United States,1,1st Place,999,252.38618181818183,20-30
+28,James Van Der Beek,Emma Slater,Actor/Actress,42,Connecticut,United States,5,Eliminated Week 10,10,249.4998,40-50
+28,Karamo Brown,Jenna Johnson,TV Personality,38,Texas,United States,8,Eliminated Week 7,7,205.0,30-40
+28,Kate Flannery,Pasha Pashkov,Actor/Actress,55,Pennsylvania,United States,7,Eliminated Week 8,8,225.62475,50-60
+28,Kel Mitchell,Witney Carson,Actor/Actress,41,Illinois,United States,2,2nd Place,999,248.4089090909091,40-50
+28,Lamar Odom,Peta Murgatroyd,Athlete,39,New York,United States,10,Eliminated Week 4,4,125.0,30-40
+28,Lauren Alaina,Gleb Savchenko,Singer/Rapper,24,Georgia,United States,4,4th Place,999,239.77272727272728,20-30
+28,Mary Wilson,Brandon Armstrong,Singer/Rapper,75,Nevada,United States,12,Eliminated Week 2,2,160.0,60+
+28,Ray Lewis,Cheryl Burke,Athlete,44,Florida,United States,11,Withdrew,-1,27.272727272727273,40-50
+28,Sailor Brinkley-Cook,Valentin Chmerkovskiy,Model,21,New York,United States,9,Eliminated Week 6,6,222.08333333333334,20-30
+28,Sean Spicer,Lindsay Arnold,Politician,48,New York,United States,6,Eliminated Week 9,9,176.11111111111111,40-50
+29,AJ McLean,Cheryl Burke,Singer/Rapper,42,Florida,United States,7,Eliminated Week 9,9,234.44422222222224,40-50
+29,Anne Heche,Keo Motsepe,Actor/Actress,51,Ohio,United States,13,Eliminated Week 4,4,180.0,50-60
+29,Carole Baskin,Pasha Pashkov,TV Personality,59,Texas,United States,14,Eliminated Week 3,3,130.0,50-60
+29,Charles Oakley,Emma Slater,Athlete,56,Ohio,United States,15,Eliminated Week 2,2,135.0,50-60
+29,Chrishell Stause,Gleb Savchenko,Actor/Actress,39,Kentucky,United States,8,Eliminated Week 8,8,213.75,30-40
+29,Jeannie Mai,Brandon Armstrong,TV Personality,41,California,United States,9,Withdrew,-1,139.0909090909091,40-50
+29,Jesse Metcalfe,Sharna Burgess,Actor/Actress,41,California,United States,12,Eliminated Week 5,5,196.0,40-50
+29,Johnny Weir,Britt Stewart,Athlete,36,Pennsylvania,United States,6,Eliminated Week 10,10,250.5,30-40
+29,Justina Machado,Sasha Farber,Actor/Actress,48,Illinois,United States,4,4th Place,999,250.90872727272728,40-50
+29,Kaitlyn Bristowe,Artem Chigvintsev,TV Personality,35,,Canada,1,1st Place,999,260.0,30-40
+29,Monica Aldama,Valentin Chmerkovskiy,TV Personality,48,Alabama,United States,10,Eliminated Week 7,7,221.42857142857142,40-50
+29,Nelly,Daniella Karagach,Singer/Rapper,45,Texas,United States,3,3rd Place,999,229.54545454545453,40-50
+29,Nev Schulman,Jenna Johnson,Producer,35,New York,United States,2,2nd Place,999,263.6361818181818,30-40
+29,Skai Jackson,Alan Bersten,Actor/Actress,18,New York,United States,5,Eliminated Week 10,10,235.49960000000002,<20
+29,Veron Davis,Peta Murgatroyd,Athlete,36,Washington D.C.,United States,11,Eliminated Week 6,6,201.66666666666666,30-40
+30,Amanda Kloots,Alan Bersten,TV Personality,39,Ohio,United States,4,4th Place,999,268.125,30-40
+30,Brian Austin Green,Sharna Burgess,Actor/Actress,48,California,United States,13,Eliminated Week 4,4,184.375,40-50
+30,Christine Chiu,Pasha Pashkov,TV Personality,38,,Taiwan China,14,Eliminated Week 3,3,192.5,30-40
+30,Cody Rigsby,Cheryl Burke,Fitness Instructor,34,California,United States,3,3rd Place,999,237.375,30-40
+30,Iman Shumpert,Daniella Karagach,Athlete,31,Illinois,United States,1,1st Place,999,238.0,30-40
+30,Jimmie Allen,Emma Slater,Singer/Rapper,36,Delaware,United States,7,Eliminated Week 8,8,234.53125,30-40
+30,JoJo Siwa,Jenna Johnson,Social Media Personality,18,Nebraska,United States,2,2nd Place,999,275.25,<20
+30,Kenya Moore,Brandon Armstrong,TV Personality,50,Michigan,United States,10,Eliminated Week 6,6,219.375,50-60
+30,Martin Kove,Britt Stewart,Actor/Actress,75,New York,United States,15,Eliminated Week 2,2,105.0,60+
+30,Matt James,Lindsay Arnold,Athlete,29,North Carolina,United States,12,Eliminated Week 4,4,189.6875,20-30
+30,Melanie C,Gleb Savchenko,Singer/Rapper,47,,England,11,Eliminated Week 5,5,233.0,40-50
+30,Melora Hardin,Artem Chigvintsev,Actor/Actress,54,Texas,United States,6,Eliminated Week 9,9,255.13888888888889,50-60
+30,"Mike ""The Miz"" Mizanin",Witney Carson,Athlete,40,Ohio,United States,9,Eliminated Week 7,7,224.82142857142858,40-50
+30,Olivia Jade,Valentin Chmerkovskiy,Social Media Personality,21,California,United States,8,Eliminated Week 8,8,252.1875,20-30
+30,Suni Lee,Sasha Farber,Athlete,18,Minnesota,United States,5,Eliminated Week 9,9,252.91666666666666,<20
+31,Charli D'Amelio,Mark Ballas,Social Media Personality,18,Connecticut,United States,1,1st Place,999,284.25,<20
+31,Cheryl Ladd,Louis van Amstel,Actor/Actress,71,South Dakota,United States,14,Eliminated Week 3,3,165.0,60+
+31,Daniel Durant,Britt Stewart,Actor/Actress,32,Michigan,United States,5,Eliminated Week 9,9,244.58333333333334,30-40
+31,Gabby Windey,Valentin Chmerkovskiy,TV Personality,31,Illinois,United States,2,2nd Place,999,271.875,30-40
+31,Heidi D'Amelio,Artem Chigvintsev,Social Media Personality,50,Louisiana,United States,8,Eliminated Week 8,8,246.5625,50-60
+31,Jason Lewis,Peta Murgatroyd,Actor/Actress,51,California,United States,16,Eliminated Week 1,1,135.0,50-60
+31,Jessie James Decker,Alan Bersten,Singer/Rapper,34,,Italy,10,Eliminated Week 6,6,212.5,30-40
+31,Jordin Sparks,Brandon Armstrong,Singer/Rapper,32,Arizona,United States,9,Eliminated Week 7,7,235.71428571428572,30-40
+31,Joseph Baena,Daniella Karagach,Actor/Actress,24,California,United States,11,Eliminated Week 5,5,208.5,20-30
+31,Sam Champion,Cheryl Burke,News Anchor,61,Kentucky,United States,13,Eliminated Week 4,4,180.0,60+
+31,Selma Blair,Sasha Farber,Actor/Actress,50,Michigan,United States,12,Withdrew,-1,117.0,50-60
+31,Shangela,Gleb Savchenko,TV Personality,40,Texas,United States,4,4th Place,999,259.125,40-50
+31,Teresa Giudice,Pasha Pashkov,TV Personality,50,New Jersey,United States,15,Eliminated Week 2,2,161.25,50-60
+31,Trevor Donovan,Emma Slater,Actor/Actress,39,California,United States,6,Eliminated Week 9,9,238.75,30-40
+31,Vinny Guadagnino,Koko Iwasaki,TV Personality,34,New York,United States,7,Eliminated Week 8,8,202.03125,30-40
+31,Wayne Brady,Witney Carson,Comedian,50,Georgia,United States,3,3rd Place,999,271.875,50-60
+32,Adrian Peterson,Britt Stewart,Athlete,38,Texas,United States,11,Eliminated Week 4,4,176.25,30-40
+32,Alyson Hannigan,Sasha Farber,Actor/Actress,49,Washington D.C.,United States,5,5th Place,999,219.54545454545453,40-50
+32,Ariana Madix,Pasha Pashkov,TV Personality,38,Florida,United States,3,3rd Place,999,265.22727272727275,30-40
+32,Barry Williams,Peta Murgatroyd,Actor/Actress,68,California,United States,7,Eliminated Week 8,8,207.96875,60+
+32,Charity Lawson,Artem Chigvintsev,TV Personality,27,Georgia,United States,4,4th Place,999,264.77272727272725,20-30
+32,Harry Jowsey,Rylee Arnold,TV Personality,26,,Australia,6,Eliminated Week 9,9,192.5,20-30
+32,Jamie Lynn Spears,Alan Bersten,Actor/Actress,32,Mississippi,United States,13,Eliminated Week 2,2,155.0,30-40
+32,Jason Mraz,Daniella Karagach,Singer/Rapper,46,Virginia,United States,2,2nd Place,999,266.59090909090907,40-50
+32,Lele Pons,Brandon Armstrong,Social Media Personality,27,,Venezuela,8,Eliminated Week 7,7,230.53571428571428,20-30
+32,Matt Walsh,Koko Iwasaki,Comedian,58,Illinois,United States,14,Eliminated Week 1,1,120.0,50-60
+32,Mauricio Umansky,Emma Slater,TV Personality,53,,Mexico,9,Eliminated Week 6,6,186.66666666666666,50-60
+32,Mira Sorvino,Gleb Savchenko,Actor/Actress,55,New York,United States,10,Eliminated Week 5,5,195.0,50-60
+32,Tyson Beckford,Jenna Johnson,Model,52,New York,United States,12,Eliminated Week 3,3,150.0,50-60
+32,Xochitl Gomez,Valentin Chmerkovskiy,Actor/Actress,17,California,United States,1,1st Place,999,273.6363636363636,<20
+33,Anna Delvey,Ezra Sosa,Con artist,33,,Russia,12,Eliminated Week 2,2,175.0,30-40
+33,Brooks Nader,Gleb Savchenko,Model,27,New York,United States,9,Eliminated Week 4,4,212.1875,20-30
+33,Chandler Kinney,Brandon Armstrong,Actor/Actress,24,California,United States,3,3rd Place,999,272.0833333333333,20-30
+33,Danny Amendola,Witney Carson,Athlete,39,Texas,United States,5,5th Place,999,249.44444444444446,30-40
+33,Dwight Howard ,Daniella Karagach,Athlete,38,Georgia,United States,6,Eliminated Week 7,7,234.64285714285714,30-40
+33,Eric Roberts,Britt Stewart,Actor/Actress,68,California,United States,10,Eliminated Week 3,3,157.5,60+
+33,Ilona Maher,Alan Bersten,Athlete,28,California,United States,2,2nd Place,999,241.11111111111111,20-30
+33,Jenn Tran,Sasha Farber,TV Personality,26,Florida,United States,7,Eliminated Week 6,6,236.25,20-30
+33,Joey Graziadei,Jenna Johnson,TV Personality,29,Louisiana,United States,1,1st Place,999,266.94444444444446,20-30
+33,Phaedra Parks,Val Chmerkovskiy,TV Personality,51,Georgia,United States,8,Eliminated Week 5,5,218.0,50-60
+33,Reginald VelJohnson,Emma Slater,Actor/Actress,74,New York,United States,10,Eliminated Week 3,3,155.83333333333334,60+
+33,Stephen Nedoroscik,Rylee Arnold,Athlete,26,Florida,United States,4,4th Place,999,251.11111111111111,20-30
+33,Tori Spelling,Pasha Pashkov,Actor/Actress,51,California,United States,12,Eliminated Week 2,2,180.0,50-60
+34,Alix Earle,Val Chmerkovskiy (Joey Graziadei week 9),Social media personality,24,Florida,United States,2,2nd Place,999,263.75,20-30
+34,Andy Richter,Emma Slater/Kaitlyn Bristowe (week 9),Comedian,59,California,United States,7,Eliminated Week 9,9,191.94444444444446,50-60
+34,Baron Davis,Britt Stewart,Athlete,46,California,United States,13,Eliminated Week 2,2,165.0,40-50
+34,Corey Feldman,Jenna Johnson,Actor/Actress,54,California,United States,13,Eliminated Week 2,2,142.5,50-60
+34,Danielle Fishel,Pasha Pashkov,Actor/Actress,44,California,United States,8,Eliminated Week 8,8,227.1875,40-50
+34,Dylan Efron,Daniella Karagach (Rumer Willis week 9),TV Personality,33,California,United States,4,4th Place,999,252.1210909090909,30-40
+34,Elaine Hendrix,Alan Bersten (Rashad Jennings week 9),Actor/Actress,55,Georgia,United States,5,5th Place,999,245.568,50-60
+34,Hilaria Baldwin,Gleb Savchenko,Entrepreneur,41,New York,United States,11,Eliminated Week 4,4,217.5,40-50
+34,Jen Affleck,Jan Ravnik,TV Personality,26,Utah,United States,9,Eliminated Week 7,7,218.92857142857142,20-30
+34,Jordan Chiles,Ezra Sosa (Apolo Anton Ohno week 9),Athlete,24,Texas,United States,3,3rd Place,999,257.65145454545456,20-30
+34,Lauren Jauregui,Brandon Armstrong,Singer/Rapper,29,Florida,United States,12,Eliminated Week 3,3,195.0,20-30
+34,Robert Irwin,Witney Carson (Xoshitl Gomez week 9),Conservationist,22,,Australia,1,1st Place,999,265.15145454545456,20-30
+34,Scott Hoying,Rylee Arnold,Singer/Rapper,34,California,United States,10,Eliminated Week 6,6,199.16666666666666,30-40
+34,Whitney Leavitt,Mark Ballas,TV Personality,32,Utah,United States,6,Eliminated Week 10,10,269.125,30-40
