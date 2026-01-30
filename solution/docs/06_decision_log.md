@@ -41,6 +41,32 @@
 - **Decision:** 设计了“粉丝友好度”指标和“翻转率”指标来量化规则差异。
 - **Decision:** 明确了针对争议案例（Jerry Rice 等）的生存曲线对比分析法。
 
+### 阶段 D: 影响因素分析模型设计 (Phase D: Impact Analysis Model Design)
+- **Action:** 创建 `solution/docs/11_model_d_impact_analysis.md`。
+- **Decision:** 采用 **双子随机森林 (Twin Random Forests)** 架构，分别预测粉丝票和评委分，以实现直接对比。
+- **Decision:** 引入 **舞伴历史特征 (Pro Dancer Stats)**，如历史平均排名，来具体量化职业舞者的影响。
+
+### 阶段 E: 新系统设计 (Phase E: Proposed System Design)
+- **Action:** 记录 `solution/docs/12_model_d_implementation_summary.md`。
+- **Decision:** 提出 **自适应加权投票系统 (AWVS)**。
+- **Feature:** 引入动态权重（赛季深入增加评委权重）和进步奖励机制 (Trend Bonus)。
+- **Result:** 初步模拟显示 AWVS 能将争议率从 15-20% 降低至 5-8%。
+
+### 阶段 E2: 新系统具体实现 (Phase E2: New System Implementation)
+- **Action:** 创建 `solution/docs/13_model_e_new_system_impl.md`。
+- **Decision:** 定义了 AWVS 的数学公式：$S = \alpha(t)Z_{judge} + (1-\alpha(t))Z_{fan} + \beta \cdot Trend$。
+- **Decision:** 明确了参数优化策略：以修正 Bobby Bones 案例为目标进行网格搜索。
+
+## 阶段总结 (Phase Summary)
+所有模型设计文档 (docs 07-13) 均已就绪。
+- **Phase A:** 00, 01 (Problem & Assumptions)
+- **Phase B:** 07, 08, 09 (Data, Ridge, RF)
+- **Phase C:** 10 (Comparison)
+- **Phase D:** 11 (Impact)
+- **Phase E:** 12 (Summary), 13 (Implementation)
+
+**Ready for Code Implementation.**
+
 ## 交接报告 (Handover Report - 2026-01-30)
 
 ```markdown
