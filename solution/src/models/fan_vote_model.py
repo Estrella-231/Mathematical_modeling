@@ -1,4 +1,4 @@
-﻿class FanVoteModel:
+﻿class FanVoteModel: #粉丝投票估算模型
     def fit(self, panel):
         raise NotImplementedError
 

@@ -8,7 +8,7 @@ def load_data(path):
     return pd.read_csv(path)
 
 
-def _week_columns(df: pd.DataFrame) -> Dict[int, List[str]]:
+def _week_columns(df: pd.DataFrame) -> Dict[int, List[str]]: #提取每周评委评分列
     pattern = re.compile(r"^week(\d+)_judge(\d+)_score$", re.I)
     week_map: Dict[int, List[str]] = {}
     for col in df.columns:
@@ -19,7 +19,7 @@ def _week_columns(df: pd.DataFrame) -> Dict[int, List[str]]:
     return week_map
 
 
-def build_week_panel(df: pd.DataFrame) -> pd.DataFrame:
+def build_week_panel(df: pd.DataFrame) -> pd.DataFrame: #构建每周数据面板
     week_map = _week_columns(df)
     base_cols = [
         c
