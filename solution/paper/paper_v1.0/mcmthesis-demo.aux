@@ -1,0 +1,165 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{4}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem Background}{4}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{4}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Related Work}{4}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Overview of Our Solution}{5}{subsection.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Our Contributions}{5}{subsection.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Assumptions and Justifications}{5}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data Availability Assumptions}{5}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Behavioral Assumptions}{6}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Modeling Assumptions}{6}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Rule Assumptions}{6}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Potential Violations and Impact}{7}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Notations}{7}{section.3}\protected@file@percent }
+\gdef \LT@i {\LT@entry 
+    {5}{97.13187pt}\LT@entry 
+    {5}{314.63287pt}\LT@entry 
+    {5}{60.99567pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{Variations and Parameters}}{8}{table.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Data Preparation and Exploratory Data Analysis}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataset Overview}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Cleaning and Preprocessing}{9}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Judges Score Statistics}{10}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Distribution of standardized judge scores (mean 236.92, SD 43.91).}}{10}{figure.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Contestant Demographics and External Signals}{10}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Why We Need an Inverse Estimation Step}{11}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Model Construction}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Overview: Five-Stage Modeling Pipeline}{11}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Model B1: Ridge Regression for Fan Vote Estimation}{11}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Motivation}{11}{subsubsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Formulation}{11}{subsubsection.5.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}Performance}{12}{subsubsection.5.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Residual distribution (fan vote proxy).}}{12}{figure.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}Consistency}{12}{subsubsection.5.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Model B2: Random Forest + SHAP}{12}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Motivation}{12}{subsubsection.5.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Specification}{12}{subsubsection.5.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3}Performance}{12}{subsubsection.5.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Top 20 fan support cases.}}{13}{figure.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Random Forest feature importance.}}{13}{figure.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Feature importance (pie chart).}}{14}{figure.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces SHAP summary plot.}}{14}{figure.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces SHAP dependence: age.}}{15}{figure.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces SHAP dependence: partner quality.}}{15}{figure.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.4}SHAP interpretability}{16}{subsubsection.5.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Model C: Counterfactual Simulation}{16}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Framework}{16}{subsubsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}Fan Favorability Index (FFI)}{16}{subsubsection.5.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Overall flip rate between rules.}}{16}{figure.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces FFI statistics for eliminated contestants}}{16}{table.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Flip rate by season.}}{17}{figure.10}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces FFI distribution by rule.}}{17}{figure.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Recommendation scores by rule.}}{18}{figure.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Model D: Twin Random Forests}{18}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}Specification}{18}{subsubsection.5.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Twin model feature importance}}{18}{table.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Twin model feature importance comparison.}}{18}{figure.13}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Industry-specific bias (fan vs.\ judge)}}{19}{table.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Model E: Adaptive Weighted Voting System (AWVS)}{19}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.1}Formulation}{19}{subsubsection.5.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.2}System performance}{19}{subsubsection.5.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Model Complexity and Practical Considerations}{19}{subsection.5.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Computational complexity and runtime}}{19}{table.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Model Evaluation Criteria}{20}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Regression Accuracy}{20}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Classification and Risk Accuracy}{20}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Rule Consistency and Feasibility}{20}{subsection.6.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Flip rate by season under counterfactual rules.}}{20}{figure.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Fairness Metrics}{20}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Stability Across Seasons}{20}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Results, Discussion, and Sensitivity Analysis}{21}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Main Quantitative Results}{21}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.1}Question 1: Fan Vote Estimation}{21}{subsubsection.7.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Top 10 estimated fan vote leaders}}{21}{table.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.2}Question 2: Voting Method Comparison}{21}{subsubsection.7.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Pairwise flip rates}}{21}{table.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Flip rate by season.}}{22}{figure.15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Flip rate by pool size.}}{22}{figure.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces FFI comparison by rule.}}{22}{figure.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Recommendation scores by rule.}}{23}{figure.18}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Feature importance comparison (fan vs.\ judge).}}{23}{figure.19}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Industry bias comparison.}}{23}{figure.20}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Fan Favorability Index (FFI) by rule}}{24}{table.8}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Multi-criteria recommendation scores}}{24}{table.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.3}Question 3: Feature Impact Analysis}{24}{subsubsection.7.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.4}Question 4: Proposed System Performance}{24}{subsubsection.7.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Controversial Case Studies}{24}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1}Bobby Bones (Season 27)}{24}{subsubsection.7.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Fan effect by age.}}{24}{figure.21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces System comparison under alternative rules.}}{25}{figure.22}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces AWVS benefits summary.}}{25}{figure.23}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Feature importance divergence (Twin model)}}{26}{table.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Industry bias analysis}}{26}{table.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.2}Bristol Palin (Season 11)}{26}{subsubsection.7.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.3}Jerry Rice (Season 2)}{26}{subsubsection.7.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.4}Billy Ray Cyrus (Season 4)}{26}{subsubsection.7.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.5}Additional cases}{26}{subsubsection.7.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Interpretation and Driving Factors}{26}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1}Why Rank Sum Outperforms Other Rules}{26}{subsubsection.7.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Bobby Bones case study under alternative rules.}}{27}{figure.24}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Bristol Palin case study.}}{27}{figure.25}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Jerry Rice case study.}}{28}{figure.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Billy Ray Cyrus case study.}}{28}{figure.27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Additional case studies: Master P and Sabrina Bryan.}}{29}{figure.28}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Additional case studies: Kim Kardashian and Kate Gosselin.}}{29}{figure.29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Fan score by season.}}{29}{figure.30}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces System comparison}}{30}{table.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.2}Temporal Dynamics of Fan Support}{30}{subsubsection.7.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.3}When Controversies Arise}{30}{subsubsection.7.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Sensitivity Analysis}{30}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1}Ridge regularization}{30}{subsubsection.7.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.2}Random Forest hyperparameters}{30}{subsubsection.7.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.3}SHAP background sample size}{30}{subsubsection.7.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.4}Judge Save variant}{30}{subsubsection.7.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.5}AWVS parameters}{30}{subsubsection.7.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces AWVS sensitivity analysis}}{30}{table.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.6}Cross-validation stability}{31}{subsubsection.7.4.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Cross-validation results}}{31}{table.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Limitations and Caveats}{31}{subsection.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Mechanism Design / Recommendation}{31}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Problems with Current Voting Rules}{31}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.1}Historical rule changes and motivations}{31}{subsubsection.8.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.2}Systematic issues with fixed-weight rules}{31}{subsubsection.8.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.3}Quantified problems}{31}{subsubsection.8.1.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Current system deficiencies}}{31}{table.15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Rule consistency matrix (disagreement among rules).}}{32}{figure.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Proposed Alternative: AWVS}{32}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.1}Design principles}{32}{subsubsection.8.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.2}Mathematical specification}{32}{subsubsection.8.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.3}Weight evolution example}{32}{subsubsection.8.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.4}Trend bonus}{32}{subsubsection.8.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Counterfactual Evaluation of AWVS}{32}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Trade-offs and Considerations}{32}{subsection.8.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces AWVS weights over an 11-week season}}{33}{table.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces AWVS weight evolution.}}{33}{figure.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Recommendation Summary}{33}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Conclusion}{33}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Summary of Findings}{33}{subsection.9.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces AWVS vs.\ existing rules}}{34}{table.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Key Contributions}{34}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Broader Implications}{34}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Limitations}{35}{subsection.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Future Work}{35}{subsection.9.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Final Remarks}{35}{subsection.9.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Strengths and Weaknesses}{35}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Strengths}{35}{subsection.10.1}\protected@file@percent }
+\bibcite{1}{1}
+\bibcite{2}{2}
+\bibcite{3}{3}
+\bibcite{4}{4}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Weaknesses}{36}{subsection.10.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{36}{Item.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendices}{36}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendices}{36}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix \numberline {A}Model Hyperparameters}{36}{appendix.1.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix \numberline {B}Supplementary Results}{36}{appendix.1.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Use of AI}{36}{appendix.1.B}\protected@file@percent }
+\newlabel{LastPage}{{10.2}{36}{Weaknesses}{appendix.1.B}{}}
+\bibcite{AI1}{1}
+\bibcite{AI2}{2}
+\bibcite{AI3}{3}
+\gdef \@abspage@last{38}

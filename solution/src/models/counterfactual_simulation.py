@@ -558,7 +558,19 @@ if __name__ == "__main__":
     sys.path.insert(0, str(src_dir))
     from config import DATA_DIR
 
-    data_path = DATA_DIR / "models" / "ridge_v2" / "ridge_fan_vote_shares_v2.csv"
+    # Load both training and test data to cover all 34 seasons
+    train_path = DATA_DIR / "models" / "ridge_v2" / "ridge_fan_vote_shares_v2.csv"
+    test_path = DATA_DIR / "models" / "ridge_v2" / "ridge_fan_vote_shares_v2_test.csv"
+
+    # Merge train and test data
+    train_df = pd.read_csv(train_path)
+    test_df = pd.read_csv(test_path)
+    combined_df = pd.concat([train_df, test_df], ignore_index=True)
+
+    # Save combined data temporarily
+    temp_path = DATA_DIR / "models" / "ridge_v2" / "ridge_fan_vote_shares_v2_all.csv"
+    combined_df.to_csv(temp_path, index=False)
+
     output_dir = DATA_DIR / "simulation"
 
-    simulator, results, cases, recommendation = run_counterfactual_simulation(data_path, output_dir)
+    simulator, results, cases, recommendation = run_counterfactual_simulation(temp_path, output_dir)

@@ -211,9 +211,9 @@ class RidgeFanVoteModelV2:
         raw_logits = self.sensitivity * residuals
 
         # 按周归一化
-        fan_vote_share = np.zeros_like(raw_votes)
-        uncertainty_lower = np.zeros_like(raw_votes)
-        uncertainty_upper = np.zeros_like(raw_votes)
+        fan_vote_share = np.zeros_like(residuals)
+        uncertainty_lower = np.zeros_like(residuals)
+        uncertainty_upper = np.zeros_like(residuals)
 
         for week_id in week_groups.unique():
             mask = (week_groups == week_id).values

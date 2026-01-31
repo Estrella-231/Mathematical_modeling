@@ -1,0 +1,99 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Related Work}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Overview of Our Solution}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Our Contributions}{5}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data Availability Assumptions}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Behavioral Assumptions}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Modeling Assumptions}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Rule Assumptions}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Potential Violations and Impact}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Notations}{7}{section.3}%
+\contentsline {section}{\numberline {4}Data Preparation and Exploratory Data Analysis}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Dataset Overview}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Cleaning and Preprocessing}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Judges Score Statistics}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Contestant Demographics and External Signals}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Why We Need an Inverse Estimation Step}{11}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Model Construction}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Overview: Five-Stage Modeling Pipeline}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Model B1: Ridge Regression for Fan Vote Estimation}{11}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Motivation}{11}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Formulation}{11}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Performance}{12}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Consistency}{12}{subsubsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.3}Model B2: Random Forest + SHAP}{12}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Motivation}{12}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Specification}{12}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Performance}{12}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}SHAP interpretability}{16}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}Model C: Counterfactual Simulation}{16}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Framework}{16}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Fan Favorability Index (FFI)}{16}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Model D: Twin Random Forests}{18}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Specification}{18}{subsubsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.6}Model E: Adaptive Weighted Voting System (AWVS)}{19}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Formulation}{19}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}System performance}{19}{subsubsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.7}Model Complexity and Practical Considerations}{19}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Model Evaluation Criteria}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Regression Accuracy}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Classification and Risk Accuracy}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Rule Consistency and Feasibility}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Fairness Metrics}{20}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Stability Across Seasons}{20}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Results, Discussion, and Sensitivity Analysis}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Main Quantitative Results}{21}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Question 1: Fan Vote Estimation}{21}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Question 2: Voting Method Comparison}{21}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Question 3: Feature Impact Analysis}{24}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Question 4: Proposed System Performance}{24}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}Controversial Case Studies}{24}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Bobby Bones (Season 27)}{24}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Bristol Palin (Season 11)}{26}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Jerry Rice (Season 2)}{26}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Billy Ray Cyrus (Season 4)}{26}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Additional cases}{26}{subsubsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.3}Interpretation and Driving Factors}{26}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Why Rank Sum Outperforms Other Rules}{26}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Temporal Dynamics of Fan Support}{30}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}When Controversies Arise}{30}{subsubsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.4}Sensitivity Analysis}{30}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Ridge regularization}{30}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Random Forest hyperparameters}{30}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}SHAP background sample size}{30}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}Judge Save variant}{30}{subsubsection.7.4.4}%
+\contentsline {subsubsection}{\numberline {7.4.5}AWVS parameters}{30}{subsubsection.7.4.5}%
+\contentsline {subsubsection}{\numberline {7.4.6}Cross-validation stability}{31}{subsubsection.7.4.6}%
+\contentsline {subsection}{\numberline {7.5}Limitations and Caveats}{31}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Mechanism Design / Recommendation}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Problems with Current Voting Rules}{31}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Historical rule changes and motivations}{31}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Systematic issues with fixed-weight rules}{31}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}Quantified problems}{31}{subsubsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.2}Proposed Alternative: AWVS}{32}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Design principles}{32}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Mathematical specification}{32}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Weight evolution example}{32}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Trend bonus}{32}{subsubsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.3}Counterfactual Evaluation of AWVS}{32}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Trade-offs and Considerations}{32}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Recommendation Summary}{33}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Conclusion}{33}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Summary of Findings}{33}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Key Contributions}{34}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Broader Implications}{34}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Limitations}{35}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Future Work}{35}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Final Remarks}{35}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Strengths and Weaknesses}{35}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Strengths}{35}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Weaknesses}{36}{subsection.10.2}%
+\contentsline {section}{References}{36}{Item.14}%
+\contentsline {section}{Appendices}{36}{section*.1}%
+\contentsline {section}{Appendices}{36}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}Model Hyperparameters}{36}{appendix.1.A}%
+\contentsline {section}{Appendix \numberline {B}Supplementary Results}{36}{appendix.1.B}%
+\contentsline {section}{Use of AI}{36}{appendix.1.B}%
