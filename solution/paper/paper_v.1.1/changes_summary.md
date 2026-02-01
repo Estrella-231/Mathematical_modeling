@@ -48,3 +48,46 @@
 - 删除 Figure 20 组图 (system_comparison.png + awvs_benefits.png)
 - 保留表格 "AWVS vs. existing rules: comprehensive comparison" 展示数据
 - 表格已清晰展示所有指标对比，图片冗余
+
+### 2026-02-01 (晚 23:30+)
+**全文数学公式排版改进 - 参考O奖论文风格**
+- 将重要的内联公式改为独立显示公式 (display math)，使公式与正文分开
+
+**Section 1.4 Overview (5个公式)**
+- Ridge回归模型: `Ranking ~ β₀ + β₁·JudgeScore + ...`
+- FFI定义: `FFI = (R^J - R^F)/(N-1)`
+- AWVS综合评分: `S^{AWVS} = α(t)·Z^J + (1-α(t))·Z^F + β·Trend`
+- 权重函数: `α(t) = 0.4 + 0.3·t/T_max`
+- 趋势奖励: `Trend = max(0, Score^J - MA^J)`
+
+**Section 2 Assumptions (3个公式)**
+- 投票份额归一化: `∑V_{i,t} = 1`
+- 时间平滑性: `V_{i,t} ≈ V_{i,t-1}`
+- Judge Save机制: `Eliminated = argmin J_{i,t}`
+
+**Section 4 Data Preparation (1个公式)**
+- 分数标准化: `Score_std = (∑J_{i,t,j}/n_valid) × 30`
+
+**Section 5 Problem 1 (5个公式)**
+- 核心排名模型: `Ranking = α·JudgeScore + β·FanVote + ε`
+- Ridge代理: `R_{i,s} = β₀ + β₁·J_{avg} + β₂·S_s + ε`
+- Ridge目标函数: `min Σ(R - R̂)² + λ||β||²`
+- Sigmoid映射: `FanScore = 1/(1+exp(γ·ε))`
+- Softmax周级份额: `FanShare = exp(ε̂)/Σexp(ε̂)`
+
+**Section 6 Problem 2 (3个公式)**
+- 评分标准三公式改为独立显示: S_fair, S_balance, S_stable
+
+**Section 8 Problem 4 (3个公式)**
+- 动态权重函数: `α(t) = α_base + γ·t/T_max`
+- 改进奖励公式: `Trend = max(0, J - MA^J)`
+- 奖励计算: `Bonus = β·(J - MA^J)`
+
+**总计**: 约20个重要公式从内联改为独立显示，提升论文专业性和可读性
+
+### 2026-02-02 (凌晨)
+**Section 5 (Problem 1) 进一步优化**
+- 删除 Figure "Residuals versus judge rank in week" (`residual_vs_judge_rank.png`) - 视觉效果不理想
+- 改进文本结构：删除内联 `\textbf{}` 标记，改用 `\subsubsection` 层级
+- 分离公式与文本：每个公式前后都有独立的说明段落
+- 参数说明独立化：如 `γ = 0.5` 等参数从公式内移到文字说明中

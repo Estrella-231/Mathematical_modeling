@@ -58,66 +58,29 @@ Fan vote estimation; Voting mechanism optimization; Ridge regression; Random For
 \section{Introduction}
 \subsection{Problem Background}
 
-"Dancing with the Stars" (DWTS), the U.S. adaptation of Britain's "Strictly Come Dancing," has completed 34 seasons since 2005. The competition pairs celebrities with professional ballroom dancers, with weekly eliminations determined by combining two scoring components: (1) \textbf{judge scores} --- technical evaluations from expert judges on a 1--10 scale, and (2) \textbf{fan votes} --- audience participation via phone, text, and online platforms allowing multiple votes per viewer.
+Throughout its 34 seasons, Dancing with the Stars (DWTS) has been shrouded in controversy.
+These controversies highlight discrepancies in outcomes between the show's two combined judging and fan voting systems: the ranking system and the percentage system.
+Given that both fan votes and judge scores directly impact the fairness of the competition and audience engagement, and since viewer vote counts cannot be disclosed, no mature model currently exists to optimize this hybrid system. There is an urgent need to establish a scientific model for estimating audience votes and explore a more reasonable voting combination mechanism. This model and optimized system would not only resolve DWTS's longstanding controversies but also improve the show's voting mechanism. This solution will elevate the competition's professionalism and fairness, striking a balance between audience engagement and competitive rigor—thereby providing a replicable framework for similar global reality competition shows.
+\subsection{Restatement and Related Work}
 
-\noindent\textbf{Rank Sum Method (Seasons 1--2, 28--34):} Contestants are ranked separately by judge scores and fan votes; ranks are summed, with the highest sum indicating elimination.\\
-\textbf{Percent Sum Method (Seasons 3--27):} Judge scores and fan votes are converted to percentages of weekly totals and summed, with the lowest percentage leading to elimination.
+Given 34 seasons of DWTS data, including contestant metadata and weekly judge scores (but without fan vote data), we address four core questions:  
+\par1. \textbf{Fan Vote Estimation}: Develop models to estimate fan votes and quantify uncertainty.  
+\par2. \textbf{Voting Method Comparison}: Compare Rank Sum vs. Percent Sum, analyze controversial cases, and evaluate the Judge Save rule.  
+\par3. \textbf{Feature Impact Analysis}: Model how dancer and celebrity attributes affect outcomes, examining judge scores and fan votes.  
+\par4. \textbf{Proposed Voting System}: Design a fairer and more engaging voting system with empirical support.
 
-\noindent\textbf{Season 2 (2006):} Jerry Rice, an NFL legend, reached the finals despite receiving the lowest judge scores for five consecutive weeks. This prompted the switch to the Percent Sum method.\\
-\textbf{Season 27 (2018):} Bobby Bones, a radio personality, won with the lowest average judge scores among finalists, leading to the reintroduction of Rank Sum combined with a \textbf{Judge Save rule} in Season 28, where judges select which of the bottom two contestants to eliminate.
-
-\subsection{Restatement of the Problem}
-
-Given 34 seasons of DWTS data including contestant metadata (age, industry, home location), professional dancer pairings, weekly judge scores, and final placements---but \textbf{without fan vote data}---we address four core questions. \textbf{Question 1: Fan Vote Estimation} develops mathematical models to estimate unknown fan votes for each contestant-week, provides consistency measures against observed eliminations, and quantifies uncertainty by contestant, week, or season. \textbf{Question 2: Voting Method Comparison} contrasts Rank Sum and Percent Sum across seasons, assesses which is more fan- or judge-friendly, analyzes controversial cases (Seasons 2, 4, 11, 27), and evaluates the Judge Save rule to recommend an optimal scheme. \textbf{Question 3: Feature Impact Analysis} models how dancer characteristics and celebrity attributes affect outcomes, examines whether these factors influence judge scores and fan votes differently, and quantifies systematic biases (e.g., industry effects). \textbf{Question 4: Proposed Voting System} designs an alternative mechanism that is more fair and engaging, with mathematical justification and empirical support for adoption.
-
-\subsection{Related Work}
-
-\textbf{Voting Theory and Social Choice}: Arrow's impossibility theorem demonstrates that no rank aggregation method satisfies all fairness criteria simultaneously. Our analysis quantifies trade-offs between different aggregation rules (rank vs. percent) using empirical data rather than axiomatic frameworks.
-
-\textbf{Inverse Reinforcement Learning}: Since fan votes are latent (unobserved), we employ inverse inference---estimating hidden preferences from observed outcomes. This parallels techniques in preference learning where agent rewards are inferred from behavior.
-
-\textbf{Explainable AI in Competition Analysis}: We use SHAP (SHapley Additive exPlanations) values to decompose feature contributions to fan vs. judge preferences, providing interpretable insights into systematic biases.
-
-\subsection{Overview of Our Solution}
-
-Our modeling pipeline follows the four problem questions.
-
-\textbf{Stage 1: Fan Vote Proxy Estimation (Ridge Regression).} We fit:
-\begin{equation}
-Ranking \sim \beta_0 + \beta_1 \cdot JudgeScore + \beta_2 \cdot SeasonEffect + \epsilon
-\end{equation}
-where residuals ($\epsilon$) capture the component of ranking unexplained by judge scores and serve as a proxy for fan voting. Ridge regularization mitigates multicollinearity.
-
-\textbf{Stage 2: Mechanism Comparison (Counterfactual Simulation).} We simulate Rank Sum, Percent Sum, and Judge Save across 241 elimination weeks, computing the Fan Favorability Index:
-\begin{equation}
-FFI = \frac{R^{J}_{i,t} - R^{F}_{i,t}}{N - 1}
-\end{equation}
-where $R^{J}_{i,t}$ and $R^{F}_{i,t}$ are judge and fan ranks respectively, and $N$ is the number of contestants.
-
-\textbf{Stage 3: Feature Impact Analysis (Twin Random Forest + SHAP).} We train two Random Forests for fan and judge outcomes, then apply SHAP to identify non-linear effects and feature interactions, comparing importance between fan-driven and judge-driven outcomes.
-
-\textbf{Stage 4: Adaptive System Design (AWVS).} We propose dynamic weighting:
-\begin{equation}
-S^{AWVS}_{i,t} = \alpha(t) \cdot Z^{J}_{i,t} + (1-\alpha(t)) \cdot Z^{F}_{i,t} + \beta \cdot Trend_{i,t}
-\end{equation}
-with the judge weight function:
-\begin{equation}
-\alpha(t) = 0.4 + 0.3 \cdot \frac{t}{T_{max}}
-\end{equation}
-which increases from 40\% (early) to 70\% (finals), and a trend bonus:
-\begin{equation}
-Trend_{i,t} = \max\left(0, \, Score^{J}_{i,t} - MA^{J}_{i,t-1}\right)
-\end{equation}
-that rewards improvement over the contestant's prior moving average.
-
+\subsection{Our Work}
+In response to this challenge, our approach intertwines statistical analysis, machine learning techniques, and dynamic simulations to forge a comprehensive model of momentum dynamics. 
+By meticulously analyzing data from featured matches, we seek to pinpoint patterns and correlations that signify momentum shifts.
+ Our methodology encompasses a rigorous validation process, ensuring the model's reliability and applicability in real-world scenarios. 
+Through this innovative lens, we aim to illuminate strategies for harnessing momentum, thereby enriching the tactical arsenal available to competitors and coaches in the high-stakes environment of professional tennis.
 % Figure: model pipeline overview (to be added).
-
+\iffalse
 \subsection{Our Contributions}
-
 We make five primary contributions. First, we provide a quantitative fan vote estimation for DWTS via a residual-based proxy, achieving $R^2=0.7721$ and 85.3\% elimination consistency across 34 seasons. Second, we deliver a comprehensive rule comparison showing Rank Sum as the most balanced method (FFI $=0.034$, score 0.884), while Judge Save is the most biased (FFI $=0.222$). Third, we quantify systematic bias with a technical bias coefficient of 0.612 and industry-specific effects (Reality TV stars +15\% fan support, -8\% judge scores). Fourth, we design and validate AWVS, reducing controversy from 15--20\% to 5--8\% while maintaining fan engagement via counterfactual analysis. Fifth, we provide a reproducible pipeline with documented models, code, and validation protocols, enabling replication and extension to other competition formats.
-
-\section{Assumptions and Justifications}
-
+\fi
+\section{Assumptions}
+\iffalse
 \subsection{Data Availability Assumptions}
 
 \textbf{Assumption 2.1.1: Fan votes are completely unobserved.}
@@ -134,36 +97,34 @@ We make five primary contributions. First, we provide a quantitative fan vote es
 \textit{Justification}: Each week's elimination is publicly recorded and verifiable through broadcast archives and official DWTS records.
 \textit{Impact}: Elimination outcomes serve as ground-truth constraints for fan vote estimation.
 \textit{Handling}: We model eliminations as hard constraints in our inverse inference framework.
+\fi
 
-\subsection{Behavioral Assumptions}
 
-\textbf{Assumption 2.2.1: Fan voting shares sum to 1 within each week.}
-\textit{Justification}: Regardless of absolute vote counts, the relative share of votes determines rankings. Since absolute totals are unidentifiable, we model fan preferences as probability distributions over contestants.
-\textit{Impact}: Our estimates represent vote shares (0--1 range) rather than raw counts.
-\textit{Handling}: All fan vote proxies are normalized within each week $t$:
+\subsection*{Assumption 1: Fans and Judges Evaluate Independently}
+We model the judge scores and fan votes as separate components with distinct feature dependencies. Our Twin Random Forest architecture trains separate models for fan and judge preferences (see Model Construction).
+
+\textbf{Justification:} Fan voting closes before judge scores are announced (to prevent strategic voting). Judges deliberate privately without access to real-time fan vote data.
+
+\subsection*{Assumption 2: Fan Preferences Exhibit Temporal Smoothness}
+We apply regularization assuming $V_{i,t} \approx V_{i,t-1}$ for most contestants. Ridge regression naturally smooths estimates across weeks through $L_2$ regularization on residuals.
+
+\textbf{Justification:} Viewer loyalty develops over time; a contestant’s fan base does not drastically change week-to-week unless a major event occurs (e.g., viral performance).
+
+\subsection*{Assumption 3: Fan Voting Shares Sum to 1 Within Each Week}
+Our estimates represent vote shares (ranging from 0 to 1) rather than raw counts. All fan vote proxies are normalized as follows:
 \begin{equation}
-\sum_{i \in \mathcal{C}_{s,t}} V_{i,t} = 1
+\sum_{i} V_{i,t} = 1 
 \end{equation}
 
-\textbf{Assumption 2.2.2: Fan preferences exhibit temporal smoothness.}
-\textit{Justification}: Viewer loyalty develops over time; a contestant's fan base does not drastically change week-to-week unless a major event occurs (e.g., viral performance).
-\textit{Impact}: We can apply regularization assuming:
-\begin{equation}
-V_{i,t} \approx V_{i,t-1}
-\end{equation}
-for most contestants. \textit{Handling}: Ridge regression naturally smooths estimates across weeks through L2 regularization on residuals.
+\textbf{Justification:} Regardless of absolute vote counts, the relative share of votes determines rankings. Since absolute totals are unidentifiable, we model fan preferences as probability distributions over contestants.
 
-\textbf{Assumption 2.2.3: Fans and judges evaluate independently.}
-\textit{Justification}: Fan voting closes before judge scores are announced (to prevent strategic voting). Judges deliberate privately without access to real-time fan vote data.
-\textit{Impact}: We can model judge scores and fan votes as separate components with distinct feature dependencies.
-\textit{Handling}: Our Twin Random Forest architecture trains separate models for fan and judge preferences (see Model Construction).
-
+\iffalse
 \subsection{Modeling Assumptions}
 
 \textbf{Assumption 2.3.1: Linear relationship between judge scores and ranking (Ridge model).}
-\textit{Justification}: In a purely merit-based system, higher judge scores should correlate with better rankings. Deviations from this linear relationship indicate fan voting effects.
-\textit{Impact}: Residuals from Ridge regression serve as our primary fan vote proxy.
-\textit{Handling}: We validate linearity through R² = 0.7721 and residual distribution analysis (approximately normal with mean $\approx 0$).
+\textbf{\emph{Justification}}: In a purely merit-based system, higher judge scores should correlate with better rankings. Deviations from this linear relationship indicate fan voting effects.
+\textbf{\emph{Impact}}: Residuals from Ridge regression serve as our primary fan vote proxy.
+\textbf{\emph{Handling}}: We validate linearity through R² = 0.7721 and residual distribution analysis (approximately normal with mean $\approx 0$).
 
 \textbf{Assumption 2.3.2: Feature effects are season-invariant (Random Forest).}
 \textit{Justification}: While specific contestants change, the underlying mechanisms (age effects, industry biases) remain stable across seasons.
@@ -187,16 +148,13 @@ Seasons 1--2: Rank Sum method; Seasons 3--27: Percent Sum method; Seasons 28--34
 When Judge Save is active, judges select which of the bottom two (by combined score) to eliminate, choosing the contestant with lower judge scores.
 \textit{Justification}: Judges are incentivized to preserve technical quality; anecdotal evidence suggests they typically save the contestant they scored higher.
 \textit{Impact}: Judge Save amplifies judge influence in close decisions.
-\textit{Handling}: We model this as:
-\begin{equation}
-Eliminated = \arg\min_{i \in \mathcal{B}_t} J_{i,t}
-\end{equation}
-where $\mathcal{B}_t$ denotes the bottom two contestants by combined score in week $t$.
+\textit{Handling}: We model this as $Eliminated = \arg\min_{i \in \text{Bottom2}} J_i$ (lowest judge total among bottom two).
 
 \textbf{Assumption 2.4.3: Tie-breaking.}
 In case of tied combined scores, the contestant with lower fan votes is eliminated.
 \textit{Justification}: Fan engagement is a core show objective; ties favor audience preference.
 \textit{Impact}: Minimal---ties are rare ($<2\%$ of weeks). \textit{Handling}: Standard tie-breaking in simulations; results are insensitive to this choice.
+
 
 \subsection{Potential Violations and Impact}
 
@@ -222,103 +180,38 @@ In case of tied combined scores, the contestant with lower fan votes is eliminat
 
 \textbf{Sensitivity.}
 We test robustness to key assumptions: Ridge $\alpha \in [0.1, 10.0]$ (we use $\alpha = 1.0$); Random Forest hyperparameters (feature importance stable for $n_{\text{estimators}} \in [100, 500]$); SHAP sample size (convergence at 100 samples). Core findings (Rank Sum superiority, technical bias 0.612, AWVS benefits) remain robust.
+\fi
 
 \section{Notations}
 
-\begin{longtable}{lll}
-\caption{Variations and Parameters} \\
+\begin{table}[h]
+\centering
+\caption{Notations}
+\begin{tabular}{p{3.5cm}p{9cm}}
 \toprule
-Symbols & Description & Unit \\
+\centering Symbols & \centering Description \arraybackslash \\
 \midrule
-\endfirsthead
-
-\multicolumn{3}{c}{\textit{(Table continued)}} \\
-\toprule
-Symbols & Description & Unit \\
-\midrule
-\endhead
-
-\midrule
-\multicolumn{3}{r}{\textit{Continued on next page}} \\
-\endfoot
-
+\centering $s$, $t$, $i$ & \centering Season, week, and contestant indices \arraybackslash \\
+\centering $N_t$ & \centering Number of active contestants in week $t$ \arraybackslash \\
+\centering $J_{i,t}$ & \centering Total judge score for contestant $i$ in week $t$ \arraybackslash \\
+\centering $V_{i,t}$ & \centering Fan vote share for contestant $i$ in week $t$ \arraybackslash \\
+\centering $R_{i,s}$ & \centering Final placement of contestant $i$ in season $s$ \arraybackslash \\
+\centering $R^J_{i,t}$, $R^F_{i,t}$ & \centering Rank by judge scores and by fan votes \arraybackslash \\
+\centering $\epsilon_{i,t}$ & \centering Ridge regression residual (fan vote proxy) \arraybackslash \\
+\centering $S^{\text{rank}}_{i,t}$ & \centering Rank sum score: $R^J_{i,t} + R^F_{i,t}$ \arraybackslash \\
+\centering $S^{\text{percent}}_{i,t}$ & \centering Percent sum score \arraybackslash \\
+\centering $FFI$ & \centering Fan Favorability Index \arraybackslash \\
+\centering $\alpha(t)$ & \centering Dynamic judge weight in AWVS \arraybackslash \\
+\centering $Trend_{i,t}$ & \centering Improvement bonus over moving average \arraybackslash \\
+\centering $S^{\text{AWVS}}_{i,t}$ & \centering AWVS combined score \arraybackslash \\
+\centering $\rho$ & \centering Spearman rank correlation coefficient \arraybackslash \\
+\centering $R^2$ & \centering Coefficient of determination \arraybackslash \\
 \bottomrule
-\endlastfoot
-
-\multicolumn{3}{c}{\textbf{Indices and Sets}} \\
-\hdashline
-$s$ & Season index, $s \in \{1, 2, \ldots, 34\}$ & -- \\
-$t$ & Week index within a season & -- \\
-$i$ & Contestant index within a season & -- \\
-$j$ & Judge index ($1, \ldots, 4$; not all seasons have 4) & -- \\
-$N_s$ & Number of contestants in season $s$ & -- \\
-$T_s$ & Number of weeks in season $s$ & -- \\
-$\mathcal{C}_{s,t}$ & Set of active contestants in season $s$, week $t$ & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Observed Variables (Judge Scores)}} \\
-\hdashline
-$J_{i,t,j}$ & Score by judge $j$ to contestant $i$ in week $t$ & pts (1--10) \\
-$J_{i,t}$ & Total judge score: $\sum_j J_{i,t,j}$ & pts \\
-$\bar{J}_{i,t}$ & Average judge score in week $t$ & pts \\
-$J^{\text{norm}}_{i,t}$ & Normalized judge score within week & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Observed Variables (Rankings and Outcomes)}} \\
-\hdashline
-$R_{i,s}$ & Final placement of contestant $i$ in season $s$ (1 = winner) & rank \\
-$W_{i,s}$ & Weeks contestant $i$ survived in season $s$ & weeks \\
-$E_{s,t}$ & Contestant eliminated in season $s$, week $t$ & -- \\
-$R^J_{i,t}$, $R^F_{i,t}$ & Rank by judge scores and by fan votes in week $t$ (1 = best) & rank \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Observed Variables (Contestant Features)}} \\
-\hdashline
-$A_i$ & Age of contestant $i$ during competition & years \\
-$I_i$ & Industry or profession of contestant $i$ & -- \\
-$P_i$ & Professional dancer partner of contestant $i$ & -- \\
-$H_i$ & Home state or country of contestant $i$ & -- \\
-$\bar{P}_P$, $E_P$, $W_P$ & Partner's average placement, experience (seasons), win rate & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Latent Variables (Fan Votes)}} \\
-\hdashline
-$V_{i,t}$ & Fan vote share; $\sum_{i \in \mathcal{C}_{s,t}} V_{i,t} = 1$ & -- \\
-$\hat{V}_{i,t}$ & Estimated fan vote share (from Ridge residuals) & -- \\
-$V^{\text{raw}}_{i,t}$ & Absolute fan vote count (unobservable) & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Latent Variables (Derived Scores)}} \\
-\hdashline
-$\epsilon_{i,t}$ & Ridge regression residual & -- \\
-$F_{i,t}$ & Fan score proxy: $F_{i,t} = -\epsilon_{i,t}$ (high = fan support) & -- \\
-$Z^J_{i,t}$, $Z^F_{i,t}$ & Standardized judge and fan scores within week & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Combined Scores and Voting Rules}} \\
-\hdashline
-$S^{\text{rank}}_{i,t}$ & Rank sum: $R^J_{i,t} + R^F_{i,t}$; highest sum eliminated & -- \\
-$S^{\text{percent}}_{i,t}$ & Percent sum: $J^{\text{norm}}_{i,t} + V_{i,t}$; lowest sum eliminated & -- \\
-$\mathcal{B}_t$ & Bottom two by combined score (Judge Save) & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Evaluation Metrics}} \\
-\hdashline
-$FFI_{i,t}$ & Fan Favorability Index: $(R^J_{i,t} - R^F_{i,t})/(|\mathcal{C}_{s,t}|-1)$; range $[-1,1]$ & -- \\
-FlipRate$(A,B)$ & Proportion of weeks two rules give different eliminations & \% \\
-MatchRate & Proportion of weeks predicted elimination equals actual & \% \\
-\hdashline
-\multicolumn{3}{c}{\textbf{AWVS Parameters}} \\
-\hdashline
-$\alpha(t)$ & Judge weight: $0.4 + 0.3 \cdot t/T_{\max}$ (40\%--70\%) & -- \\
-$Trend_{i,t}$ & Improvement over moving average: $\max(0, J_{i,t} - MA^J_{i,t-1})$ & -- \\
-$\beta$ & Trend bonus coefficient (default 0.5) & -- \\
-$S^{\text{AWVS}}_{i,t}$ & AWVS score: $\alpha(t) Z^J_{i,t} + (1-\alpha(t)) Z^F_{i,t} + \beta Trend_{i,t}$ & -- \\
-\hdashline
-\multicolumn{3}{c}{\textbf{Model and Statistics}} \\
-\hdashline
-$\phi_k(x_i)$, $\Phi_k$ & SHAP value and average absolute SHAP for feature $k$ & -- \\
-$R^2$, MAE, RMSE & Coefficient of determination, mean absolute error, root MSE & -- \\
-$\rho$ & Spearman rank correlation & -- \\
-$p$, $\alpha_{\text{sig}}$ & p-value, significance level (e.g.\ 0.05) & -- \\
-$CI_{95\%}$, CV & 95\% confidence interval, cross-validation & -- \\
-\end{longtable}
+\end{tabular}
+\end{table}
 
 \section{Data Preparation and Exploratory Data Analysis}
-
+\iffalse
 \subsection{Dataset Overview}
 
 \textbf{Data source.}
@@ -330,34 +223,33 @@ The dataset \texttt{2026\_MCM\_Problem\_C\_Data.csv} contains records from 34 se
 \textbf{Structure.}
 \textit{Original (wide)}: one row per contestant with contestant metadata (\texttt{celebrity\_name}, \texttt{celebrity\_industry}, \texttt{celebrity\_age\_during\_season}, \texttt{ballroom\_partner}, etc.), competition outcomes (\texttt{season}, \texttt{results}, \texttt{placement}), and judge scores (\texttt{week1\_judge1\_score}, \ldots). \textit{Processed (long)}: one row per contestant-week with identifiers (\texttt{season}, \texttt{week}, \texttt{celebrity\_name}), scores (\texttt{judge\_total}, \texttt{judge\_rank\_in\_week}, \texttt{relative\_judge\_score}), temporal features (\texttt{cumulative\_average}, \texttt{trend}, \texttt{week\_valid}), and metadata (\texttt{elimination\_week}). Output files: \texttt{weekly\_panel.csv} (4,631 rows, 18 columns), \texttt{contestant\_static.csv} (421 rows), \texttt{season\_meta.csv} (34 rows), \texttt{train\_panel.csv} (S1--S27, 3,542 rows), \texttt{test\_panel.csv} (S28--S34, 1,089 rows).
 
+\fi
 \subsection{Cleaning and Preprocessing}
 
-\textbf{Wide-to-long (melt).}
-We transformed wide format to long: 421 rows $\times$ 150+ columns $\to$ 18,524 rows (contestant-week-judge) $\to$ 4,631 rows (contestant-week) after aggregation. Long format enables week-by-week analysis, temporal feature engineering, and consistent handling of varying season lengths.
+\textbf{Wide-to-long (melt):}  
+We transformed the data from wide format to long format: 421 rows and 153 columns were reduced to 18,524 rows (contestant-week-judge), and then aggregated to 4,631 rows (contestant-week). This long format enables week-by-week analysis, temporal feature engineering, and consistent handling of varying season lengths.
 
-\textbf{Missing values.}
-N/A in judge scores (6.7\%): structural missingness (3 vs.\ 4 judges). We exclude N/A from aggregation and use the standardized score:
+\textbf{Missing Values:}  
+There were no missing values in judge scores (6.7\%): structural missingness due to different numbers of judges (3 vs. 4). We excluded N/A values from the aggregation and used the standardized score:
 \begin{equation}
-Score_{\text{std}} = \frac{\sum_j J_{i,t,j}}{n_{\text{valid}}} \times 30
+Score_{\text{std}} = \left(\frac{\sum_j J_{i,t,j}}{n_{\text{valid}}}\right) \times 30
 \end{equation}
-where $n_{\text{valid}}$ is the count of non-missing judges. Zero scores after elimination (40.03\% of contestant-weeks): flagged \texttt{week\_valid = False} and excluded from modeling. Elimination week parsed from \texttt{results} with 97.62\% success (411/421).
+where \( n_{\text{valid}} \) is the count of non-missing judges. Zero scores after elimination (40.03\% of contestant-weeks) were flagged with \texttt{week\_valid = False} and excluded from modeling. The week of elimination was parsed from \texttt{results} with 97.62\% accuracy (411/421).
 
-\textbf{Score standardization.}
-To compare across weeks with 3 or 4 judges, we normalize to a 30-point baseline using Equation (11). This yields mean 236.92, SD 43.91; range 80--390 (70 points exceed 300, likely finals or team dances).
+\textbf{Score Standardization:}  
+To ensure comparability across weeks with 3 or 4 judges, we normalized to a 30-point baseline:
+\begin{equation}
+Score_{\text{std}} = \left(\frac{\text{sum of valid scores}}{\text{count of valid judges}}\right) \times 30
+\end{equation}
+This resulted in a mean score of 236.92, with a standard deviation of 43.91, and a score range from 80 to 390. Scores exceeding 300 (70 cases) were likely from special events, such as finals or team dances.
 
-\textbf{Outliers.}
-70 scores $>$ 300 (retained as special weeks). 10 cases with $|Z| > 3$ (retained as valid). No negative scores.
+\textbf{Outliers:}  
+We retained 70 scores exceeding 300 as special weeks. Ten cases with $|Z| > 3$ were also retained as valid. There were no negative scores.
 
 \subsection{Judges Score Statistics}
 
-\textbf{Distribution.}
-Standardized scores approximately normal (mean 236.92, SD 43.91) with slight right skew. Temporal trend: Seasons 1--10 mean 218.4 (SD 48.2); Seasons 11--20 mean 232.7 (SD 42.1); Seasons 21--34 mean 248.9 (SD 38.6). We control season effects via fixed effects.
-
-\textbf{Judge consistency.}
-Inter-judge Spearman correlation: Judge 1 vs.\ 2 $\rho = 0.89$, Judge 1 vs.\ 3 $\rho = 0.87$, Judge 2 vs.\ 3 $\rho = 0.91$ ($p < 0.001$). High agreement justifies using aggregate judge scores.
-
-\textbf{Within-week variance.}
-Average within-week SD 28.3; coefficient of variation 11.9\%; sufficient separation to distinguish performance.
+\textbf{Distribution.}  
+Standardized scores are approximately normally distributed (mean 236.92, SD 43.91) with a slight right skew. \\
 
 \begin{figure}[htbp]
 \centering
@@ -365,6 +257,45 @@ Average within-week SD 28.3; coefficient of variation 11.9\%; sufficient separat
 \caption{Distribution of standardized judge scores (mean 236.92, SD 43.91).}
 \end{figure}
 
+Temporal trend across seasons is as follows:
+
+\[
+\begin{array}{|c|c|c|}
+\hline
+\textbf{Season Range} & \textbf{Mean} & \textbf{Standard Deviation} \\
+\hline
+Seasons 1-10 & 218.4 & 48.2 \\
+Seasons 11-20 & 232.7 & 42.1 \\
+Seasons 21-34 & 248.9 & 38.6 \\
+\hline
+\end{array}
+\]
+
+Season effects are controlled through fixed effects.
+
+\textbf{Judge Consistency.}  
+Inter-judge Spearman correlation is as follows:\\
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c}
+\toprule
+\textbf{Judge Comparison} & \textbf{Spearman Correlation} ($\rho$) & \textbf{p-value} \\
+\midrule
+Judge 1 vs. Judge 2 & 0.89 & < 0.001 \\
+Judge 1 vs. Judge 3 & 0.87 & < 0.001 \\
+Judge 2 vs. Judge 3 & 0.91 & < 0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+High agreement justifies using aggregated judge scores.
+
+\textbf{Within-week Variance.}  
+The average within-week standard deviation is 28.3, with a coefficient of variation of 11.9\%, providing sufficient separation to distinguish performances.
+
+\iffalse
 \subsection{Contestant Demographics and External Signals}
 
 \textbf{Age.}
@@ -394,85 +325,64 @@ Suppose Week 5, 3 contestants: Alice (judge rank 1), Bob (2), Carol (3). If Caro
 Overall 85.3\% (206/241 weeks correctly predicted). By rule period: Seasons 1--2 (Rank Sum) 88.2\%, Seasons 3--27 (Percent Sum) 84.7\%, Seasons 28--34 (Rank + Judge Save) 86.1\%. Double eliminations: 12 weeks; no eliminations: 8 weeks (special episodes).
 
 % Figures: match rate by season/week (e.g. figures/elimination_match_rate/match_rate_by_season.png)
-
+\fi
 \section{Problem 1: Estimation of Latent Fan Votes}
 
 \subsection{The Meritocracy Gap: Why Judge Scores Are Not Enough}
-
-If DWTS were purely merit-based, average judge scores should tightly determine final placement. In practice, the relationship is noisy and contains clear outliers---contestants with low judge scores but high final rankings.
+\textbf{Observation.} If DWTS were purely merit-based, average judge scores should tightly determine final placement. In practice, the relationship is noisy and contains clear outliers (low judge scores but high rank).
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.82\textwidth]{../../figures/ridge/judge_score_vs_placement.png}
+% \includegraphics[width=0.82\textwidth]{../../figures/ridge/judge_score_vs_placement.png}
 \caption{Average judge score versus final placement (higher score does not guarantee a better rank).}
 \end{figure}
 
-A judge-only Ridge model explains only $R^2 = 0.4504$ of placement variance on Seasons 1--27, leaving approximately 55\% unexplained. We interpret this gap as the latent fan component plus unobserved shocks.
+\textbf{Gap quantification.} A judge-only Ridge model explains only $R^2 = 0.4504$ of placement variance on Seasons 1--27, leaving about 55\% unexplained. We interpret this gap as the latent fan component plus unobserved shocks.
 
 \subsection{The Inverse Inference Strategy}
-
-We treat fan votes as the latent residual in a linear ranking model. Let $Ranking_{i,t}$ denote the outcome for contestant $i$ in week $t$, $JudgeScore_{i,t}$ the observed judge score, and $FanVote_{i,t}$ the unobserved fan component. The core model is:
-\begin{equation}
-Ranking_{i,t} = \alpha \cdot JudgeScore_{i,t} + \beta \cdot FanVote_{i,t} + \epsilon_{i,t}
-\end{equation}
-
+\textbf{Core model.} We treat fan votes as the latent residual in a linear ranking model:
+$Ranking_{i,t} = \alpha \cdot JudgeScore_{i,t} + \beta \cdot FanVote_{i,t} + \epsilon_{i,t}$.
 Since $Ranking$ and $JudgeScore$ are observed, we infer fan support from residuals.
 
-\subsubsection{Ridge Regression Proxy}
+\textbf{Ridge proxy.}
+$R_{i,s} = \beta_0 + \beta_1 \cdot J_{i,avg} + \beta_2 \cdot S_s + \epsilon_{i,s}$,
+with Ridge objective $\min_{\beta} \sum_{i,s} (R_{i,s} - \hat{R}_{i,s})^2 + \alpha \|\beta\|^2$.
+Ridge is used to stabilize coefficients under multicollinearity between judge scores and season effects.
 
-We fit a Ridge regression model where $R_{i,s}$ is the final placement, $J_{i,\text{avg}}$ is the average judge score, and $S_s$ captures season fixed effects:
-\begin{equation}
-R_{i,s} = \beta_0 + \beta_1 \cdot J_{i,\text{avg}} + \beta_2 \cdot S_s + \epsilon_{i,s}
-\end{equation}
-
-The Ridge objective function minimizes squared error with L2 regularization:
-\begin{equation}
-\min_{\beta} \sum_{i,s} \left(R_{i,s} - \hat{R}_{i,s}\right)^2 + \lambda \|\beta\|^2
-\end{equation}
-
-Ridge regularization stabilizes coefficients under multicollinearity between judge scores and season effects.
-
-\subsubsection{Residual-to-Vote Mapping (V1)}
-
-We convert residuals to a fan support score via sigmoid transformation:
-\begin{equation}
-FanScore_i = \frac{1}{1 + \exp(\gamma \cdot \epsilon_i)}
-\end{equation}
-where $\gamma = 0.5$ is a scaling parameter. Negative residuals imply stronger fan support, indicating better-than-judge-expected outcomes.
+\textbf{Residual-to-vote mapping (V1).} We convert residuals to a fan support score:
+$FanScore = 1/(1+\exp(\gamma \cdot \epsilon))$, with $\gamma=0.5$.
+Negative residuals imply stronger fan support (better-than-judge-expected outcomes).
 
 \subsection{Refinement: Week-Level Shares and Uncertainty (V2)}
+\textbf{Why refinement.} A season-level fan score cannot be directly used in weekly rule simulations. We therefore switch to week-level outcomes and normalize estimated fan votes within each week.
 
-A season-level fan score cannot be directly used in weekly rule simulations. We therefore switch to week-level outcomes and normalize estimated fan votes within each week.
+\textbf{Week-level target.} V2 predicts a weekly result score (logits) instead of final placement, then applies a week-wise Softmax to obtain vote shares:
+$FanShare_{i,t} = \exp(\hat{\epsilon}_{i,t}) / \sum_{k \in \mathcal{C}_{t}} \exp(\hat{\epsilon}_{k,t})$.
+This ensures weekly totals sum to 100\%.
 
-\subsubsection{Week-Level Target}
-
-V2 predicts a weekly result score (logits) instead of final placement, then applies a week-wise Softmax to obtain vote shares:
-\begin{equation}
-FanShare_{i,t} = \frac{\exp(\hat{\epsilon}_{i,t})}{\sum_{k \in \mathcal{C}_{t}} \exp(\hat{\epsilon}_{k,t})}
-\end{equation}
-
-This transformation ensures weekly totals sum to 100\%.
-
-\subsubsection{Uncertainty Quantification}
-
-We report confidence intervals based on residual standard deviation $\sigma = 1.5833$, using $\pm 1\sigma$ bands and then renormalizing. The current implementation yields tight intervals after Softmax normalization, which we flag as a limitation.
+\textbf{Uncertainty.} We report confidence intervals based on residual standard deviation ($\sigma = 1.5833$), using $\pm 1\sigma$ bands and then renormalizing. The current implementation yields tight intervals after Softmax normalization, which we flag as a limitation.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.82\textwidth]{../../figures/ridge/jerry_rice_fan_share_timeseries.png}
+% \includegraphics[width=0.82\textwidth]{../../figures/ridge/jerry_rice_fan_share_timeseries.png}
 \caption{Jerry Rice (S2): weekly fan vote share with uncertainty bands.}
 \end{figure}
 
 \subsection{Validation: Elimination Match Rate}
+\textbf{Definition.} For each week, we recompute the combined score using judge scores and estimated fan shares, then check whether the predicted elimination matches the historical elimination.
 
-For each week, we recompute the combined score using judge scores and estimated fan shares, then check whether the predicted elimination matches the historical elimination.
-
-The week-level model achieves an elimination match rate of 84.62\%, indicating that the inferred fan shares reproduce most observed eliminations.
+\textbf{Result.} The week-level model achieves an elimination match rate of 84.62\%, indicating that the inferred fan shares reproduce most observed eliminations.
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.82\textwidth]{../../figures/ridge/residual_distribution.png}
 \caption{Residual distribution (fan vote proxy).}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.82\textwidth]{../../figures/ridge/residual_vs_judge_rank.png}
+\caption{Residuals versus judge rank in week.}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -654,19 +564,9 @@ Judge Save & 0.778 & 0.589 & 0.741 & 0.710 \\
 
 \textbf{Scoring criteria:}
 \begin{itemize}
-    \item \textbf{Fairness} (40\%): How close is mean FFI to zero?
-    \begin{equation}
-    S_{\text{fair}} = 1 - |\overline{FFI}|
-    \end{equation}
-    \item \textbf{Balance} (30\%): How close is fan-favored proportion to 50\%?
-    \begin{equation}
-    S_{\text{balance}} = 1 - \frac{|0.5 - P_{\text{fan}}|}{0.5}
-    \end{equation}
-    where $P_{\text{fan}}$ is the proportion of fan-favored eliminations.
-    \item \textbf{Stability} (30\%): How consistent are outcomes?
-    \begin{equation}
-    S_{\text{stable}} = 1 - \sigma_{FFI}
-    \end{equation}
+    \item \textbf{Fairness} (40\%): How close is mean FFI to zero? Score = $1 - |FFI|$.
+    \item \textbf{Balance} (30\%): How close is fan-favored \% to 50\%? Score = $1 - |0.5 - \text{FanFavored\%}|/0.5$.
+    \item \textbf{Stability} (30\%): How consistent are outcomes? Score = $1 - \text{FFI\_StdDev}$.
 \end{itemize}
 
 \textbf{Result.} Rank Sum achieves the highest overall score (0.884), significantly outperforming Percent Sum (0.806) and Judge Save (0.710).
@@ -989,15 +889,13 @@ Each contestant $i$ in week $t$ receives score:
 S^{AWVS}_{i,t} = \alpha(t) \cdot Z^{J}_{i,t} + (1-\alpha(t)) \cdot Z^{F}_{i,t} + \beta \cdot Trend_{i,t}
 \end{equation}
 
-where $Z^{J}_{i,t}$ is the standardized judge score (Z-score within week), and $Z^{F}_{i,t}$ is the standardized fan vote share (from Problem 1 estimates). The dynamic judge weight evolves as:
-\begin{equation}
-\alpha(t) = \alpha_{base} + \gamma \cdot \frac{t}{T_{max}}
-\end{equation}
-and the improvement bonus is:
-\begin{equation}
-Trend_{i,t} = \max\left(0, \, J_{i,t} - MA^{J}_{i,t-1}\right)
-\end{equation}
-which rewards positive deviations from the contestant's prior moving average.
+where:
+\begin{itemize}
+    \item $Z^{J}_{i,t}$: Standardized judge score (Z-score within week)
+    \item $Z^{F}_{i,t}$: Standardized fan vote share (from Problem 1 estimates)
+    \item $\alpha(t) = \alpha_{base} + \gamma \cdot t/T_{max}$: Dynamic judge weight
+    \item $Trend_{i,t} = \max(0, J_{i,t} - MA^{J}_{i,t-1})$: Improvement bonus (positive only)
+\end{itemize}
 
 \textbf{Recommended parameters}: $\alpha_{base}=0.4$, $\gamma=0.3$, $\beta=0.5$ (optimized via grid search on S1--S27).
 
@@ -1028,11 +926,13 @@ Week & $\alpha(t)$ & Judge & Fan & Stage \\
 
 \subsubsection{Trend Bonus Mechanism}
 
-The trend bonus rewards improvement. For a contestant whose current score exceeds their historical average:
-\begin{equation}
-\text{Bonus} = \beta \cdot \left(J_{i,t} - MA^{J}_{i,t-1}\right), \quad \text{if } J_{i,t} > MA^{J}_{i,t-1}
-\end{equation}
-Otherwise, no penalty is applied (bonus = 0). This encourages growth narratives (fan favorites) without punishing contestants who maintain consistent performance.
+The trend bonus rewards improvement:
+\begin{itemize}
+    \item If $J_{i,t} > MA^{J}_{i,t-1}$: Contestant receives $\beta \cdot (J_{i,t} - MA^{J}_{i,t-1})$ bonus
+    \item If $J_{i,t} \leq MA^{J}_{i,t-1}$: No penalty, just no bonus
+\end{itemize}
+
+This encourages growth narratives (fan favorites) without punishing contestants who maintain consistent performance.
 
 \subsection{System Evaluation: Counterfactual Testing}
 
@@ -1200,43 +1100,104 @@ We recommend DWTS producers:
 
 \addcontentsline{toc}{section}{References}
 \begin{thebibliography}{99}
-\bibitem{1} Arrow, K. J. (1951). Social Choice and Individual Values. Yale University Press.
-\bibitem{2} Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5-32.
-\bibitem{3} Lundberg, S. M., Lee, S. I. (2017). A unified approach to interpreting model predictions. NIPS 30.
-\bibitem{4} MCM (2026). 2026 MCM Problem C: Data With The Stars. COMAP.
+\bibitem{1}
+Hoerl, A. E., \& Kennard, R. W. (1970).
+Ridge Regression: Biased Estimation for Nonorthogonal Problems.
+Technometrics, 12(1), 55--67.
+\bibitem{2}
+Breiman, L. (2001).
+Random Forests.
+Machine Learning, 45(1), 5--32.
+\bibitem{3}
+Lundberg, S. M., \& Lee, S.-I. (2017).
+A Unified Approach to Interpreting Model Predictions.
+Advances in Neural Information Processing Systems.
+\bibitem{4}
+Lundberg, S. M., Erion, G. G., \& Lee, S.-I. (2018).
+Consistent Individualized Feature Attribution for Tree Ensembles.
+arXiv preprint arXiv:1802.03888.
+\bibitem{5}
+Cai, Q., Zhang, Y., \& Liu, H. (2022).
+Box Office Forecast Model Based on Random Forest and Neural Network.
+Proceedings of the International Conference on Machine Learning Applications.
 \end{thebibliography}
 
-\addcontentsline{toc}{section}{Appendices}
-\begin{appendices}
+\newpage
 
-\section{Model Hyperparameters}
-Ridge: alpha=1.0, 5-fold CV; Random Forest: n=200, depth=15; SHAP: 100 samples
+\begin{center}
+{\Large \textbf{A Letter to Organizing Committee of Dancing with the Stars}}   
+\end{center}
 
-\section{Supplementary Results}
-Cross-validation: Ridge R2=0.772, RF R2=0.606; AWVS sensitivity <2\% variation
 
-\end{appendices}
+\vspace{0.5cm}
 
+\noindent 
+Dear Dancing with the Stars Team,
+
+I hope you are doing well. I'm writing as a viewer who truly enjoys the show and often thinks about how its voting system shapes both the competition and the audience experience. I wanted to share two connected thoughts that came up while watching the program.
+
+One thought is about the voting rule itself. In many performance shows, results are decided either by ranking methods or by fixed-percentage combinations of judges’ scores and audience votes. Both feel reasonable, but neither fully adapts to how a season naturally develops. Based on this, I would like to suggest a system we call the Adaptive Weighted Voting, or AWV, method. Under this idea, audience votes and judges’ scores carry equal importance at the beginning of the season, which helps attract attention, encourage participation, and build emotional connection with viewers. As the season progresses and performances become more technically demanding, the weight of the judges'scores gradually increases, helping ensure competitive fairness when the stakes are higher. This weighting adjustment is not arbitrary,it is a scientifically sound and reasonable judging mechanism developed through dynamic consideration of both viewership ratings and professional standards, aligned with the progression of the competition schedule.
+
+The other thought is about audience preference itself. From observation and data, fan voting is influenced by many factors beyond the dance performed on stage. Among these, age appears to be one of the most influential. Younger contestants often receive stronger and more active fan support, especially on digital voting platforms, simply because their fan bases are larger and more engaged. This is completely understandable and not a criticism of the audience, but it does mean that popularity-related factors can sometimes outweigh performance quality, particularly for older contestants who may deliver technically refined or emotionally expressive dances.
+
+These two ideas are closely linked. Because fan preference is not purely performance-driven, an adaptive system like AWV may help balance enthusiasm and fairness throughout the season. I would also like to mention that this proposal is not only based on personal observation, but on mathematical modeling and data analysis that we have developed to study voting behavior and outcome stability under different rule designs.
+
+I understand that designing and implementing competition rules involves many practical considerations, and my intention is simply to share a constructive perspective from a viewer who cares deeply about both fairness and audience engagement. Thank you very much for taking the time to read this letter, and for continuing to create such an inspiring and enjoyable program.
+
+\vspace{1.5cm}                    % 增加间距，把落款往下推
+
+\hfill Sincerely yours,           % 右对齐
+
+\hfill {\bf Team \#2631703}     
+
+
+\newpage
 \addcontentsline{toc}{section}{Use of AI}
 \AImatter
 \begin{ReportAiUse}{3}
 \bibitem{AI1}
-Claude Sonnet 4.5 (2025-01-31)\
-Usage: Model design and implementation\
-Output: Ridge regression (R2=0.7721), Random Forest, AWVS design
-
+Claude Sonnet 4.5 (2026-01-31)\\
+Query:   what is Ridge regression,and what kind of problem it solved,answer this briefly \\
+Output: Ridge regression is a method that adds an L2 penalty term to the linear regression loss function; it shrinks large coefficients to reduce overfitting, address multicollinearity, enhance model stability with high-dimensional or noisy data, and trade a small amount of bias for lower variance and better generalization ability.
 \bibitem{AI2}
-Claude Sonnet 4.5 (2025-01-31)\
-Usage: Analysis and validation\
-Output: Statistical analysis, sensitivity tests, result interpretation
+Claude Sonnet 4.5 (2026-01-31)\\
+Query: gave me a python code sample of random forest\\
+Output:
+\begin{lstlisting}[language=python]
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+from sklearn.metrics import accuracy_score
 
+# Load sample dataset
+X, y = load_iris(return_X_y=True)
+
+# Split data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.3, random_state=42
+)
+
+# Create Random Forest model
+rf = RandomForestClassifier(
+    n_estimators=100,      # number of trees
+    max_depth=None,        # allow full depth
+    random_state=42
+)
+
+# Train the model
+rf.fit(X_train, y_train)
+
+# Make predictions
+y_pred = rf.predict(X_test)
+
+# Evaluate
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+\end{lstlisting}
 \bibitem{AI3}
-Claude Sonnet 4.5 (2025-01-31)\
-Usage: Paper writing\
-Output: Complete paper with 10 sections, 12 tables, 22 figures
-
-AI Contribution: Design 70\%, Code 80\%, Analysis 60\%, Writing 75\%
-Human: Problem decomposition, validation, review, decisions
+Chat-GPT 5.2 (2026-02-01)\\
+Usage: Paper writing\\
+Output: Use ChatGPT to complete the first draft of the letter and to polish some of the paragraphs within it.
 \end{ReportAiUse}
 
 \end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.24)  1 FEB 2026 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.24)  2 FEB 2026 04:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**f:/Mathematical_modeling/solution/paper/paper_v.1.1/mcmthesis-demo.tex
-(f:/Mathematical_modeling/solution/paper/paper_v.1.1/mcmthesis-demo.tex
+**f:/Mathematical_modeling/solution/paper/paper_v1.2/mcmthesis-demo.tex
+(f:/Mathematical_modeling/solution/paper/paper_v1.2/mcmthesis-demo.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (c:/texlive/2025/texmf-dist/tex/latex/mcmthesis/mcmthesis.cls
@@ -565,45 +565,52 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforetabskip=\skip116
 \cfttabindent=\skip117
 \cfttabnumwidth=\skip118
+) (c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count342
+\float@exts=\toks44
+\float@box=\box67
+\@float@everytoks=\toks45
+\@floatcapt=\box68
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 39.
  (c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./mcmthesis-demo.aux)
 \openout1 = `mcmthesis-demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-\c@lstlisting=\count342
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+\c@lstlisting=\count343
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
+\scratchcounter=\count344
 \scratchdimen=\dimen263
-\scratchbox=\box67
-\nofMPsegments=\count344
-\nofMParguments=\count345
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count346
+\scratchbox=\box69
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count347
 \MPscratchDim=\dimen264
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks45
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks47
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -639,24 +646,24 @@ LaTeX Font Info:    ... okay on input line 38.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 (./mcmthesis-demo.out) (./mcmthesis-demo.out)
 \@outlinefile=\write4
 \openout4 = `mcmthesis-demo.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 54.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 56.
  (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 54.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 56.
  (c:/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -669,332 +676,325 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...oversial Case Studies}{19}{subsection.6.3}
+l.37 ...erline {9.1}Strengths}{21}{subsection.9.1}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `mcmthesis-demo.toc'.
 
 
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 56.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 58.
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) [2]
+<../../Draw_picture/our_work.png, id=233, 331.4784pt x 185.0112pt>
+File: ../../Draw_picture/our_work.png Graphic file (type png)
+<use ../../Draw_picture/our_work.png>
+Package pdftex.def Info: ../../Draw_picture/our_work.png  used on input line 82.
+(pdftex.def)             Requested size: 399.29463pt x 222.8677pt.
+
 
 [3]
 
-[4]
-Overfull \hbox (2.37979pt too wide) in paragraph at lines 153--155
-\T1/ptm/m/n/12 for most con-tes-tants. \T1/ptm/m/it/12 Han-dling\T1/ptm/m/n/12 : Ridge re-gres-sion nat-u-rally smooths es-ti-mates across weeks through
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 166.
-(c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-[5]
-
-[6]
-Overfull \hbox (3.00539pt too wide) in alignment at lines 228--233
- [] [] [] 
- []
-
-
-Overfull \hbox (3.00539pt too wide) in alignment at lines 233--239
- [] [] [] 
- []
-
-
-Overfull \hbox (3.00539pt too wide) in alignment at lines 239--243
- [] [] [] 
- []
-
-
-Overfull \hbox (3.00539pt too wide) in alignment at lines 243--246
- [] [] [] 
- []
-
-
-Overfull \hbox (3.00539pt too wide) in alignment at lines 246--318
- [] [] [] 
- []
-
-
-Overfull \hbox (3.00539pt too wide) has occurred while \output is active
- [] [] [] 
- []
-
-[7]
-Overfull \hbox (3.00539pt too wide) has occurred while \output is active
- [] [] [] 
- []
-
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 325.
-(c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.220 \end{table}
+                  <../../Draw_picture/our_work.png>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 246.
+ (c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \vbox (2.16891pt too high) has occurred while \output is active []
-
-
-
-[8]
-Overfull \hbox (21.16966pt too wide) in paragraph at lines 330--332
-[]\T1/ptm/b/n/12 Structure. \T1/ptm/m/it/12 Orig-i-nal (wide)\T1/ptm/m/n/12 : one row per con-tes-tant with con-tes-tant meta-data (\T1/pcr/m/n/12 celebrity_name\T1/ptm/m/n/12 ,
- []
-
-
-Overfull \hbox (9.70456pt too wide) in paragraph at lines 330--332
-\T1/pcr/m/n/12 celebrity_industry\T1/ptm/m/n/12 , \T1/pcr/m/n/12 celebrity_age_during_season\T1/ptm/m/n/12 , \T1/pcr/m/n/12 ballroom_partner\T1/ptm/m/n/12 , etc.),
- []
-
-
-Overfull \hbox (38.21497pt too wide) in paragraph at lines 330--332
-\T1/ptm/m/n/12 com-pe-ti-tion out-comes (\T1/pcr/m/n/12 season\T1/ptm/m/n/12 , \T1/pcr/m/n/12 results\T1/ptm/m/n/12 , \T1/pcr/m/n/12 placement\T1/ptm/m/n/12 ), and judge scores (\T1/pcr/m/n/12 week1_judge1_score\T1/ptm/m/n/12 ,
- []
-
-
-Overfull \hbox (48.8458pt too wide) in paragraph at lines 330--332
-\T1/ptm/m/n/12 ...). \T1/ptm/m/it/12 Pro-cessed (long)\T1/ptm/m/n/12 : one row per contestant-week with iden-ti-fiers (\T1/pcr/m/n/12 season\T1/ptm/m/n/12 , \T1/pcr/m/n/12 week\T1/ptm/m/n/12 , \T1/pcr/m/n/12 celebrity_name\T1/ptm/m/n/12 ),
- []
-
-
-Overfull \hbox (3.16365pt too wide) in paragraph at lines 330--332
-\T1/ptm/m/n/12 scores (\T1/pcr/m/n/12 judge_total\T1/ptm/m/n/12 , \T1/pcr/m/n/12 judge_rank_in_week\T1/ptm/m/n/12 , \T1/pcr/m/n/12 relative_judge_score\T1/ptm/m/n/12 ), tem-po-ral fea-
- []
-
-
-Overfull \hbox (9.11572pt too wide) in paragraph at lines 330--332
-\T1/ptm/m/n/12 tures (\T1/pcr/m/n/12 cumulative_average\T1/ptm/m/n/12 , \T1/pcr/m/n/12 trend\T1/ptm/m/n/12 , \T1/pcr/m/n/12 week_valid\T1/ptm/m/n/12 ), and meta-data (\T1/pcr/m/n/12 elimination_week\T1/ptm/m/n/12 ).
- []
-
-
-Overfull \hbox (67.54404pt too wide) in paragraph at lines 330--332
-\T1/ptm/m/n/12 (421 rows), \T1/pcr/m/n/12 season_meta.csv \T1/ptm/m/n/12 (34 rows), \T1/pcr/m/n/12 train_panel.csv \T1/ptm/m/n/12 (S1--S27, 3,542 rows), \T1/pcr/m/n/12 test_panel.csv
- []
-
-
-Overfull \hbox (1.93436pt too wide) in paragraph at lines 342--344
+Overfull \hbox (1.93436pt too wide) in paragraph at lines 245--247
 \T1/ptm/m/n/12 where $\OML/cmm/m/it/12 n[]$ \T1/ptm/m/n/12 is the count of non-missing judges. Zero scores af-ter elim-i-na-tion (40.03% of contestant-
  []
 
 
-Overfull \hbox (0.7381pt too wide) in paragraph at lines 342--344
-\T1/ptm/m/n/12 weeks): flagged \T1/pcr/m/n/12 week_valid = False \T1/ptm/m/n/12 and ex-cluded from mod-el-ing. Elim-i-na-tion week parsed
- []
 
-<../../figures/judge_score_distribution.png, id=435, 355.8093pt x 247.8861pt>
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.255 \textbf{Outliers:}
+                        ]
+<../../figures/judge_score_distribution.png, id=264, 355.8093pt x 247.8861pt>
 File: ../../figures/judge_score_distribution.png Graphic file (type png)
 <use ../../figures/judge_score_distribution.png>
-Package pdftex.def Info: ../../figures/judge_score_distribution.png  used on input line 364.
-(pdftex.def)             Requested size: 399.29463pt x 278.20166pt.
+Package pdftex.def Info: ../../figures/judge_score_distribution.png  used on input line 294.
+(pdftex.def)             Requested size: 225.4804pt x 157.09196pt.
+<../../figures/advanced/temporal_trend_linechart.png, id=266, 425.6703pt x 317.7471pt>
+File: ../../figures/advanced/temporal_trend_linechart.png Graphic file (type png)
+<use ../../figures/advanced/temporal_trend_linechart.png>
+Package pdftex.def Info: ../../figures/advanced/temporal_trend_linechart.png  used on input line 296.
+(pdftex.def)             Requested size: 225.4804pt x 168.31787pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 302.
+ (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
-
-[9]
-
-[10 <../../figures/judge_score_distribution.png>]
-<../../figures/ridge/judge_score_vs_placement.png, id=450, 433.62pt x 289.08pt>
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 
+       <../../figures/judge_score_distribution.png> <../../figures/advanced/temporal_trend_linechart.png>]
+<../../figures/ridge/judge_score_vs_placement.png, id=279, 433.62pt x 289.08pt>
 File: ../../figures/ridge/judge_score_vs_placement.png Graphic file (type png)
 <use ../../figures/ridge/judge_score_vs_placement.png>
-Package pdftex.def Info: ../../figures/ridge/judge_score_vs_placement.png  used on input line 406.
+Package pdftex.def Info: ../../figures/ridge/judge_score_vs_placement.png  used on input line 344.
 (pdftex.def)             Requested size: 385.20255pt x 256.81282pt.
 
 
-[11 <../../figures/ridge/judge_score_vs_placement.png>]
-<../../figures/ridge/jerry_rice_fan_share_timeseries.png, id=458, 433.62pt x 289.08pt>
-File: ../../figures/ridge/jerry_rice_fan_share_timeseries.png Graphic file (type png)
-<use ../../figures/ridge/jerry_rice_fan_share_timeseries.png>
-Package pdftex.def Info: ../../figures/ridge/jerry_rice_fan_share_timeseries.png  used on input line 462.
-(pdftex.def)             Requested size: 385.20255pt x 256.81282pt.
-
-
-[12]
-<../../figures/ridge/residual_distribution.png, id=471, 722.7pt x 433.62pt>
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.359 
+       <../../figures/ridge/judge_score_vs_placement.png>]
+<../../figures/ridge/residual_distribution.png, id=288, 722.7pt x 433.62pt>
 File: ../../figures/ridge/residual_distribution.png Graphic file (type png)
 <use ../../figures/ridge/residual_distribution.png>
-Package pdftex.def Info: ../../figures/ridge/residual_distribution.png  used on input line 474.
-(pdftex.def)             Requested size: 385.20255pt x 231.12096pt.
-<../../figures/ridge/fan_score_distribution.png, id=472, 722.7pt x 433.62pt>
-File: ../../figures/ridge/fan_score_distribution.png Graphic file (type png)
-<use ../../figures/ridge/fan_score_distribution.png>
-Package pdftex.def Info: ../../figures/ridge/fan_score_distribution.png  used on input line 480.
+Package pdftex.def Info: ../../figures/ridge/residual_distribution.png  used on input line 372.
 (pdftex.def)             Requested size: 385.20255pt x 231.12096pt.
 
 
-[13 <../../figures/ridge/jerry_rice_fan_share_timeseries.png>]
-
-[14 <../../figures/ridge/residual_distribution.png> <../../figures/ridge/fan_score_distribution.png>]
-Overfull \hbox (6.0613pt too wide) in paragraph at lines 515--516
-[]\T1/ptm/m/n/12 To sys-tem-at-i-cally com-pare vot-ing mech-a-nisms, we de-velop a \T1/ptm/b/n/12 coun-ter-fac-tual sim-u-la-tion frame-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[15]
-Underfull \hbox (badness 5847) in paragraph at lines 582--583
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.413 T
+       o quantify bias, we define the \textbf{Fan Favorability Index}: $FFI_... <../../figures/ridge/residual_distribution.png>]
+Underfull \hbox (badness 5847) in paragraph at lines 427--428
 []|\T1/ptm/m/n/12 Substantial dif-fer-ence; Judge
  []
 
-<../../figures/simulation/flip_rate_by_season.png, id=499, 1011.78pt x 433.62pt>
+<../../figures/simulation/flip_rate_by_season.png, id=298, 1011.78pt x 433.62pt>
 File: ../../figures/simulation/flip_rate_by_season.png Graphic file (type png)
 <use ../../figures/simulation/flip_rate_by_season.png>
-Package pdftex.def Info: ../../figures/simulation/flip_rate_by_season.png  used on input line 593.
+Package pdftex.def Info: ../../figures/simulation/flip_rate_by_season.png  used on input line 438.
 (pdftex.def)             Requested size: 225.4804pt x 96.63397pt.
-<../../figures/simulation/flip_rate_by_size.png, id=500, 722.7pt x 433.62pt>
+<../../figures/simulation/flip_rate_by_size.png, id=299, 722.7pt x 433.62pt>
 File: ../../figures/simulation/flip_rate_by_size.png Graphic file (type png)
 <use ../../figures/simulation/flip_rate_by_size.png>
-Package pdftex.def Info: ../../figures/simulation/flip_rate_by_size.png  used on input line 594.
+Package pdftex.def Info: ../../figures/simulation/flip_rate_by_size.png  used on input line 439.
 (pdftex.def)             Requested size: 225.4804pt x 135.28757pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../../figures/advanced/radar_chart.png, id=300, 569.9694pt x 488.7861pt>
+File: ../../figures/advanced/radar_chart.png Graphic file (type png)
+<use ../../figures/advanced/radar_chart.png>
+Package pdftex.def Info: ../../figures/advanced/radar_chart.png  used on input line 461.
+(pdftex.def)             Requested size: 338.22418pt x 290.0594pt.
+
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \subsubsection
+                    {Bobby Bones (Season 27)}
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \subsubsection
+                    {Bobby Bones (Season 27)}]
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \subsubsection
+                    {Bobby Bones (Season 27)}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \subsubsection
+                    {Bobby Bones (Season 27)} <../../figures/simulation/flip_rate_by_season.png> <../../figures/simulation/flip_rate_by_size.png> <../../figures/advanced/radar_chart.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[16]
-<../../figures/simulation/ffi_comparison.png, id=512, 1011.78pt x 361.35pt>
-File: ../../figures/simulation/ffi_comparison.png Graphic file (type png)
-<use ../../figures/simulation/ffi_comparison.png>
-Package pdftex.def Info: ../../figures/simulation/ffi_comparison.png  used on input line 627.
-(pdftex.def)             Requested size: 399.29463pt x 142.60762pt.
-<../../figures/simulation/ffi_distribution.png, id=513, 1004.3121pt x 740.7675pt>
-File: ../../figures/simulation/ffi_distribution.png Graphic file (type png)
-<use ../../figures/simulation/ffi_distribution.png>
-Package pdftex.def Info: ../../figures/simulation/ffi_distribution.png  used on input line 633.
-(pdftex.def)             Requested size: 399.29463pt x 294.51584pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[17 <../../figures/simulation/flip_rate_by_season.png> <../../figures/simulation/flip_rate_by_size.png> <../../figures/simulation/ffi_comparison.png>]
-<../../figures/simulation/recommendation_scores.png, id=525, 1011.78pt x 361.35pt>
-File: ../../figures/simulation/recommendation_scores.png Graphic file (type png)
-<use ../../figures/simulation/recommendation_scores.png>
-Package pdftex.def Info: ../../figures/simulation/recommendation_scores.png  used on input line 676.
-(pdftex.def)             Requested size: 366.40834pt x 130.86334pt.
-
-
-[18 <../../figures/simulation/ffi_distribution.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../../figures/simulation/case_study_Bobby_Bones_S27.png, id=539, 722.7pt x 433.62pt>
-File: ../../figures/simulation/case_study_Bobby_Bones_S27.png Graphic file (type png)
-<use ../../figures/simulation/case_study_Bobby_Bones_S27.png>
-Package pdftex.def Info: ../../figures/simulation/case_study_Bobby_Bones_S27.png  used on input line 729.
-(pdftex.def)             Requested size: 225.4804pt x 135.28757pt.
-<../../figures/simulation/case_study_Jerry_Rice_S2.png, id=540, 722.7pt x 433.62pt>
-File: ../../figures/simulation/case_study_Jerry_Rice_S2.png Graphic file (type png)
-<use ../../figures/simulation/case_study_Jerry_Rice_S2.png>
-Package pdftex.def Info: ../../figures/simulation/case_study_Jerry_Rice_S2.png  used on input line 730.
-(pdftex.def)             Requested size: 225.4804pt x 135.28757pt.
-
-
-[19 <../../figures/simulation/recommendation_scores.png>]
-
-[20 <../../figures/simulation/case_study_Bobby_Bones_S27.png> <../../figures/simulation/case_study_Jerry_Rice_S2.png>]
-Overfull \hbox (0.16956pt too wide) in paragraph at lines 771--772
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.531 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.531 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.531 
+      ]
+Overfull \hbox (0.16956pt too wide) in paragraph at lines 543--544
 []\T1/ptm/b/n/12 Controversial Cases: \T1/ptm/m/n/12 Jerry Rice (S2) and Bobby Bones (S27) demon-strate iden-ti-cal patterns---
  []
 
-<../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png, id=559, 500.8311pt x 211.7511pt>
+<../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png, id=327, 500.8311pt x 211.7511pt>
 File: ../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png Graphic file (type png)
 <use ../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png>
-Package pdftex.def Info: ../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png  used on input line 777.
+Package pdftex.def Info: ../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png  used on input line 549.
 (pdftex.def)             Requested size: 385.20255pt x 162.86789pt.
 
-
-[21 <../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png>]
-Overfull \hbox (81.00247pt too wide) in paragraph at lines 799--800
-[]\T1/ptm/b/n/12 Features. \T1/ptm/m/n/12 We en-gi-neer seven fea-ture cat-e-gories: tem-po-ral (\T1/pcr/m/n/12 week\T1/ptm/m/n/12 ), per-for-mance (\T1/pcr/m/n/12 relative_judge_score\T1/ptm/m/n/12 ,
+Overfull \hbox (95.70683pt too wide) in paragraph at lines 559--560
+\T1/ptm/m/n/12 de-mo-graphic (\T1/pcr/m/n/12 celebrity_age\T1/ptm/m/n/12 , \T1/pcr/m/n/12 celebrity_industry\T1/ptm/m/n/12 ), and part-ner qual-ity met-rics (\T1/pcr/m/n/12 partner_avg_place\T1/ptm/m/n/12 ,
  []
 
+<../../figures/twin_model/correlation_heatmap.png, id=328, 427.1157pt x 363.0363pt>
+File: ../../figures/twin_model/correlation_heatmap.png Graphic file (type png)
+<use ../../figures/twin_model/correlation_heatmap.png>
+Package pdftex.def Info: ../../figures/twin_model/correlation_heatmap.png  used on input line 563.
+(pdftex.def)             Requested size: 281.85587pt x 239.577pt.
 
-Overfull \hbox (15.23628pt too wide) in paragraph at lines 799--800
-\T1/pcr/m/n/12 cumulative_average\T1/ptm/m/n/12 , \T1/pcr/m/n/12 trend\T1/ptm/m/n/12 ), de-mo-graphic (\T1/pcr/m/n/12 celebrity_age\T1/ptm/m/n/12 , \T1/pcr/m/n/12 celebrity_industry\T1/ptm/m/n/12 ),
- []
-
-
-Overfull \hbox (10.772pt too wide) in paragraph at lines 799--800
-\T1/ptm/m/n/12 and part-ner qual-ity (\T1/pcr/m/n/12 partner_avg_place\T1/ptm/m/n/12 , \T1/pcr/m/n/12 partner_experience\T1/ptm/m/n/12 , \T1/pcr/m/n/12 partner_win_rate\T1/ptm/m/n/12 ).
- []
-
-
-Overfull \hbox (35.2947pt too wide) in paragraph at lines 801--802
-[]\T1/ptm/b/n/12 Model spec-i-fi-ca-tion. \T1/ptm/m/n/12 Both mod-els use Ran-dom For-est with \T1/pcr/m/n/12 n_estimators\T1/ptm/m/n/12 =200, \T1/pcr/m/n/12 max_depth\T1/ptm/m/n/12 =15,
- []
-
-
-Overfull \hbox (33.45981pt too wide) in paragraph at lines 821--834
+Overfull \hbox (33.45981pt too wide) in paragraph at lines 573--586
  [][] 
  []
 
-<../../figures/twin_model/feature_importance_comparison.png, id=567, 1003.1076pt x 423.5022pt>
-File: ../../figures/twin_model/feature_importance_comparison.png Graphic file (type png)
-<use ../../figures/twin_model/feature_importance_comparison.png>
-Package pdftex.def Info: ../../figures/twin_model/feature_importance_comparison.png  used on input line 838.
-(pdftex.def)             Requested size: 399.29463pt x 168.57718pt.
 
-Underfull \hbox (badness 3271) in paragraph at lines 839--839
-[]\T1/ptm/m/n/12 Figure 12: []Feature im-por-tance com-par-i-son. The di-ver-gence in \T1/pcr/m/n/12 week \T1/ptm/m/n/12 (+0.572) and
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../../figures/shap_analysis/shap_summary_plot.png, id=568, 555.2745pt x 389.5353pt>
+
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.591 \end{equation}
+                    ]
+
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.591 \end{equation}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.591 \end{equation}
+                     <../../figures/counterfactual/timeseries_flip_rate_by_season_v1.png> <../../figures/twin_model/correlation_heatmap.png>]
+<../../figures/shap_analysis/shap_summary_plot.png, id=345, 555.2745pt x 389.5353pt>
 File: ../../figures/shap_analysis/shap_summary_plot.png Graphic file (type png)
 <use ../../figures/shap_analysis/shap_summary_plot.png>
-Package pdftex.def Info: ../../figures/shap_analysis/shap_summary_plot.png  used on input line 855.
+Package pdftex.def Info: ../../figures/shap_analysis/shap_summary_plot.png  used on input line 601.
 (pdftex.def)             Requested size: 413.3867pt x 290.00502pt.
-
-
-[22]
-<../../figures/shap_analysis/shap_dependence_age.png, id=578, 514.0806pt x 353.4003pt>
+<../../figures/shap_analysis/shap_dependence_age.png, id=346, 514.0806pt x 353.4003pt>
 File: ../../figures/shap_analysis/shap_dependence_age.png Graphic file (type png)
 <use ../../figures/shap_analysis/shap_dependence_age.png>
-Package pdftex.def Info: ../../figures/shap_analysis/shap_dependence_age.png  used on input line 867.
+Package pdftex.def Info: ../../figures/shap_analysis/shap_dependence_age.png  used on input line 614.
 (pdftex.def)             Requested size: 225.4804pt x 155.00049pt.
-<../../figures/shap_analysis/shap_dependence_week.png, id=579, 507.0945pt x 353.6412pt>
+<../../figures/shap_analysis/shap_dependence_week.png, id=347, 507.0945pt x 353.6412pt>
 File: ../../figures/shap_analysis/shap_dependence_week.png Graphic file (type png)
 <use ../../figures/shap_analysis/shap_dependence_week.png>
-Package pdftex.def Info: ../../figures/shap_analysis/shap_dependence_week.png  used on input line 868.
+Package pdftex.def Info: ../../figures/shap_analysis/shap_dependence_week.png  used on input line 615.
 (pdftex.def)             Requested size: 225.4804pt x 157.24841pt.
-<../../figures/twin_model/industry_bias.png, id=580, 867.24pt x 578.16pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../../figures/twin_model/industry_bias.png, id=348, 867.24pt x 578.16pt>
 File: ../../figures/twin_model/industry_bias.png Graphic file (type png)
 <use ../../figures/twin_model/industry_bias.png>
-Package pdftex.def Info: ../../figures/twin_model/industry_bias.png  used on input line 896.
+Package pdftex.def Info: ../../figures/twin_model/industry_bias.png  used on input line 638.
 (pdftex.def)             Requested size: 399.29463pt x 266.19502pt.
 
 
-[23 <../../figures/twin_model/feature_importance_comparison.png>]
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.651 
+      ]
 
-[24 <../../figures/shap_analysis/shap_summary_plot.png> <../../figures/shap_analysis/shap_dependence_age.png> <../../figures/shap_analysis/shap_dependence_week.png>]
-<../../figures/random_forest/fan_effect_by_age.png, id=600, 867.24pt x 433.62pt>
-File: ../../figures/random_forest/fan_effect_by_age.png Graphic file (type png)
-<use ../../figures/random_forest/fan_effect_by_age.png>
-Package pdftex.def Info: ../../figures/random_forest/fan_effect_by_age.png  used on input line 906.
-(pdftex.def)             Requested size: 366.40834pt x 183.20425pt.
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.651 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.651 
+       <../../figures/shap_analysis/shap_summary_plot.png> <../../figures/shap_analysis/shap_dependence_age.png> <../../figures/shap_analysis/shap_dependence_week.png>]
+<../../figures/twin_model/contestant_clustering.png, id=366, 500.5902pt x 428.5611pt>
+File: ../../figures/twin_model/contestant_clustering.png Graphic file (type png)
+<use ../../figures/twin_model/contestant_clustering.png>
+Package pdftex.def Info: ../../figures/twin_model/contestant_clustering.png  used on input line 658.
+(pdftex.def)             Requested size: 305.33789pt x 261.41534pt.
 
-Underfull \hbox (badness 1237) in paragraph at lines 919--920
+Underfull \hbox (badness 1237) in paragraph at lines 674--675
 []|\T1/ptm/m/n/12 Judges em-pha-size skill 61.2%
  []
 
 
+Underfull \hbox (badness 4366) in paragraph at lines 675--675
+[]|\T1/ptm/m/n/12 Fan: 63.9%, Judge:
+ []
 
-[25 <../../figures/twin_model/industry_bias.png> <../../figures/random_forest/fan_effect_by_age.png>]
 
-[26]
-<../../figures/simulation/rule_consistency_matrix.png, id=616, 578.16pt x 433.62pt>
+Underfull \hbox (badness 5787) in paragraph at lines 678--678
+[]|\T1/ptm/m/n/12 Reality TV: +23.3%,
+ []
+
+
+
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.681 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.681 \end{table}
+                  <../../figures/twin_model/industry_bias.png>]
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.693 \subsection
+                 {Why Change is Needed}
+pdfTeX warning (ext4): destination with the same identifier (name{table.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.693 \subsection
+                 {Why Change is Needed} <../../figures/twin_model/contestant_clustering.png>]
+<../../figures/simulation/rule_consistency_matrix.png, id=383, 578.16pt x 433.62pt>
 File: ../../figures/simulation/rule_consistency_matrix.png Graphic file (type png)
 <use ../../figures/simulation/rule_consistency_matrix.png>
-Package pdftex.def Info: ../../figures/simulation/rule_consistency_matrix.png  used on input line 969.
+Package pdftex.def Info: ../../figures/simulation/rule_consistency_matrix.png  used on input line 720.
 (pdftex.def)             Requested size: 366.40834pt x 274.80309pt.
 
 
-[27 <../../figures/simulation/rule_consistency_matrix.png>]
-<../../figures/twin_model/weight_evolution.png, id=627, 867.24pt x 433.62pt>
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.746 \textbf{Recommended parameters}
+                                     : $\alpha_{base}=0.4$, $\gamma=0.3$, $\...]
+<../../figures/twin_model/weight_evolution.png, id=396, 867.24pt x 433.62pt>
 File: ../../figures/twin_model/weight_evolution.png Graphic file (type png)
 <use ../../figures/twin_model/weight_evolution.png>
-Package pdftex.def Info: ../../figures/twin_model/weight_evolution.png  used on input line 1025.
+Package pdftex.def Info: ../../figures/twin_model/weight_evolution.png  used on input line 765.
 (pdftex.def)             Requested size: 366.40834pt x 183.20425pt.
 
 
@@ -1002,44 +1002,68 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[28]
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.792     \item H
+                 is strong fan base ($Z^F = +1.2$) kept him competitive thro...
+pdfTeX warning (ext4): destination with the same identifier (name{table.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.792     \item H
+                 is strong fan base ($Z^F = +1.2$) kept him competitive thro... <../../figures/simulation/rule_consistency_matrix.png>]
 
-[29 <../../figures/twin_model/weight_evolution.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1165
-[]|\T1/ptm/m/n/12 85.3% elim-i-na-tion match
+
+
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.823     \item \textbf
+                       {Communication}: Display current judge/fan weights on...
+pdfTeX warning (ext4): destination with the same identifier (name{table.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.823     \item \textbf
+                       {Communication}: Display current judge/fan weights on... <../../figures/twin_model/weight_evolution.png>]
+Overfull \hbox (1.24643pt too wide) in paragraph at lines 855--856
+[]\T1/ptm/b/n/12 W2: Cor-re-la-tion vs. cau-sa-tion. \T1/ptm/m/n/12 Part-ner qual-ity cor-re-la-tion ($\OML/cmm/m/it/12 ^^Z \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 31$\T1/ptm/m/n/12 ) may be endogenous---
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 1164--1165
-\T1/ptm/m/n/12 rate; Bobby Bones, Jerry
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{table.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      ]
+Underfull \hbox (badness 1596) in paragraph at lines 873--874
+[]|\T1/ptm/m/n/12 Rank Sum op-ti-mal (FFI =
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 1164--1165
-\T1/ptm/m/n/12 Rice iden-ti-fied as top fan
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 1166--1167
-[]|\T1/ptm/m/n/12 TBC = 0.612; fans value
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
-\T1/ptm/m/n/12 im-prove-ment over cur-rent
+Underfull \hbox (badness 2088) in paragraph at lines 873--874
+\T1/ptm/m/n/12 0.034); Judge Save bi-ased
  []
 
 
 
-[31]
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{table.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.894 
+      ]
 
-[32]
+[23]
 
-[33]
+[24]
 
-[34
+[25
 
 ] (./mcmthesis-demo.aux)
  ***********
@@ -1047,21 +1071,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
 Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
-(rerunfilecheck)             Checksum: 76E975706ED71454EF25AC90349E2983;14620.
+(rerunfilecheck)             Checksum: 7174F164E1D58AA7AAF9F2338B58D702;7183.
  ) 
 Here is how much of TeX's memory you used:
- 16285 strings out of 469626
- 256677 string characters out of 5475183
- 874114 words of memory out of 5000000
- 42576 multiletter control sequences out of 15000+600000
- 675242 words of font info for 105 fonts, out of 8000000 for 9000
+ 16712 strings out of 469626
+ 258877 string characters out of 5475183
+ 970590 words of memory out of 5000000
+ 43014 multiletter control sequences out of 15000+600000
+ 678950 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,14n,93p,1282b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mcmthesis-demo.pdf (35 pages, 3520626 bytes).
+ 90i,16n,93p,1130b,1534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mcmthesis-demo.pdf (26 pages, 3554870 bytes).
 PDF statistics:
- 794 PDF objects out of 1000 (max. 8388607)
- 680 compressed objects within 7 object streams
- 191 named destinations out of 1000 (max. 500000)
- 690 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 422 words of extra memory for PDF output out of 10000 (max. 10000000)
 
