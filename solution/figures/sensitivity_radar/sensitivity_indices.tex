@@ -1,0 +1,17 @@
+% Sensitivity Indices Table
+% 可直接复制到论文中
+
+\begin{table}[h]
+\centering
+\caption{Parameter Sensitivity Indices by Model}
+\label{tab:sensitivity_indices}
+\begin{tabular}{l c c c c c c}
+\toprule
+\textbf{Model} & \textbf{Hyperparam} & \textbf{Judge Rank} & \textbf{Cumul. Avg} & \textbf{Rel. Score} & \textbf{Sample Size} & \textbf{Noise} \\
+\midrule
+Ridge & 0.016 & 0.473 & 0.002 & 0.004 & 0.299 & 0.050 & nan \\
+Lasso & 1.000 & 0.210 & 0.000 & 0.057 & 0.294 & 0.050 & nan \\
+SVR & nan & 0.403 & 1.000 & 0.149 & 0.660 & 0.060 & 0.433 \\
+\bottomrule
+\end{tabular}
+\end{table}

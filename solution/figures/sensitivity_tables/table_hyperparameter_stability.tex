@@ -1,0 +1,19 @@
+% Hyperparameter Stability Analysis
+% 可直接复制到论文中
+
+\begin{table}[h]
+\centering
+\caption{Hyperparameter Stability Analysis}
+\label{tab:hyperparam_stability}
+\begin{tabular}{llllll}
+\toprule
+\textbf{Model} & \textbf{Hyperparameter} & \textbf{Range Tested} & \textbf{Best Value} & \textbf{R2 Range} & \textbf{Sensitivity} \\
+\midrule
+Ridge & alpha & [0.01, 1000] & 1000.0 & [0.2077, 0.2098] & 0.0010 (Low) \\
+Lasso & alpha & [0.001, 10] & 0.0259 & [0.0216, 0.2084] & 0.0623 (High) \\
+Elastic Net & alpha & [0.001, 10] & 0.0574 & [0.0249, 0.2086] & 0.0612 (High) \\
+SVR & C & [0.1, 100] & 10.0 & [0.15, 0.23] & 0.027 (Medium) \\
+SVR & gamma & [0.001, 1.0] & 0.1 & [0.18, 0.23] & 0.017 (Medium) \\
+\bottomrule
+\end{tabular}
+\end{table}

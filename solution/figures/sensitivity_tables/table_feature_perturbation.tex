@@ -1,0 +1,23 @@
+% Feature Perturbation Sensitivity Analysis
+% 可直接复制到论文中
+
+\begin{table}[h]
+\centering
+\caption{Feature Perturbation Sensitivity Analysis}
+\label{tab:feature_perturbation}
+\begin{tabular}{llll}
+\toprule
+\textbf{Model} & \textbf{Feature} & \textbf{R2 Drop} & \textbf{Rank} \\
+\midrule
+Ridge & judge_rank_in_week & 0.0232 & 1 (Most Sensitive) \\
+Ridge & cumulative_average & 0.0001 & 2 \\
+Ridge & relative_judge_score & -0.0002 & 3 (Least Sensitive) \\
+Lasso & judge_rank_in_week & 0.0103 & 1 (Most Sensitive) \\
+Lasso & relative_judge_score & 0.0028 & 2 \\
+Lasso & cumulative_average & 0.0000 & 3 (Least Sensitive) \\
+SVR & cumulative_average & 0.0491 & 1 (Most Sensitive) \\
+SVR & judge_rank_in_week & 0.0198 & 2 \\
+SVR & relative_judge_score & 0.0073 & 3 (Least Sensitive) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -48,6 +48,22 @@ class RidgeFanVoteModelV2:
         self.is_fitted = False
         self.residual_std = None  # 用于计算不确定性
 
+    def evaluate(self, X, y, groups=None):
+        """评估模型性能"""
+        if not self.is_fitted:
+            raise ValueError("模型尚未训练")
+
+        y_pred = self.predict(X)
+
+        metrics = {
+            'r2': r2_score(y, y_pred),
+            'rmse': np.sqrt(mean_squared_error(y, y_pred)),
+            'mae': mean_absolute_error(y, y_pred),
+            'mse': mean_squared_error(y, y_pred)
+        }
+
+        return metrics
+
     def construct_week_result_score(self, df: pd.DataFrame) -> pd.Series:
         """
         构建周级结果分数（Y）

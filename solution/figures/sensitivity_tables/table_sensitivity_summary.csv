@@ -1,0 +1,9 @@
+Analysis Type,Parameter Range,Performance Range,Sensitivity,Key Finding
+Hyperparameter (Ridge alpha),"[0.01, 1000]","[0.2077, 0.2098]",Low (0.0010),Stable across wide range
+Hyperparameter (Lasso alpha),"[0.001, 10]","[0.0216, 0.2084]",High (0.0623),Requires careful tuning
+Feature Perturbation (Ridge),judge_rank_in_week,R2 drop: 0.0232,High,Most important feature
+Feature Perturbation (SVR),cumulative_average,R2 drop: 0.0491,Very High,Nonlinear effect captured
+Sample Size,"[20%, 100%]","[0.2020, 0.2079]",Low,40% sufficient for saturation
+Gaussian Noise (sigma=0.1),10% noise level,R2 drop: ~5%,Medium,Acceptable robustness
+Missing Data (30%),Mean imputation,R2 drop: ~8%,Medium,Graceful degradation
+"Outlier Injection (5%, 3sigma)",5% outliers,R2 drop: ~4%,Medium,Moderate sensitivity

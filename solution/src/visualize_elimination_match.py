@@ -107,18 +107,18 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
                     for s in seasons]
 
     plt.figure(figsize=(14, 6))
-    bars = plt.bar(seasons, season_rates, edgecolor='black', alpha=0.7)
+    bars = plt.bar(seasons, season_rates, edgecolor='#1E40AF', alpha=0.8, linewidth=1.2)
 
-    # 颜色编码：高匹配率（绿色），低匹配率（红色）
+    # 颜色编码：深蓝-黄-深红渐变 - 高匹配率（深蓝），低匹配率（深红）
     for i, (bar, rate) in enumerate(zip(bars, season_rates)):
         if rate >= 0.9:
-            bar.set_color('green')
+            bar.set_color('#1E40AF')  # Deep blue - excellent
         elif rate >= 0.7:
-            bar.set_color('orange')
+            bar.set_color('#60A5FA')  # Light blue - good
         else:
-            bar.set_color('red')
+            bar.set_color('#DC2626')  # Deep red - poor
 
-    plt.axhline(y=overall_rate, color='blue', linestyle='--', linewidth=2,
+    plt.axhline(y=overall_rate, color='#1E40AF', linestyle='--', linewidth=2,
                 label=f'Overall: {overall_rate:.1%}')
     plt.xlabel('Season', fontsize=12)
     plt.ylabel('Elimination Match Rate', fontsize=12)
@@ -146,12 +146,12 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
     fig, ax1 = plt.subplots(figsize=(12, 6))
 
     # 匹配率（柱状图）
-    color = 'tab:blue'
+    color = '#1E40AF'  # Deep blue
     ax1.set_xlabel('Week', fontsize=12)
     ax1.set_ylabel('Match Rate', fontsize=12, color=color)
-    bars = ax1.bar(weeks, week_rates, alpha=0.7, edgecolor='black', color=color)
+    bars = ax1.bar(weeks, week_rates, alpha=0.8, edgecolor='#1E40AF', linewidth=1.2, color=color)
     ax1.tick_params(axis='y', labelcolor=color)
-    ax1.axhline(y=overall_rate, color='red', linestyle='--', linewidth=2,
+    ax1.axhline(y=overall_rate, color='#60A5FA', linestyle='--', linewidth=2,
                 label=f'Overall: {overall_rate:.1%}')
     ax1.set_ylim(0, 1.05)
     ax1.legend(loc='upper left')
@@ -159,7 +159,7 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
 
     # 样本数量（折线图）
     ax2 = ax1.twinx()
-    color = 'tab:orange'
+    color = '#DC2626'  # Deep red
     ax2.set_ylabel('Number of Weeks', fontsize=12, color=color)
     ax2.plot(weeks, week_counts, color=color, marker='o', linewidth=2, label='Sample Size')
     ax2.tick_params(axis='y', labelcolor=color)
@@ -182,9 +182,9 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
 
     categories = ['Correct\nPrediction', 'Incorrect\nPrediction']
     counts = [match_count, mismatch_count]
-    colors = ['green', 'red']
+    colors = ['#1E40AF', '#DC2626']  # Deep blue for correct, deep red for incorrect
 
-    bars = plt.bar(categories, counts, color=colors, alpha=0.7, edgecolor='black')
+    bars = plt.bar(categories, counts, color=colors, alpha=0.8, edgecolor='#1E40AF', linewidth=1.2)
 
     # 添加百分比标签
     for bar, count in zip(bars, counts):
@@ -216,18 +216,18 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
 
     plt.figure(figsize=(10, 6))
     bars = plt.bar(match_by_size['num_contestants'], match_by_size['rate'],
-                   edgecolor='black', alpha=0.7)
+                   edgecolor='#1E40AF', alpha=0.8, linewidth=1.2)
 
-    # 颜色编码
+    # 颜色编码：深蓝-黄-深红渐变
     for bar, rate in zip(bars, match_by_size['rate']):
         if rate >= 0.9:
-            bar.set_color('green')
+            bar.set_color('#1E40AF')  # Deep blue
         elif rate >= 0.7:
-            bar.set_color('orange')
+            bar.set_color('#60A5FA')  # Light blue
         else:
-            bar.set_color('red')
+            bar.set_color('#DC2626')  # Deep red
 
-    plt.axhline(y=overall_rate, color='blue', linestyle='--', linewidth=2,
+    plt.axhline(y=overall_rate, color='#1E40AF', linestyle='--', linewidth=2,
                 label=f'Overall: {overall_rate:.1%}')
     plt.xlabel('Number of Contestants in Week', fontsize=12)
     plt.ylabel('Match Rate', fontsize=12)
@@ -257,8 +257,8 @@ def visualize_elimination_match_rate(data_path: Path, output_dir: Path):
     plt.figure(figsize=(14, 6))
     plt.plot(details_df_sorted['cumulative_total'],
              details_df_sorted['cumulative_rate'],
-             linewidth=2, color='blue')
-    plt.axhline(y=overall_rate, color='red', linestyle='--', linewidth=2,
+             linewidth=2, color='#1E40AF')
+    plt.axhline(y=overall_rate, color='#60A5FA', linestyle='--', linewidth=2,
                 label=f'Final Rate: {overall_rate:.1%}')
     plt.xlabel('Cumulative Number of Weeks', fontsize=12)
     plt.ylabel('Cumulative Match Rate', fontsize=12)

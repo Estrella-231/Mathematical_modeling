@@ -1,0 +1,22 @@
+% Parameter Impact Ranking Table
+% 可直接复制到论文中
+
+\begin{table}[h]
+\centering
+\caption{Parameter Sensitivity Ranking}
+\label{tab:param_impact}
+\begin{tabular}{r l c c c}
+\toprule
+\textbf{Rank} & \textbf{Parameter} & \textbf{Low $\Delta$R²} & \textbf{High $\Delta$R²} & \textbf{Total Impact} \\
+\midrule
+1 & Lasso α (Regularization) & -0.1868 & 0.0000 & 0.1868 \\
+2 & Feature: cumulative_average (SVR) & -0.0491 & 0.0000 & 0.0491 \\
+3 & Feature: judge_rank_in_week & -0.0232 & 0.0000 & 0.0232 \\
+4 & Model Choice & 0.0000 & 0.0197 & 0.0197 \\
+5 & Training Set Size & -0.0059 & 0.0000 & 0.0059 \\
+6 & Bootstrap Iterations & -0.0050 & 0.0000 & 0.0050 \\
+7 & Ridge α (Regularization) & -0.0002 & 0.0019 & 0.0021 \\
+8 & Feature: relative_judge_score & -0.0002 & 0.0000 & 0.0002 \\
+\bottomrule
+\end{tabular}
+\end{table}

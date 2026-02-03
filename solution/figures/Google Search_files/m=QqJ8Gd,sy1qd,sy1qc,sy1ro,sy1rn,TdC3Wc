@@ -1,0 +1,16 @@
+loaded_h_0(function(_){var window=this;
+_.v("QqJ8Gd");
+var zRb;
+_.ARb=function(a,b,c=!1,d,e){d=d||a.oa;if(!_.yRb(a,d))return!1;let f,g;try{g=c?_.Wv(a.Ca,d):null;f=d.createElement("textarea");f.value=b;f.setAttribute("readonly","");_.Pm(f,"height",0);d.body.appendChild(f);if(a.Da)f.select();else{const h=d.createRange();h.selectNodeContents(f);a.Aa.getSelection().removeAllRanges();a.Aa.getSelection().addRange(h);f.setSelectionRange(0,b.length)}d.addEventListener("copy",h=>{h.clipboardData.setData("text/plain",b);e&&h.clipboardData.setData(e,b);h.preventDefault()},{once:!0,
+capture:!0});return zRb(a,d)}finally{f&&_.Fm(f),g&&_.Pv(g)}};zRb=function(a,b){b=b||a.oa;try{return _.yRb(a,b)?b.execCommand("copy"):!1}catch(c){return!1}};_.yRb=function(a,b){b=b||a.oa;b=b.queryCommandSupported("copy");!b&&a.Ba&&(a.Ba=!0);return b};
+_.Yv=class extends _.go{static Sa(){return{service:{focus:_.Vv,window:_.co}}}constructor(a){super();this.qn=null;this.oa=a.service.window.getDocument();this.Aa=a.service.window.get();this.Ca=a.service.focus;this.Da=!_.ra()&&!_.La.bMa();this.Ba=!1}copy(a,b=!1,c,d){c=c||this.oa;return a?_.ARb(this,a,b,c,d):zRb(this,c)}};_.$f(_.Xv,_.Yv);
+_.w();
+_.RHd=_.y("CHCSlb",[]);_.zd(_.RHd);
+_.NHd=_.y("mzzZzc",[]);_.zd(_.NHd);
+_.uLd=_.y("fmklff",[_.li,_.NHd,_.RHd]);
+_.v("TdC3Wc");
+var $rg;$rg=async function(a,b,c){var d=(0,_.Rf)(),e=d();d=d(1);try{a:switch(c){case 0:var f="yuChW";break a;case 1:f="yuChW YEw87d";break a;default:f=null}(c=f)&&d(await e(_.Yrg(a,"snackbar",_.uLd))).Ls({label:b,pD:!0,Vb:c})}finally{e()}};
+_.asg=class extends _.go{static Sa(){return{service:{clipboard:_.Yv,window:_.okg}}}constructor(a){super();this.Ey=a.service.clipboard;this.oa=a.service.window}copy(a,b=0){this.Ey.copy(a,!1,this.oa.getDocument())?(a=_.na(),_.la(a,"SamsungBrowser")||(_.la(a,"Version/0.")||_.la(a,"Version/1.")||_.la(a,"Version/2.")||_.la(a,"Version/3."))&&(_.la(a,"SAMSUNG")||_.la(a,"SM-")||_.la(a,"SGH-"))||$rg(this,"Text copied to clipboard",b)):$rg(this,"Failed to copy text",b)}};_.$f(_.Xrg,_.asg);
+_.w();
+});
+// Google Inc.
